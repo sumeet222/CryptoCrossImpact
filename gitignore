@@ -1,0 +1,112 @@
+# CryptoCrossImpact — local setup, data and generated-output exclusions.
+# Keep research specifications, code, configs, tests, small manifests,
+# reports, and selected compact figures in Git.
+
+# Python / virtual environments / test and build caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+
+# Local editors, OS, and machine-specific settings
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets and personal settings (a value-free .env.example is safe)
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+credentials.json
+secrets.json
+/configs/local.yaml
+/configs/local.yml
+/configs/local.json
+/configs/*_local.yaml
+/configs/*_local.yml
+
+# Exchange archives, canonical feature tables and all large datasets.
+# Only data/README.md and small files in data/registry/ are tracked.
+/data/**
+!/data/
+!/data/README.md
+!/data/registry/
+!/data/registry/**/
+!/data/registry/**/*.json
+!/data/registry/**/*.csv
+!/data/registry/**/*.md
+!/data/registry/**/*.yaml
+!/data/registry/**/*.yml
+!/data/registry/**/*.sha256
+
+# Full run outputs are local; keep a tiny results index in Git.
+/results/**
+!/results/
+!/results/README.md
+!/results/experiment_index.csv
+
+# Temporary, machine-local, large experimental and diagnostic outputs
+/artifacts/
+/cache/
+/tmp/
+/temp/
+/logs/
+/models/
+/checkpoints/
+/outputs/
+*.log
+*.tmp
+*.part
+*.download
+
+# Binary / bulk data, models, and compressed archives anywhere in repo
+*.parquet
+*.feather
+*.arrow
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.hdf
+*.zarr/
+*.db
+*.sqlite
+*.sqlite3
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.zst
+*.7z
+*.rar
+*.gz
+*.zst
+
+# Deliberately DO NOT blanket-ignore Markdown/PDF/PNG/CSV:
+# small scientific reports, final figures, plot-data CSVs and specs are trackable.
