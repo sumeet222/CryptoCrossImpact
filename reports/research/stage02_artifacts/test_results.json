@@ -1,0 +1,42 @@
+{
+  "recorded_at_utc": "2026-10-27T23:37:29.326844+00:00",
+  "command": ".venv/bin/python -m pytest tests/test_stage01.py tests/test_stage02_kernel.py -m 'not integration' -q",
+  "passed": 41,
+  "failed": 0,
+  "skipped": 0,
+  "deselected": 2,
+  "warnings": 4,
+  "duration_seconds": 4.91,
+  "reason_deselected": "Stage 1 integration tests open 2026 source pilots; excluded under Stage 2 firewall",
+  "warnings_reason": "Existing Stage 1 pandas float_precision deprecation",
+  "initial_failure": "One near-noiseless SSE identity check differed by 2.2e-15 from sufficient-statistic cancellation; absolute scale-aware 1e-12 tolerance adopted, estimator unchanged",
+  "checks": [
+    "Independent direct-design vs sufficient-statistic synthetic and real-train SDP",
+    "Independent SCS vs CLARABEL",
+    "Synthetic decay recovery, zero/negative cross and nuisance-correlated flow",
+    "Economic-unit, return-lag, PSD and random-round-trip invariants",
+    "Asset permutation, diagonal limit, asymmetric diagnostic U/export refusal",
+    "Original-row block resampling, cross-only shift sufficient statistics",
+    "No future controls, UTC/month/validation boundaries, zero volume",
+    "Before-I/O 2026 source/fit refusal"
+  ],
+  "working_code_sha256": {
+    "src/cryptocrossimpact/__init__.py": "78b2eefdd8129077c9456f66ba5bc43c9c09b77c8dc6aed159b80b044843254c",
+    "src/cryptocrossimpact/data/__init__.py": "2636671b0d20aa899f1f7505e8fe61d5e1eec3c7e8b065af0ce4c89b9c06da92",
+    "src/cryptocrossimpact/data/pipeline.py": "ff1e8c50a04df78cf0be1a00e84b4a4fd80a162ce826da892c58e07a86409148",
+    "src/cryptocrossimpact/data/schema.py": "95a29447da24fa3a257bbe10ed3662f92f8f47a12c542dfa418a6b897c8e1d3a",
+    "src/cryptocrossimpact/data/storage.py": "ab4d5aecf918a2f570f2fb844265eb0b9c2729c5e906664a87e5cb0fa1a300b4",
+    "src/cryptocrossimpact/data/trades.py": "f1372e54f37f3684bb9230d350c7ad30470a13fedeae106a3de0e07d5a0e277e",
+    "src/cryptocrossimpact/kernel/__init__.py": "b148a2e0bc00fe0b85b00aa97c6752a0b91645d98c20b51450412f7fd67c59e8",
+    "src/cryptocrossimpact/kernel/diagnostics.py": "1d72de60cc6caf1faa13227ae8c657289580ed6c5381ff244f5fdc3421c28ccb",
+    "src/cryptocrossimpact/kernel/features.py": "fa2b776809779a3129813ff563c8a601c046e75eee9d043226f9056447a2e571",
+    "src/cryptocrossimpact/kernel/fit.py": "bbde88b4db4332791ea0bec94e41aabca1332aeab58cdc5bca18f8bb3a6565fc",
+    "src/cryptocrossimpact/kernel/reporting.py": "b79436f9a6c217400b4ea047193f784768f7eb3d28fd0172db326e25df0acfc2",
+    "src/cryptocrossimpact/kernel/workflow.py": "52e883f18bdef1c8bb696f4f24d2bb9dcef0648c906f419b0a8b26996334c5a1",
+    "scripts/stage01.py": "3dea6f6bdc9753b6def4f14701e2de0fd7ac0c32e0739965142bb88bb5880c26",
+    "scripts/stage01_qc_figures.py": "75d6c1e2e91505357bb358b02a18741e6ec8ab71a75005c75c83b0b194d83aec",
+    "scripts/stage02.py": "844f4a5e269a08789f9794f2b7446a6a79629e95c12f22189d7e96219b03cca2",
+    "tests/test_stage01.py": "79089f031d0cedbcc9c2ced9d0418387872a907b05f9800ecdcd60ccc291c466",
+    "tests/test_stage02_kernel.py": "7bbfe57170047d0b8a3c1848bfb366aef64c4d24550cb48ccd090c141d587a11"
+  }
+}

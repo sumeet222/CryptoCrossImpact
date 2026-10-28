@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "protected_prior_files": 148,
+  "canonical_stat_only_partitions": 60,
+  "changed": [],
+  "authorized_api_extension": "src/cryptocrossimpact/execution/solver.py",
+  "original_solver_copy": "results/stage04_development/provenance/stage03_solver_original.py"
+}

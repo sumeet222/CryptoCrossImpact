@@ -1,0 +1,7 @@
+{
+  "previous_changelog_sha256": "daebd18e5edb7151e20024f120d228385b217e0fdc7a12e81a1aa5fa7205f93f",
+  "amended_changelog_sha256": "7fb14a3f8ad21e249d9aa5957144c3d86ea2a5fd8bf3d89520d2677a8a6fe0d5",
+  "amendment_sha256": "c7e8f01318017ca6af7cd7a5a08d5355e420ac21ca10dd5b061e6762fea72d6a",
+  "original_preflight_sha256": "17e33be3c1618bcb3aa79764516209e75cb45d2071951126a72bf5b5d724db84",
+  "approval": "explicit user recovery instruction; outcomes unopened"
+}

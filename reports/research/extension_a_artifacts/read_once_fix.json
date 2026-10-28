@@ -1,0 +1,8 @@
+{
+  "prior_source_sha256": "b0b2d7c9292c05aa1fc92ae53629ca84706ad8a246662b133978457679506387",
+  "current_source_sha256": "e952ff11e5feab7bc1fb22beb81451ba05bec566952167ef5817e258c6b2e7f9",
+  "prior_source": "reports/research/extension_a_artifacts/fit_before_read_once.py",
+  "selection_record_disk_hash": "e952ff11e5feab7bc1fb22beb81451ba05bec566952167ef5817e258c6b2e7f9",
+  "actual_initial_interpreter": "Loaded prior source; disk import changed during initial run, before selection was saved. All numerical function bodies and stored stats identical; selection re-executed under current reader with exactly unchanged MSE/eta.",
+  "proof": "280 tests PASS including byte-exact old/read-once statistics loader parity; eta_selection retained unchanged"
+}

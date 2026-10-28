@@ -1,0 +1,28 @@
+version: X1.0
+seed: 20261027
+train_start: '2024-01-29T00:00:00Z'
+train_end: '2025-07-01T00:00:00Z'
+development_start: '2025-07-01T00:00:00Z'
+development_end: '2026-01-01T00:00:00Z'
+arrival_hours: [0, 6, 12, 18]
+horizon: 60
+cadence: 5
+profile_days: 28
+profile_shrinkage: 50
+activity_tau: 15
+activity_spans: [5, 60]
+quantiles: [0.1, 0.5, 0.9]
+scenario_weights: [0.25, 0.50, 0.25]
+minimum_bucket_labels: 1000
+bucket_ends: [5, 15, 60]
+scenario_coverage_tolerance: 0.05
+V2_gate: pooled_daily_log_squared_error_gain_CI_low_positive_and_no_asset_RMSLE_worsens_over_1pct
+no_cross: T3B_same_B_self_tau_L
+pilot_origins: ['2025-07-05T00:00:00Z', '2025-07-31T18:00:00Z', '2025-08-01T00:00:00Z']
+representative: '2025-08-01T00:00:00Z'
+bootstrap_days: 7
+bootstrap_draws: 500
+kappa: 0.001
+fee_bps: 5
+half_spread_bps: 1
+cost_scope: modeled_execution_shortfall_excluding_funding

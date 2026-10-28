@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-28T03:16:06.217785+00:00",
+  "status": "PASS",
+  "figures": {
+    "figures/stage04/representative_episode.png": "8fe90527a7d259b6d0ca8678126375d1039f108fda5f148c221c9cb11beeb148",
+    "figures/stage04/forecast_risk_inputs.png": "04d18d8c7536fb5f0a0683eb46afe7f6af19f53098359a546f258b1ffcd96aa3",
+    "figures/stage04/aggregate_schedules.png": "e9774388cb3625f1b816a1ee39443296700f1c6f4a1b649d43d921bb9f93b9ae"
+  },
+  "notes": "Rendered images inspected: readable units/calendar/policy legends, shared caps and inventory paths; no outcome/cost performance plots"
+}

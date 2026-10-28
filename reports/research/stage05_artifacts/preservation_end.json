@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-28T03:36:18.398389+00:00",
+  "status": "PASS",
+  "protected_prior_files": 212,
+  "canonical_stat_only_partitions": 60,
+  "changed": [],
+  "test_canonical_bytes_read": 0
+}

@@ -1,0 +1,21 @@
+{
+  "phase": "holdout",
+  "implementation": "PASS",
+  "scientific_label": "TRADEOFF_OR_MIXED",
+  "selected_candidate": "L",
+  "selected_lambda": 25,
+  "reported_enhancement": "L",
+  "mean_overload_difference": 0.018141369502290876,
+  "overload_CI": [
+    0.014376057957965266,
+    0.02198859035030019
+  ],
+  "relative_overload_reduction": 0.4203741909161418,
+  "E1_mean_cost_advantage_bps": 0.14730988059738276,
+  "E1_cost_CI": [
+    -0.40903501988164265,
+    0.7733307082296011
+  ],
+  "practical_hurdle_point_estimate": true,
+  "scope": "modeled_execution_shortfall_excluding_funding; overload diagnostic; no live/causal fill claim"
+}

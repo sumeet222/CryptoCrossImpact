@@ -1,0 +1,9 @@
+{
+  "status": "DEVELOPMENT_SCOPE_FIXED_NOT_OCTOBER_READY",
+  "utc": "2026-10-28T18:01:43.440938+00:00",
+  "selection_sha256": "0114ae4e885d1de91b017e4b97fc40e209bc09387ae9432cc6bf11db172dd467",
+  "protocol_sha256": "70b4f14cfc1da48ec651262dcbc17553b27639bf7af8922d42a6913172e9ec34",
+  "selected_eta": 0,
+  "interpretation": "No new outcome confirmation; complete fixed development nine-arm secondary replay. Primary remains unchanged L25.",
+  "October_values_opened": false
+}

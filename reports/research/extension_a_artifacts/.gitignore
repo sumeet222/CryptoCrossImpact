@@ -1,0 +1,7 @@
+# Bulky per-episode derived rows stay local; compact summaries/manifests remain trackable.
+development_scores.csv
+development_overload.csv
+development_diagnostics.csv
+pilot_scores.csv
+pilot_overload.csv
+pilot_diagnostics.csv

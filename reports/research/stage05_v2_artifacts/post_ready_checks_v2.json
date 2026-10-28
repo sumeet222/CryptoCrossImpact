@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-28T05:10:46.508217+00:00",
+  "status": "PASS",
+  "tests_passed": 166,
+  "tests_failed": 0,
+  "audited_immutable_decisions": 724,
+  "primary_score_rows": 47784,
+  "independent_triangular_cash_checks": 66,
+  "maximum_triangular_cash_discrepancy_usdt": 9.549694368615746e-12,
+  "maximum_T0_T1_difference_over_initial": 3.108873632183636e-17,
+  "full_calendar_and_shared_beta": true,
+  "first_outcome_open_after_ready": true,
+  "primary_statistics_unchanged": true,
+  "negative_cash_rows_retained": 15273,
+  "funding_and_all_in_unestimated": true,
+  "stage6_started": false
+}

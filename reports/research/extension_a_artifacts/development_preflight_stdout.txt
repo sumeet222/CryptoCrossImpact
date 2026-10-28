@@ -1,0 +1,17 @@
+........................................................................ [ 25%]
+........................................................................ [ 51%]
+........................................................................ [ 77%]
+................................................................         [100%]
+=============================== warnings summary ===============================
+tests/test_stage01.py::test_parser_header_and_roundtrip[True]
+tests/test_stage01.py::test_parser_header_and_roundtrip[False]
+  /Users/pradeepgupta/Desktop/Quant /Projects/CryptoCrossImpact/src/cryptocrossimpact/data/schema.py:66: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+    frame = pd.read_csv(stream, header=None, skiprows=int(has_header),
+
+tests/test_stage01.py::test_streamed_trade_aggregation
+tests/test_stage01.py::test_duplicate_trade_ids_rejected
+  /Users/pradeepgupta/Desktop/Quant /Projects/CryptoCrossImpact/src/cryptocrossimpact/data/trades.py:32: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+    for chunk in pd.read_csv(stream, header=None, skiprows=int(has_header), chunksize=200000,
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+280 passed, 2 deselected, 4 warnings in 22.50s

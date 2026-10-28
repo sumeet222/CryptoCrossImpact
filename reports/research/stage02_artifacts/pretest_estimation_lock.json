@@ -1,0 +1,242 @@
+{
+  "status": "DEVELOPMENT_ESTIMATION_LOCK",
+  "created_at_utc": "2026-10-27T23:37:37.385381+00:00",
+  "stage": "Stage 2 only; full policies/evaluators not yet frozen",
+  "selected": {
+    "N0": {
+      "taus_minutes": [],
+      "ridge": 1.0,
+      "validation_mse": [
+        0.5878524633719792,
+        0.876092594965956
+      ]
+    },
+    "U": {
+      "taus_minutes": [
+        60
+      ],
+      "ridge": 1.0,
+      "validation_mse": [
+        0.3773379193867377,
+        0.49318386153856225
+      ]
+    },
+    "A": {
+      "taus_minutes": [
+        60
+      ],
+      "ridge": 1.0,
+      "validation_mse": [
+        0.4118398602775791,
+        0.5188417051166165
+      ]
+    },
+    "B": {
+      "taus_minutes": [
+        60
+      ],
+      "ridge": 1.0,
+      "validation_mse": [
+        0.3755255942394267,
+        0.4932924988081334
+      ]
+    }
+  },
+  "model_sha256": {
+    "N0": "498a6b19e71737abaf03e5b073ca7889331e3b3c07a5e678a1e55976d4d5a5d2",
+    "U": "8ff9af67337dd9b8c911760a76a4c9a781e3cbe380da3b46ed6b11976faf082a",
+    "A": "6225fb1d45db0da80951ea0dede6258a591af73e1e32eabcfb8de72343ad5757",
+    "B": "3ea9516b8d0c9702efceb5e26e0f02564c2422d2c450e9155b7c967c406e7877"
+  },
+  "asset_order": [
+    "BTCUSDT",
+    "ETHUSDT"
+  ],
+  "memory_minutes": 60,
+  "sample": "All paired source-valid target and preceding 1440 valid return bars; no flag-based primary exclusions",
+  "nuisance_features": [
+    {
+      "feature": "return_0_lag1",
+      "source": "prior completed close/quote-volume bars",
+      "units": "fraction log return",
+      "lookback_minutes": 2,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "return_0_lag2",
+      "source": "prior completed close/quote-volume bars",
+      "units": "fraction log return",
+      "lookback_minutes": 3,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "return_0_lag5",
+      "source": "prior completed close/quote-volume bars",
+      "units": "fraction log return",
+      "lookback_minutes": 6,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "return_0_lag15",
+      "source": "prior completed close/quote-volume bars",
+      "units": "fraction log return",
+      "lookback_minutes": 16,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "activity_0_5",
+      "source": "prior completed close/quote-volume bars",
+      "units": "log1p(mean quote turnover / 1 USDT)",
+      "lookback_minutes": 5,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "activity_0_15",
+      "source": "prior completed close/quote-volume bars",
+      "units": "log1p(mean quote turnover / 1 USDT)",
+      "lookback_minutes": 15,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "activity_0_60",
+      "source": "prior completed close/quote-volume bars",
+      "units": "log1p(mean quote turnover / 1 USDT)",
+      "lookback_minutes": 60,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "volume_deviation_0",
+      "source": "prior completed close/quote-volume bars",
+      "units": "log1p(previous USDT)-log1p(past median USDT)",
+      "lookback_minutes": 1440,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "volatility_0_60",
+      "source": "prior completed close/quote-volume bars",
+      "units": "sqrt(mean squared log return), population RMS",
+      "lookback_minutes": 61,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "volatility_0_1440",
+      "source": "prior completed close/quote-volume bars",
+      "units": "sqrt(mean squared log return), population RMS",
+      "lookback_minutes": 1441,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "return_1_lag1",
+      "source": "prior completed close/quote-volume bars",
+      "units": "fraction log return",
+      "lookback_minutes": 2,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "return_1_lag2",
+      "source": "prior completed close/quote-volume bars",
+      "units": "fraction log return",
+      "lookback_minutes": 3,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "return_1_lag5",
+      "source": "prior completed close/quote-volume bars",
+      "units": "fraction log return",
+      "lookback_minutes": 6,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "return_1_lag15",
+      "source": "prior completed close/quote-volume bars",
+      "units": "fraction log return",
+      "lookback_minutes": 16,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "activity_1_5",
+      "source": "prior completed close/quote-volume bars",
+      "units": "log1p(mean quote turnover / 1 USDT)",
+      "lookback_minutes": 5,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "activity_1_15",
+      "source": "prior completed close/quote-volume bars",
+      "units": "log1p(mean quote turnover / 1 USDT)",
+      "lookback_minutes": 15,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "activity_1_60",
+      "source": "prior completed close/quote-volume bars",
+      "units": "log1p(mean quote turnover / 1 USDT)",
+      "lookback_minutes": 60,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "volume_deviation_1",
+      "source": "prior completed close/quote-volume bars",
+      "units": "log1p(previous USDT)-log1p(past median USDT)",
+      "lookback_minutes": 1440,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "volatility_1_60",
+      "source": "prior completed close/quote-volume bars",
+      "units": "sqrt(mean squared log return), population RMS",
+      "lookback_minutes": 61,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "volatility_1_1440",
+      "source": "prior completed close/quote-volume bars",
+      "units": "sqrt(mean squared log return), population RMS",
+      "lookback_minutes": 1441,
+      "cutoff": "target bar open; source <= t-1"
+    },
+    {
+      "feature": "tod_sin",
+      "source": "UTC calendar",
+      "units": "dimensionless calendar sine/cosine",
+      "lookback_minutes": 0,
+      "cutoff": "calendar known"
+    },
+    {
+      "feature": "tod_cos",
+      "source": "UTC calendar",
+      "units": "dimensionless calendar sine/cosine",
+      "lookback_minutes": 0,
+      "cutoff": "calendar known"
+    },
+    {
+      "feature": "dow_sin",
+      "source": "UTC calendar",
+      "units": "dimensionless calendar sine/cosine",
+      "lookback_minutes": 0,
+      "cutoff": "calendar known"
+    },
+    {
+      "feature": "dow_cos",
+      "source": "UTC calendar",
+      "units": "dimensionless calendar sine/cosine",
+      "lookback_minutes": 0,
+      "cutoff": "calendar known"
+    }
+  ],
+  "normalization": "Median positive prior-window quote volume per asset; train-only centering/scales/target SD; frozen for subsequent predictions",
+  "future_protocol": "365 complete UTC days ending strictly before each refit month; monthly freeze; no intramonth revision; requires later Stage 5 authorization",
+  "metrics": [
+    "mean per-asset training-standardized response MSE",
+    "return-bps MAE/RMSE",
+    "conditional-response R2",
+    "paired monthly errors"
+  ],
+  "tie_rule": "Within 0.1% relative MSE: fewer components, then stronger ridge, then MSE",
+  "uncertainty": "50 seven-day training-block fixed-family refits; final-test seven-day 500-fold paired inference remains for Stage 5",
+  "deviations": "See SPEC_CHANGELOG.md: rank/permutation/feature clarifications; primary dates/grid/estimand unchanged",
+  "test_research_rows_read": false,
+  "stage3_solver_run": false,
+  "causal_identification": false,
+  "full_test_freeze_complete": false
+}

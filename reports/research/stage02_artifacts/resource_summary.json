@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-27T23:40:45.163906+00:00",
+  "project_retained_bytes": 1004774382,
+  "baseline_stage01_plus_user_inputs_approx": 825950312,
+  "stage02_incremental_retained_bytes_approx": 178824070,
+  "peak_rss_bytes_macos": 3168518144,
+  "full_run_seconds": 274.19417499995325,
+  "disk_peak_note": "Conservative incremental estimate <250 MB including temporary dependency downloads/atomic outputs; not a continuously sampled peak",
+  "no_new_market_data": true
+}

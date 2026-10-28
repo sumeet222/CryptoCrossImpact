@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-28T02:07:36.175902+00:00",
+  "project_retained_bytes": 1007552526,
+  "measured_change_after_reference_inspection": 1932937,
+  "estimated_full_stage03_addition_bytes_upper_bound": 5000000,
+  "peak_rss_bytes_macos": 279019520,
+  "last_full_run_seconds": 8.878979541012086,
+  "new_market_data_bytes": 0,
+  "dependencies_installed": 0
+}

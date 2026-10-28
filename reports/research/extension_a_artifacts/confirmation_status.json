@@ -1,0 +1,7 @@
+{
+  "status": "CONFIRMATION_HOLD",
+  "reason": "Optional October branch not opened: independent noninspection/official daily availability and a complete separately bound PRETEST_READY_A were not established. Core development completion does not force this optional experiment.",
+  "new_October_values_opened": false,
+  "ready_flag_created": false,
+  "utc": "2026-10-28T19:34:14.063901+00:00"
+}

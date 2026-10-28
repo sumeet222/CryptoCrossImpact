@@ -1,0 +1,12 @@
+{
+  "level_fraction_at_H": 0.36787944117144233,
+  "hypothetical_Hplus1_boundary_rms_over_target_sd": [
+    0.14228179851514466,
+    0.14932566236416858
+  ],
+  "rows": 785202,
+  "primary_boundary_term_included": false,
+  "primary_H": 60,
+  "decay_on_grid_upper_bound": true,
+  "caution": "Tail difference is a model-truncation diagnostic, not an observed missing-impact estimate; H=30/120 never replaces the primary H=60 result"
+}

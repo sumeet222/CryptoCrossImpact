@@ -1,0 +1,31 @@
+seed: 20261027
+paper:
+  horizon: 10
+  grids: [100, 200, 400]
+  initial_inventory: [10, 0]
+  terminal_penalty: 4
+  temporary_lambda: 0.03
+  gamma: 0
+  exponential_rho: 0.5
+  fractional_alpha: 0.25
+  diagonal_matrix: [[0.06, 0], [0, 0.06]]
+  cross_matrix: [[0.06, 0.05], [0.05, 0.06]]
+scenario:
+  horizon_minutes: 60
+  delta_minutes: 1
+  cap_fraction: 0.10
+  start_fraction_of_forecast: 0.02
+  kappa: 0.001
+  theta: 1
+  fee_bps: 5
+  half_spread_bps: 1
+  covariance_per_minute: [[0.000001, 0.0000004], [0.0000004, 0.000002]]
+  turnover_rate_usdt_per_minute: [2000000, 1100000]
+  convention: exact_exponential_cells
+  primary_solver: OSQP
+  comparison_solver: CLARABEL
+convergence:
+  delta_minutes: [2, 1, 0.5, 0.25]
+  horizon_minutes: 60
+relative_psd_tolerance: 1.0e-9
+output: reports/research/stage03_artifacts

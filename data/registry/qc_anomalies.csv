@@ -1,0 +1,10 @@
+symbol,month,split,flag,first_open_utc,last_open_utc,minutes,zero_volume_minutes,invalid_bars,decision
+ETHUSDT,2024-01,train,jump_flag,2024-01-03 12:09:00+00:00,2024-01-03 12:09:00+00:00,1,0,0,retain; QC diagnostic only
+ETHUSDT,2024-02,train,jump_flag,2024-02-28 17:31:00+00:00,2024-02-28 17:31:00+00:00,1,0,0,retain; QC diagnostic only
+ETHUSDT,2024-08,train,jump_flag,2024-08-05 01:10:00+00:00,2024-08-05 01:10:00+00:00,1,0,0,retain; QC diagnostic only
+BTCUSDT,2024-10,train,stale_close_flag,2024-10-28 20:28:00+00:00,2024-10-28 21:13:00+00:00,46,46,0,retain; QC diagnostic only
+ETHUSDT,2024-10,train,stale_close_flag,2024-10-28 20:28:00+00:00,2024-10-28 21:13:00+00:00,46,46,0,retain; QC diagnostic only
+ETHUSDT,2025-02,train,jump_flag,2025-02-03 01:55:00+00:00,2025-02-03 01:55:00+00:00,1,0,0,retain; QC diagnostic only
+ETHUSDT,2025-02,train,jump_flag,2025-02-03 02:07:00+00:00,2025-02-03 02:08:00+00:00,2,0,0,retain; QC diagnostic only
+BTCUSDT,2025-10,validation,jump_flag,2025-10-10 21:19:00+00:00,2025-10-10 21:19:00+00:00,1,0,0,retain; QC diagnostic only
+ETHUSDT,2025-10,validation,jump_flag,2025-10-10 21:21:00+00:00,2025-10-10 21:21:00+00:00,1,0,0,retain; QC diagnostic only

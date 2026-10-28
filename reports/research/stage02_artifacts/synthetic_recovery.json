@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "seed": 20261027,
+  "cases": [
+    {
+      "taus": [
+        5
+      ],
+      "cross": 0.0,
+      "truth": [
+        [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.8
+          ]
+        ]
+      ],
+      "estimated": [
+        [
+          [
+            0.9999995312604076,
+            1.1549485672814225e-06
+          ],
+          [
+            1.1549485672814225e-06,
+            0.8000000194825345
+          ]
+        ]
+      ],
+      "max_absolute_coefficient_error": 1.1549485672814225e-06,
+      "valid_negative_cross": false,
+      "nuisance_correlated_flow": true,
+      "status": "PASS",
+      "finite_grid": {
+        "grid_minutes": 32,
+        "same_cell": "half",
+        "min_eigenvalue": 0.03996186609850759,
+        "min_round_trip_cash_cost": 0.0007374415336277982,
+        "checks": 100
+      }
+    },
+    {
+      "taus": [
+        5
+      ],
+      "cross": -0.3,
+      "truth": [
+        [
+          [
+            1.0,
+            -0.3
+          ],
+          [
+            -0.3,
+            0.8
+          ]
+        ]
+      ],
+      "estimated": [
+        [
+          [
+            0.9999997792513817,
+            -0.2999995949911373
+          ],
+          [
+            -0.2999995949911373,
+            0.7999984161033176
+          ]
+        ]
+      ],
+      "max_absolute_coefficient_error": 1.5838966824777145e-06,
+      "valid_negative_cross": true,
+      "nuisance_correlated_flow": true,
+      "status": "PASS",
+      "finite_grid": {
+        "grid_minutes": 32,
+        "same_cell": "half",
+        "min_eigenvalue": 0.029160747451579632,
+        "min_round_trip_cash_cost": 0.0007333172422497559,
+        "checks": 100
+      }
+    },
+    {
+      "taus": [
+        5,
+        30
+      ],
+      "cross": 0.25,
+      "truth": [
+        [
+          [
+            1.0,
+            0.25
+          ],
+          [
+            0.25,
+            0.8
+          ]
+        ],
+        [
+          [
+            0.3,
+            0.1
+          ],
+          [
+            0.1,
+            0.5
+          ]
+        ]
+      ],
+      "estimated": [
+        [
+          [
+            1.0000047025319394,
+            0.24999667192448727
+          ],
+          [
+            0.24999667192448727,
+            0.8000060310884625
+          ]
+        ],
+        [
+          [
+            0.29999449328345,
+            0.10000377800664287
+          ],
+          [
+            0.10000377800664287,
+            0.499995745342213
+          ]
+        ]
+      ],
+      "max_absolute_coefficient_error": 6.031088462421508e-06,
+      "valid_negative_cross": false,
+      "nuisance_correlated_flow": true,
+      "status": "PASS",
+      "finite_grid": {
+        "grid_minutes": 32,
+        "same_cell": "half",
+        "min_eigenvalue": 0.034340879963918415,
+        "min_round_trip_cash_cost": 0.0008095443074922322,
+        "checks": 100
+      }
+    }
+  ]
+}

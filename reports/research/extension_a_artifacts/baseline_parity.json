@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "episode_id": "20250705T0000Z",
+      "max_schedule_error_over_initial": 0.0,
+      "triangle_error_usdt": 1.5916157281026244e-12
+    },
+    {
+      "episode_id": "20250731T1800Z",
+      "max_schedule_error_over_initial": 0.0,
+      "triangle_error_usdt": 3.637978807091713e-12
+    },
+    {
+      "episode_id": "20250801T0000Z",
+      "max_schedule_error_over_initial": 0.0,
+      "triangle_error_usdt": 2.7284841053187847e-12
+    }
+  ],
+  "old_selection_sha256": "a513dbfec658371d10356c07a8f47e3cbba1ef883e9bc33b5658c82a09f25728"
+}

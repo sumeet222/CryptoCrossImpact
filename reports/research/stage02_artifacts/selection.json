@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "attempted": 276,
+  "failed": 0,
+  "search_budget": {
+    "N0": 6,
+    "U": 90,
+    "A": 90,
+    "B": 90
+  },
+  "screening": "none; all 15 families and six penalties for U/A/B",
+  "tie_rule": "Within 0.1% relative MSE: fewer components, then stronger ridge, then MSE",
+  "selected": {
+    "N0": {
+      "taus_minutes": [],
+      "ridge": 1.0,
+      "validation_mse": [
+        0.5878524633719792,
+        0.876092594965956
+      ]
+    },
+    "U": {
+      "taus_minutes": [
+        60
+      ],
+      "ridge": 1.0,
+      "validation_mse": [
+        0.3773379193867377,
+        0.49318386153856225
+      ]
+    },
+    "A": {
+      "taus_minutes": [
+        60
+      ],
+      "ridge": 1.0,
+      "validation_mse": [
+        0.4118398602775791,
+        0.5188417051166165
+      ]
+    },
+    "B": {
+      "taus_minutes": [
+        60
+      ],
+      "ridge": 1.0,
+      "validation_mse": [
+        0.3755255942394267,
+        0.4932924988081334
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "stage": "G4 OOS COMPLETE",
+  "implementation": "PASS",
+  "cost_scope": "modeled_execution_shortfall_excluding_funding",
+  "H1": "SUPPORTS_HYPOTHESIS",
+  "H2": "DOES_NOT_SUPPORT",
+  "H1_delta_fit": 0.07550923413138634,
+  "H2_E1_mean_bps": 0.020809509323767825,
+  "H2_E1_CI": [
+    -0.026669200351864594,
+    0.07279885985198062
+  ],
+  "adverse_world_means_negative": 0,
+  "stage6_started": false,
+  "nominal": 724,
+  "scored": 724,
+  "pretest_lock_sha256": "5ac1646ab235f841c8e4c5454099ad09f5a6e6d434009853853e18b1987b3507"
+}

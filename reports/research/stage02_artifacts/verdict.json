@@ -1,0 +1,42 @@
+{
+  "implementation": "PASS",
+  "scientific_development_only": "SUPPORTS_HYPOTHESIS",
+  "validation_B_vs_A_relative_mse_gain": 0.06647114829273648,
+  "mandatory_diagnostics_complete": {
+    "status": "PASS",
+    "synthetic": true,
+    "bootstrap": 50,
+    "cross_only_permutations": 50,
+    "training_halves": 2,
+    "development_monthly_refits": 6,
+    "lag_only": true,
+    "lead_falsification": true,
+    "memory_sensitivities": [
+      30,
+      120
+    ],
+    "source_flag_sensitivity": true,
+    "no_return_control_sensitivity": true,
+    "optional_forward_prediction": "NOT RUN; prioritized mandatory G2 estimation/falsification; no alpha or policy claim"
+  },
+  "tail_qualification": {
+    "level_fraction_at_H": 0.36787944117144233,
+    "hypothetical_Hplus1_boundary_rms_over_target_sd": [
+      0.14228179851514466,
+      0.14932566236416858
+    ],
+    "rows": 785202,
+    "primary_boundary_term_included": false,
+    "primary_H": 60,
+    "decay_on_grid_upper_bound": true,
+    "caution": "Tail difference is a model-truncation diagnostic, not an observed missing-impact estimate; H=30/120 never replaces the primary H=60 result"
+  },
+  "final_H1_H2_evaluated": false,
+  "stage3_solver_run": false,
+  "model_sha256": {
+    "N0": "498a6b19e71737abaf03e5b073ca7889331e3b3c07a5e678a1e55976d4d5a5d2",
+    "U": "8ff9af67337dd9b8c911760a76a4c9a781e3cbe380da3b46ed6b11976faf082a",
+    "A": "6225fb1d45db0da80951ea0dede6258a591af73e1e32eabcfb8de72343ad5757",
+    "B": "3ea9516b8d0c9702efceb5e26e0f02564c2422d2c450e9155b7c967c406e7877"
+  }
+}

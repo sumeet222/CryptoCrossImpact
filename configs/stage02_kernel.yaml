@@ -1,0 +1,32 @@
+seed: 20261027
+memory_minutes: 60
+decays_minutes: [2, 5, 10, 30, 60]
+maximum_components: 2
+ridge: [0, 0.0001, 0.001, 0.01, 0.1, 1]
+tie_relative_mse: 0.001
+solver: CLARABEL
+solver_tolerance: 1.0e-8
+psd_relative_tolerance: 1.0e-8
+bootstrap_replicates: 50
+bootstrap_block_days: 7
+# Fixed before any development fit; each shift >=7 days, under the 547-day train.
+placebo_shift_days: [7, 17, 27, 37, 47, 57, 67, 77, 87, 97, 107, 117, 127, 137, 147, 157, 167, 177, 187, 197, 207, 217, 227, 237, 247, 257, 267, 277, 287, 297, 307, 317, 327, 337, 347, 357, 367, 377, 387, 397, 407, 417, 427, 437, 447, 457, 467, 477, 487, 497]
+features:
+  return_lags: [1, 2, 5, 15]
+  activity_minutes: [5, 15, 60]
+  volume_median_minutes: 1440
+  volatility_minutes: [60, 1440]
+  volatility_convention: sqrt(mean(past_log_return_squared)); population RMS
+  unsigned_activity: log1p(mean(past_quote_volume)/1_USDT)
+  volume_deviation: log1p(previous_quote_volume)-log1p(past_1440_minute_median)
+  common_return_factor: omitted_exact_linear_combination_of_included_lag1_returns
+  context_bars: 1441
+  anomaly_rule: retain_all_stage01_valid_bars_in_primary
+  ridge_scale: mean_per_asset_standardized_MSE_plus_lambda_mean_squared_standardized_coefficients_excluding_intercepts
+output: reports/research/stage02_artifacts
+diagnostics:
+  tail_sensitivity_memories: [30, 120]
+  anomaly_sensitivity_exclude_start: '2024-10-28'
+  # Plateau day plus two complete calendar days: includes the 1441-bar context.
+  anomaly_sensitivity_exclude_end_exclusive: '2024-10-31'
+  no_return_control_sensitivity: true

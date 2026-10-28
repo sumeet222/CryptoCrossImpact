@@ -1,0 +1,35 @@
+version: X2X3-1.0
+seed: 20261027
+development_start: '2025-07-01T00:00:00Z'
+development_end: '2026-01-01T00:00:00Z'
+holdout_start: '2026-07-01T00:00:00Z'
+holdout_end: '2026-10-01T00:00:00Z'
+arrival_hours: [0, 6, 12, 18]
+horizon: 60
+cadence: 5
+history_days: 28
+joint_paths: 12
+minimum_path_support: 12
+path_ranking: sha256(seed|episode_date|arrival_hour|historical_day)
+path_normalization: historical_positive_minute_median_matching_hour
+kernel_scenarios: [B, B_diagonal, B_half_cross, B_opposite, B_fixed_June2025]
+cvar_alpha: 0.90
+lambda_candidates: [25, 100]
+lambda_selection_policy: L_only_smallest_qualifying
+minimum_relative_overload_reduction: 0.10
+maximum_E1_cost_increase_bps: 0.10
+fallback_candidate: N
+fallback_display_lambda: 25
+optimizer_solver: CLARABEL
+solver_tolerance: 1.0e-8
+maximum_iterations: 300
+normalized_feasibility_tolerance: 1.0e-7
+normalized_kkt_tolerance: 2.0e-5
+bootstrap_days: 7
+bootstrap_draws: 500
+kappa: 0.001
+fee_bps: 5
+half_spread_bps: 1
+cost_scope: modeled_execution_shortfall_excluding_funding
+pilot_origins: ['2025-07-05T00:00:00Z', '2025-07-31T18:00:00Z', '2025-08-01T00:00:00Z']
+optional_incomplete_fill_stress: false

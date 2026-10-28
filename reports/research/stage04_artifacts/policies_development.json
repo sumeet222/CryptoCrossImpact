@@ -1,0 +1,14 @@
+{
+  "eligible_episodes": 736,
+  "complete_episodes": 736,
+  "policy_schedules": 4416,
+  "scalar_and_joint_qp_solves": 3680,
+  "failures": [],
+  "fixed_model_sensitivity_episodes": 24,
+  "schedule_numeric_sha256": "c22faff167c787d01d5ad99e385a155e0376e870f94f19d7166ad61210ddcb95",
+  "deterministic_replay_matches_prior": true,
+  "recorded_utc": "2026-10-28T03:05:53.929947+00:00",
+  "no_future_price_costs": true,
+  "evaluators_run": [],
+  "test_outcomes_unopened": true
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "synthetic": true,
+  "bootstrap": 50,
+  "cross_only_permutations": 50,
+  "training_halves": 2,
+  "development_monthly_refits": 6,
+  "lag_only": true,
+  "lead_falsification": true,
+  "memory_sensitivities": [
+    30,
+    120
+  ],
+  "source_flag_sensitivity": true,
+  "no_return_control_sensitivity": true,
+  "optional_forward_prediction": "NOT RUN; prioritized mandatory G2 estimation/falsification; no alpha or policy claim"
+}

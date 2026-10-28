@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-28T02:07:35.459820+00:00",
+  "status": "PASS",
+  "method": "Inspected rendered four-figure contact sheet; explicit paper/synthetic units, raw terminal collocation and optional fractional qualification visible",
+  "figures": [
+    {
+      "path": "figures/stage03/ajnt_cross.png",
+      "sha256": "bd5f1291651852d8139f93e7dadeb7c8a9eec3a163a20b1682713949baa511dd"
+    },
+    {
+      "path": "figures/stage03/ajnt_diagonal.png",
+      "sha256": "c377fe89046038bfdde3777096b19f5bfa89dfad8c3d277b87c15de7fbd5458b"
+    },
+    {
+      "path": "figures/stage03/grid_convergence.png",
+      "sha256": "9c4b0ccfd5ee83842a88153643e15e4f3e46e739f1aa3f64afe2df414d9b401b"
+    },
+    {
+      "path": "figures/stage03/synthetic_schedules.png",
+      "sha256": "66cc200f62d8eb735fd7033daf59b8c12592bfb61c52104e721c95ed05cf252e"
+    }
+  ]
+}

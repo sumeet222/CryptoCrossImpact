@@ -1,0 +1,49 @@
+{
+  "utc_recorded": "2026-10-28T03:36:18.398389+00:00",
+  "REST_HTTP_status": 451,
+  "archive_and_checksum_HTTP_status": 200,
+  "local_probe_files": {
+    "data/raw/funding_stage05/issue519_comments.json": {
+      "sha256": "5b0e5648021add7ba527b524828578da5ffa256df4dc23addf4bf3a2728b2d2c",
+      "bytes": 26353,
+      "url": "https://api.github.com/repos/binance/binance-public-data/issues/519/comments"
+    },
+    "data/raw/funding_stage05/BTCUSDT-fundingRate-2025-01.zip.CHECKSUM": {
+      "sha256": "c22e5703d426e3c3dbb2352109a6912c4ee41f0f7026c201202e5939f784c246",
+      "bytes": 98,
+      "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2025-01.zip.CHECKSUM"
+    },
+    "data/raw/funding_stage05/rest_probe_BTCUSDT_2025.json": {
+      "sha256": "79c1db471a4cdc1c8565b5dfc52e0ed2d29962738ee4d28597696fcd0920e348",
+      "bytes": 224,
+      "url": "https://fapi.binance.com/fapi/v1/fundingRate?symbol=BTCUSDT&startTime=1735689600000&endTime=1735775999999&limit=1000"
+    },
+    "data/raw/funding_stage05/rest_probe_headers.txt": {
+      "sha256": "48a446058665376fe1217ab2a9ece63a22e30cd71f7d762b545fe7c7c36bb8c1",
+      "bytes": 323,
+      "url": "HTTP response headers for adjacent probe"
+    },
+    "data/raw/funding_stage05/archive_probe_headers.txt": {
+      "sha256": "2831cd326c9ab4fe2d27213cc47547be1604738629a96878b2d7b1d43b98936a",
+      "bytes": 472,
+      "url": "HTTP response headers for adjacent probe"
+    },
+    "data/raw/funding_stage05/BTCUSDT-fundingRate-2025-01.zip": {
+      "sha256": "df725010d55458866eb5a47e9ee708c6796c9d7e77b14c38342cea11f381815e",
+      "bytes": 825,
+      "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2025-01.zip"
+    },
+    "data/raw/funding_stage05/official_public_data_README.md": {
+      "sha256": "2e133d9945a9263a02781369078e72805eff074680f305cd5460016471c6caad",
+      "bytes": 5282,
+      "url": "https://raw.githubusercontent.com/binance/binance-public-data/master/README.md"
+    }
+  },
+  "only_financial_download_period": "BTCUSDT January 2025",
+  "funding_time_mapping": "UNVERIFIED",
+  "full_required_coverage": "NOT_VERIFIED",
+  "admitted_funding_method": null,
+  "region_restriction_workaround_attempted": false,
+  "official_rest_docs": "https://developers.binance.info/en/docs/catalog/core-trading-derivatives-trading-usd-s-m-futures/api/rest-api/market-data#get-funding-rate-history",
+  "provider_issue_question_not_authoritative_confirmation": "https://github.com/binance/binance-public-data/issues/519"
+}

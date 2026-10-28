@@ -1,0 +1,176 @@
+{
+  "status": "PASS",
+  "fits": 24,
+  "rows": [
+    {
+      "month": "2025-07",
+      "eta": 0.5,
+      "role": "B",
+      "training_rows": 525600,
+      "minimum_eigenvalue": 0.7484046708463744
+    },
+    {
+      "month": "2025-07",
+      "eta": 0.5,
+      "role": "E",
+      "training_rows": 259200,
+      "minimum_eigenvalue": 0.56724361736036
+    },
+    {
+      "month": "2025-07",
+      "eta": 1,
+      "role": "B",
+      "training_rows": 525600,
+      "minimum_eigenvalue": 0.5510880547756943
+    },
+    {
+      "month": "2025-07",
+      "eta": 1,
+      "role": "E",
+      "training_rows": 259200,
+      "minimum_eigenvalue": 0.4437182559077829
+    },
+    {
+      "month": "2025-08",
+      "eta": 0.5,
+      "role": "B",
+      "training_rows": 525600,
+      "minimum_eigenvalue": 0.7280579034260584
+    },
+    {
+      "month": "2025-08",
+      "eta": 0.5,
+      "role": "E",
+      "training_rows": 259200,
+      "minimum_eigenvalue": 0.5308370432704158
+    },
+    {
+      "month": "2025-08",
+      "eta": 1,
+      "role": "B",
+      "training_rows": 525600,
+      "minimum_eigenvalue": 0.545807611657972
+    },
+    {
+      "month": "2025-08",
+      "eta": 1,
+      "role": "E",
+      "training_rows": 259200,
+      "minimum_eigenvalue": 0.4060267339156754
+    },
+    {
+      "month": "2025-09",
+      "eta": 0.5,
+      "role": "B",
+      "training_rows": 525600,
+      "minimum_eigenvalue": 0.7192598300411611
+    },
+    {
+      "month": "2025-09",
+      "eta": 0.5,
+      "role": "E",
+      "training_rows": 259200,
+      "minimum_eigenvalue": 0.4878911142002928
+    },
+    {
+      "month": "2025-09",
+      "eta": 1,
+      "role": "B",
+      "training_rows": 525600,
+      "minimum_eigenvalue": 0.5439646941494866
+    },
+    {
+      "month": "2025-09",
+      "eta": 1,
+      "role": "E",
+      "training_rows": 259200,
+      "minimum_eigenvalue": 0.3892641958468561
+    },
+    {
+      "month": "2025-10",
+      "eta": 0.5,
+      "role": "B",
+      "training_rows": 525600,
+      "minimum_eigenvalue": 0.7061801415174671
+    },
+    {
+      "month": "2025-10",
+      "eta": 0.5,
+      "role": "E",
+      "training_rows": 259200,
+      "minimum_eigenvalue": 0.4573294993255219
+    },
+    {
+      "month": "2025-10",
+      "eta": 1,
+      "role": "B",
+      "training_rows": 525600,
+      "minimum_eigenvalue": 0.5236544785015432
+    },
+    {
+      "month": "2025-10",
+      "eta": 1,
+      "role": "E",
+      "training_rows": 259200,
+      "minimum_eigenvalue": 0.36120592866166096
+    },
+    {
+      "month": "2025-11",
+      "eta": 0.5,
+      "role": "B",
+      "training_rows": 525600,
+      "minimum_eigenvalue": 0.7375568080368134
+    },
+    {
+      "month": "2025-11",
+      "eta": 0.5,
+      "role": "E",
+      "training_rows": 259200,
+      "minimum_eigenvalue": 0.39997039240858945
+    },
+    {
+      "month": "2025-11",
+      "eta": 1,
+      "role": "B",
+      "training_rows": 525600,
+      "minimum_eigenvalue": 0.5467399367020954
+    },
+    {
+      "month": "2025-11",
+      "eta": 1,
+      "role": "E",
+      "training_rows": 259200,
+      "minimum_eigenvalue": 0.31204141707442035
+    },
+    {
+      "month": "2025-12",
+      "eta": 0.5,
+      "role": "B",
+      "training_rows": 525600,
+      "minimum_eigenvalue": 0.7035895153323245
+    },
+    {
+      "month": "2025-12",
+      "eta": 0.5,
+      "role": "E",
+      "training_rows": 259200,
+      "minimum_eigenvalue": 0.4184829197791341
+    },
+    {
+      "month": "2025-12",
+      "eta": 1,
+      "role": "B",
+      "training_rows": 525600,
+      "minimum_eigenvalue": 0.5204859156185209
+    },
+    {
+      "month": "2025-12",
+      "eta": 1,
+      "role": "E",
+      "training_rows": 259200,
+      "minimum_eigenvalue": 0.33089450722467123
+    }
+  ],
+  "seconds": 4.8106529712677,
+  "all_before_evaluated_month": true
+}

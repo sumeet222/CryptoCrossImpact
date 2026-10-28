@@ -1,0 +1,35 @@
+{
+  "status": "FROZEN_DEVELOPMENT_SELECTION",
+  "utc": "2026-10-28T16:02:52.393927+00:00",
+  "tested": [
+    {
+      "lambda_liq": 25,
+      "baseline_mean_overload": 0.04240568150303528,
+      "mean_overload": 0.023107205140356666,
+      "relative_reduction": 0.45509176314728683,
+      "E1_cost_increase_bps": 0.08592797088386118,
+      "qualifies": true
+    },
+    {
+      "lambda_liq": 100,
+      "baseline_mean_overload": 0.04240568150303528,
+      "mean_overload": 0.023107307322047244,
+      "relative_reduction": 0.45508935352463825,
+      "E1_cost_increase_bps": 0.08622427693239076,
+      "qualifies": true
+    }
+  ],
+  "selected_lambda": 25,
+  "display_lambda": 25,
+  "selected_candidate": "L",
+  "past_liquidity_terciles_usdt": [
+    636068972.0802,
+    927064486.9119
+  ],
+  "rule": "Smallest nonzero lambda with >=10% overload reduction and <=0.10bp E1 increase; select on L only",
+  "new_holdout_values_opened": false,
+  "bindings": {
+    "reports/research/extension_x2x3_artifacts/selection_overload.csv": "29b427a3862c291d893727d86d38740645f1fb4e917d3cfded97a3fc018b5de4",
+    "reports/research/extension_x2x3_artifacts/selection_scores.csv": "c17d9b4c4e218fcaafb67b06abe2e3ff6853f0a6cb5738421692f401c2c7b720"
+  }
+}

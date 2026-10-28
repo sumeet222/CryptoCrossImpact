@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "replicates": 50,
+  "rows": 783239,
+  "primary_training_rows": 786239,
+  "observed_same_mask_training_gain": 0.09162668479243596,
+  "observed_instantaneous_cross": 1.0947159649628253,
+  "null_gain_range": [
+    -6.486852052328841e-08,
+    4.017771425053551e-06
+  ],
+  "null_cross_range": [
+    -0.006654676589555612,
+    0.004237812293609707
+  ],
+  "empirical_diagnostic_tail_fraction": 0.0196078431372549,
+  "own_flow_alignment_preserved": true,
+  "cross_flow_only": true,
+  "common_null_mask": "Original valid targets/controls and finite shifted cross bases for all 50 offsets; fixed before null comparisons",
+  "caution": "In-training falsification, not causal identification or final-test significance; periodic effects and endogeneity remain"
+}

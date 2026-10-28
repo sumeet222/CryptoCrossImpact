@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "replicates": 50,
+  "block_days": 7,
+  "instantaneous_cross_95pct_interval": [
+    1.017872375768831,
+    1.2062490473648926
+  ],
+  "median": 1.0985894133872582,
+  "sign_reversals": 0,
+  "binding_fraction": 0.0,
+  "normalization": "Fixed original training L/centering/scales and selected family/penalty; conditional preprocessing uncertainty",
+  "boundary_rule": "Features computed on original contiguous observations before block selection; no new adjacency or recomputation across resampled blocks"
+}

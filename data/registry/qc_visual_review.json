@@ -1,0 +1,41 @@
+{
+  "utc": "2026-10-27T22:39:03.689025+00:00",
+  "status": "PASS",
+  "scope": "All development-only jump/stale flagged days; no test economic plots",
+  "method": "Rendered eight two-panel price/turnover figures and visually inspected a contact sheet",
+  "figures": [
+    {
+      "path": "reports/data/stage01_qc_BTCUSDT_2024-10-28.png",
+      "sha256": "db4c7d379051e0a47c2f5485ea6fb56bb556bc5fd319d0a1db78c0d6e8d5e9a0"
+    },
+    {
+      "path": "reports/data/stage01_qc_BTCUSDT_2025-10-10.png",
+      "sha256": "c94e83ce2627aeb5ae4939b46183cbeca5eb3e72b19b6ce0c9840e2ef081802c"
+    },
+    {
+      "path": "reports/data/stage01_qc_ETHUSDT_2024-01-03.png",
+      "sha256": "bb31843dd6815cfe06ff729becb274b291a97b0c06cb1fd8fe2552e92a84b695"
+    },
+    {
+      "path": "reports/data/stage01_qc_ETHUSDT_2024-02-28.png",
+      "sha256": "30e542f113f6e7de129ce1c1e6369dbe5fef8c835e46104b565adf901ea1911d"
+    },
+    {
+      "path": "reports/data/stage01_qc_ETHUSDT_2024-08-05.png",
+      "sha256": "1218315579c3fd7184da0fc2e09d1a8fbde0cb1aa9f00d0076d8bf5f9bd83ce4"
+    },
+    {
+      "path": "reports/data/stage01_qc_ETHUSDT_2024-10-28.png",
+      "sha256": "ee54efa24e1cd101058e1ccdfd02cd31a5bb8f2832b15946479024e1cc41811b"
+    },
+    {
+      "path": "reports/data/stage01_qc_ETHUSDT_2025-02-03.png",
+      "sha256": "16259c39fa4d4a9fae8427a9c9b9bb6531270388cee481d5b0eafe98230da5f2"
+    },
+    {
+      "path": "reports/data/stage01_qc_ETHUSDT_2025-10-10.png",
+      "sha256": "baaa4d6622928395a7428f01d150990e5acd87321e72f664d022b1a3589d6f3e"
+    }
+  ],
+  "observation": "Jump flags occur with source turnover bursts; shared October 2024 stale interval has recorded zero turnover. No source-unit/clock/schema errors found. Retain all flags without economic outcome filtering."
+}

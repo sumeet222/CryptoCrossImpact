@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "grids_minutes": [
+    2,
+    1,
+    0.5,
+    0.25
+  ],
+  "constant_continuous_inputs": true,
+  "turnover_rule": "Vhat_delta=turnover_rate*delta",
+  "covariance_rule": "Sigma_delta=Sigma_per_minute*delta; applied internally once",
+  "reference_delta_minutes": 0.25,
+  "inventory_relative_errors": [
+    0.00878862709541193,
+    0.0036073225739733034,
+    0.0011846330039967804,
+    0.0
+  ],
+  "convention": "exact_exponential_cells; half-cell/sample-lag evaluated only as a controlled comparison"
+}

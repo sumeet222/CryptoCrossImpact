@@ -1,0 +1,9 @@
+{
+  "changed_existing_functions": [
+    "numerical_lock"
+  ],
+  "added_functions": [
+    "score_schedule"
+  ],
+  "assertion": "Only numerical_lock metadata and score_schedule serialization wrapper differ; forecast/policy/development algorithm AST unchanged."
+}

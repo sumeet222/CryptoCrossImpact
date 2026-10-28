@@ -1,0 +1,21 @@
+{
+  "phase": "development",
+  "implementation": "PASS",
+  "scientific_label": "TRADEOFF_OR_MIXED",
+  "selected_candidate": "L",
+  "selected_lambda": 25,
+  "reported_enhancement": "L",
+  "mean_overload_difference": 0.019298476362678615,
+  "overload_CI": [
+    0.015242968889243267,
+    0.021541121853844162
+  ],
+  "relative_overload_reduction": 0.4550917631472868,
+  "E1_mean_cost_advantage_bps": -0.08592797088386118,
+  "E1_cost_CI": [
+    -0.5093812249001118,
+    0.32769990615369415
+  ],
+  "practical_hurdle_point_estimate": true,
+  "scope": "modeled_execution_shortfall_excluding_funding; overload diagnostic; no live/causal fill claim"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-28T02:07:35.458769+00:00",
+  "protected_hash_files": 105,
+  "canonical_stat_only_partitions": 60,
+  "changed": [],
+  "canonical_outcome_bytes_read": 0,
+  "documentation_edits_excluded": [
+    "README.md",
+    "SPEC_CHANGELOG.md"
+  ]
+}

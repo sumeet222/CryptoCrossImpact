@@ -1,0 +1,27 @@
+version: stage04-policies-v1
+seed: 20261027
+development_start: '2025-07-01'
+development_end_exclusive: '2026-01-01'
+arrival_hours_utc: [0, 6, 12, 18]
+horizon_minutes: 60
+delta_minutes: 1
+history_days: 28
+fine_class_minimum: 120
+coarse_class_minimum: 120
+floor_positive_quantile: 0.01
+floor_epsilon_usdt: 1.0e-8
+minimum_covariance_returns: 40000
+input_quality: complete_valid_paired_28d_history_no_imputation
+diagnostic_flags: retain_jump_stale_verified_zero_turnover
+initial_fraction: 0.02
+cap_fraction: 0.10
+theta: 1
+kappa: 0.001
+fee_bps: 5
+half_spread_bps: 1
+alpha: 0
+model_convention: monthly_365_complete_calendar_days_fixed_stage02_family
+fixed_model_sensitivity: first_UTC_Monday_each_month_00_06_12_18
+representative_episode: '2025-07-07T00:00:00Z'
+complete_case_rule: any_policy_failure_flags_whole_episode_preserve_all_failures
+forecast_kind: past_only_hour_of_week_median

@@ -1,0 +1,33 @@
+{
+  "utc": "2026-10-28T03:37:43.648023+00:00",
+  "stage_verdict": "PRETEST HOLD",
+  "implementation": "BLOCKED",
+  "funding": "PRETEST_FUNDING_HOLD",
+  "predecessor_lock": "UNCHANGED_PRETEST_LOCK_PENDING",
+  "predecessor_sha256": "a691a3db76a776d4f8e31b43f6c68663145891e1974e2bf6dc0f061130192e31",
+  "predecessor_bindings_checked": 47,
+  "preservation": {
+    "utc": "2026-10-28T03:36:18.398389+00:00",
+    "status": "PASS",
+    "protected_prior_files": 212,
+    "canonical_stat_only_partitions": 60,
+    "changed": [],
+    "test_canonical_bytes_read": 0
+  },
+  "tests_passed": 83,
+  "tests_failed": 0,
+  "nominal_episodes": 724,
+  "eligible_episodes": null,
+  "scored_episodes": 0,
+  "H1": "NOT_RUN",
+  "H2": "NOT_RUN",
+  "E1_development_validation": "NOT_RUN_AFTER_FUNDING_HOLD",
+  "E1_E2_E3_adverse_results": "NOT_RUN",
+  "statistical_inference": "NOT_RUN",
+  "robustness": "NOT_RUN",
+  "final_test_canonical_partitions_opened": 0,
+  "stage6_started": false,
+  "whitespace": "PASS",
+  "research_report": "reports/research/stage05_oos_evaluation.md",
+  "session_report": "reports/sessions/20261028_0333_stage05_oos_session.md"
+}

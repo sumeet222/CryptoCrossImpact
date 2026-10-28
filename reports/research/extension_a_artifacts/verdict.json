@@ -1,0 +1,8 @@
+{
+  "implementation": "PASS",
+  "selected_eta": 0,
+  "H_A1": "DOES_NOT_SUPPORT",
+  "H_A2": "NO_INCREMENTAL_SELECTED_POLICY",
+  "H_A3": "NO_SELECTED_POLICY_CHANGE",
+  "scope": "exploratory development; descriptive response and modeled funding-excluded cash, not causal/live fills"
+}

@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-27T23:47:45.182163+00:00",
+  "status": "PASS",
+  "checks": [
+    "41 applicable tests passed; two 2026-opening Stage 1 integrations deliberately deselected",
+    "Full 276-fit and mandatory G2 diagnostic pipeline PASS",
+    "All 48 development canonical fingerprints match Stage 1 manifest",
+    "Pretest lock points to exact current model hashes",
+    "Model/full-run/test code hashes agree",
+    "No Stage 1 manifest/core/spec modification",
+    "Stage 2 text whitespace checks pass",
+    "Four development figures rendered and visually reviewed"
+  ],
+  "session_report": "reports/sessions/20261027_2338_stage02_kernel_session.md",
+  "research_report": "reports/research/stage02_kernel_estimation.md",
+  "no_test_research_rows": true,
+  "no_stage3_solver": true
+}

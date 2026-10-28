@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "eta": 0,
+      "maximum_matrix_difference": 0.0
+    },
+    {
+      "eta": 0.5,
+      "maximum_matrix_difference": 0.0
+    },
+    {
+      "eta": 1,
+      "maximum_matrix_difference": 0.0
+    }
+  ],
+  "rule": "Actual fresh refits under read-once loader; no model overwrite or reselection"
+}

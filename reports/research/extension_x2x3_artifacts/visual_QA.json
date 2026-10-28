@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-28T16:57:54.779220+00:00",
+  "images": 10,
+  "checks": "All ten actual PNGs inspected: units/axes, complete tails and zeros, labels/legend/clipping, posthoc overlays and carried state. Overlapping tradeoff labels corrected before final inspection.",
+  "files": {
+    "figures/extension_x2x3/active_scenarios.png": "812b17535c9ac993246fc18f8cd3fb33348975a9ad053a488010159121e850ae",
+    "figures/extension_x2x3/committed_paths.png": "f848b45222d9141ba1dee492deb96db959bb4a84dfd2ab92e84634cac58a8b23",
+    "figures/extension_x2x3/development_participation.png": "dd7d8bf6cca1214c951e64d48d1026ffd0ae85f95f1dddf2ec58f7e49d8fe825",
+    "figures/extension_x2x3/development_tradeoff.png": "ee6866140886019417fb3987d933e6689e64b9fd70cd62cc2764c5ce9d67217d",
+    "figures/extension_x2x3/development_worlds.png": "1315ed738b1af0f129ab2b9bf93349eeebc52e2639e04e6f12249e573cc3a0fa",
+    "figures/extension_x2x3/holdout_participation.png": "8a750b4bfde8afc7332357887ee5c7d9b2926e6fee937ae89b19c1cc22039fee",
+    "figures/extension_x2x3/holdout_tradeoff.png": "dae243e84dfed115ef6f91913b0f7cca697a61a883a7f9f6507879fa4cc28b4a",
+    "figures/extension_x2x3/holdout_worlds.png": "a194213da460b0441bbea42f204457f1e8f4a447fbd185f6d0d4767be2e5c096",
+    "figures/extension_x2x3/joint_paths.png": "cba7ee9d64e3caeb697ee0ba3667c91b7c69b09ed0265dae9db74144955e924e",
+    "figures/extension_x2x3/kernel_ambiguity.png": "8d501493823f80506286032af9e3693402caba6c50957143da38f94c0fb1146d"
+  }
+}

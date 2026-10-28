@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-28T19:43:40.556338+00:00",
+  "method": "All five rendered PNGs viewed; labels, axes, intervals, legends and layout inspected. Adverse illustration explicitly posthoc largest A0 overload, no model selection.",
+  "images": {
+    "figures/extension_a/adverse_participation_tails.png": "b6899274cce85835fc67506526046bd3e56d92e257d3f22c678ec37139627071",
+    "figures/extension_a/committed_inventory_overload.png": "730a78c13ef6a3b41307b526143904ea731a50a323c2c41eea0b93d2b281d8a8",
+    "figures/extension_a/independent_world_cost_intervals.png": "19b40fa6f5d153b3b5a0fcd21a0975f08ac2afc228e8cdd09f820da29d460560",
+    "figures/extension_a/response_parameter_stability.png": "804fe96813dbdd8494eb2b5bb4359aa4cbcec316f7d35285b24b6708be117bc8",
+    "figures/extension_a/state_kernel_curves.png": "296d0dd3991354e9e03fc1923a36fcc2043f3a4bf7fd3b4633909965f5c45dea"
+  }
+}

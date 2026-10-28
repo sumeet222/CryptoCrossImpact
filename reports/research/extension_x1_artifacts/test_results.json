@@ -1,0 +1,14 @@
+{
+  "command": ".venv/bin/python -m pytest tests/test_extension_x1.py tests/test_stage01.py tests/test_stage02_kernel.py tests/test_stage03_execution.py tests/test_stage04_policies.py tests/test_stage05_evaluation.py tests/test_stage05_v2.py -m 'not integration' -q --junitxml=reports/research/extension_x1_artifacts/pytest.xml",
+  "passed": 202,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "deselected": 2,
+  "warnings": 4,
+  "X1_tests": 36,
+  "seconds": 19.494,
+  "not_run": "Stage1 integration tests that open 2026 source pilots",
+  "interim_failure": "One temporary IndentationError during code editing was corrected before pilot/numerical lock; final suite passes.",
+  "zero_volume_regression": "PASS; explicit JSON-safe infeasibility, unchanged cash"
+}

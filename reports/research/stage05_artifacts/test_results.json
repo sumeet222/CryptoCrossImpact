@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-28T03:36:18.398389+00:00",
+  "passed": 83,
+  "failed": 0,
+  "new_pretest_tests": 8,
+  "prior_stage03_04_regressions": 75,
+  "seconds": 9.803,
+  "command_argv": [
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "tests/test_stage05_evaluation.py",
+    "tests/test_stage03_execution.py",
+    "tests/test_stage04_policies.py",
+    "-q",
+    "--junitxml=reports/research/stage05_artifacts/pytest.xml"
+  ],
+  "test_source_sha256": {
+    "tests/test_stage05_evaluation.py": "51338d9a387b264c11645b6b62236e41939c09c08553b143323fc421aad7e564",
+    "tests/test_stage03_execution.py": "498fdd10f8abb4dca7f4bf0e5c906146983e3c7aed5bf7a53da89f7317d2a1dc",
+    "tests/test_stage04_policies.py": "e7ea388d4f409d361a17afa67f7f5eda1a573e08d7d31f06e15e349bb8476837"
+  },
+  "test_2026_canonical_reads": 0,
+  "scope": "Barrier/evidence and prior-stage mathematics/policies; not Stage 5 OOS/scorer/inference validation"
+}

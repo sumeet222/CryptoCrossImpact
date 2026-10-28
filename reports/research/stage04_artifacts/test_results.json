@@ -1,0 +1,27 @@
+{
+  "passed": 116,
+  "failed": 0,
+  "deselected_integration": 2,
+  "stage04_cases": 30,
+  "prior_stage_cases": 86,
+  "seconds": 8.642,
+  "test_sha256": {
+    "tests/test_stage03_execution.py": "498fdd10f8abb4dca7f4bf0e5c906146983e3c7aed5bf7a53da89f7317d2a1dc",
+    "tests/test_stage01.py": "79089f031d0cedbcc9c2ced9d0418387872a907b05f9800ecdcd60ccc291c466",
+    "tests/test_stage04_policies.py": "e7ea388d4f409d361a17afa67f7f5eda1a573e08d7d31f06e15e349bb8476837",
+    "tests/test_stage02_kernel.py": "7bbfe57170047d0b8a3c1848bfb366aef64c4d24550cb48ccd090c141d587a11"
+  },
+  "command_argv": [
+    ".venv/bin/python",
+    "-m",
+    "pytest",
+    "tests/test_stage04_policies.py",
+    "tests/test_stage03_execution.py",
+    "tests/test_stage02_kernel.py",
+    "tests/test_stage01.py",
+    "-m",
+    "not integration",
+    "-q",
+    "--junitxml=reports/research/stage04_artifacts/pytest.xml"
+  ]
+}

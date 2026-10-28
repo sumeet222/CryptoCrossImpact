@@ -1,0 +1,38 @@
+specification: CryptoCrossImpact_Research_Specification_v1_2026-10-27.md
+seed: 20261027
+data:
+  provider: Binance
+  market: futures/um
+  contract: perpetual
+  price_type: last_trade
+  interval: 1m
+  symbols: [BTCUSDT, ETHUSDT]
+  start: '2024-01-01'
+  end: '2026-06-30'
+  base_url: https://data.binance.vision
+  monthly_template: '{base_url}/data/futures/um/monthly/klines/{symbol}/1m/{symbol}-1m-{period}.zip'
+  daily_template: '{base_url}/data/futures/um/daily/klines/{symbol}/1m/{symbol}-1m-{period}.zip'
+  trades_template: '{base_url}/data/futures/um/daily/aggTrades/{symbol}/{symbol}-aggTrades-{period}.zip'
+splits:
+  train: ['2024-01-01', '2025-06-30']
+  validation: ['2025-07-01', '2025-12-31']
+  test: ['2026-01-01', '2026-06-30']
+pilot_months: ['2024-05', '2025-10', '2026-05']
+audit_dates: ['2024-05-06', '2024-11-04', '2025-05-05', '2025-08-04', '2025-11-03', '2026-02-02', '2026-05-04']
+resources:
+  warn_bytes: 25000000000
+  stop_bytes: 30000000000
+  initial_bytes: 13000000
+  max_archive_bytes: 1000000000
+  max_uncompressed_bytes: 4000000000
+http:
+  attempts: 3
+  timeout_seconds: 60
+qc:
+  # Float64 arithmetic/decimal reporting allowance: 1e-8 absolute plus
+  # 1e-12 relative in each field's units. Values are never clipped.
+  absolute_tolerance: 1.0e-8
+  relative_tolerance: 1.0e-12
+  # Diagnostic flags only; never economic exclusions or model-selection rules.
+  jump_log_threshold: 0.05
+  stale_run_minutes: 30

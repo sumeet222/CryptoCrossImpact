@@ -1,0 +1,41 @@
+{
+  "utc": "2026-10-28T05:15:16.069989+00:00",
+  "status": "PASS",
+  "pretest_ready_sha256": "f92f88dce604d11109e0699abe4bf2cc0278f0204dba2ba1bc3a12d53853645d",
+  "lock_sha256": "5ac1646ab235f841c8e4c5454099ad09f5a6e6d434009853853e18b1987b3507",
+  "original_v1_lock_unchanged": true,
+  "all_47_historical_bindings_verified": true,
+  "canonical_partitions_stat_unchanged": 60,
+  "primary_statistics_unchanged": true,
+  "all_numeric_source_bindings_unchanged": true,
+  "seven_reviewed_figures_unchanged_after_final_render": true,
+  "markdown_local_links_exist": true,
+  "whitespace_check_paths": 16,
+  "non_scientific_whitespace_warning": [
+    {
+      "path": "src/cryptocrossimpact/evaluation/v2_features.py",
+      "output": "/Users/pradeepgupta/Desktop/Quant /Projects/CryptoCrossImpact/src/cryptocrossimpact/evaluation/v2_features.py:131: new blank line at EOF.\n"
+    }
+  ],
+  "warning_disposition": "Retain immutable numerical code; cosmetic EOF blank line only",
+  "full_run_elapsed_seconds": 2111.869920374942,
+  "full_run_peak_rss_bytes_macos": 709574656,
+  "project_bytes": 1293440797,
+  "retained_additional_bytes": 268939148,
+  "approximate_peak_additional_disk_upper_bound_bytes": 500000000,
+  "peak_disk_continuously_sampled": false,
+  "git_revision": "6d5639af60649a80b9dccffeaf63d99a49d4b780",
+  "git_dirty_status": "?? .gitignore\n?? README.md\n?? SPEC_CHANGELOG.md\n?? configs/\n?? data/\n?? docs/\n?? figures/\n?? prompts/\n?? pytest.ini\n?? references/\n?? reports/\n?? requirements.txt\n?? results/\n?? scripts/\n?? src/\n?? tests/\n",
+  "funding_included": false,
+  "stage6_started": false,
+  "artifact_sha256": {
+    "README.md": "04851f8321cb3400bc11cafe9617d25d5ed43977afc9faa3885bab7e79c82106",
+    "reports/research/stage05_oos_exfunding_v2.md": "616b12fb9ec48fa43a8c8ffad7eab1aa68df53cdd93ed09b110c9215e3ffe6b0",
+    "reports/sessions/20261028_0406_stage05_v2_recovery_session.md": "4c0864888802c76d084b737c00924d438d9614b3e8ee05c0e7f2123158259581",
+    "reports/research/stage05_v2_artifacts/run_all_v2.json": "4fd64e536ae96be6ee34e2aa59bbcae57c7a8d434aef9cee48df825a142ba6ad",
+    "reports/research/stage05_v2_artifacts/run_report_v2.json": "aa6cf4cbd947e54d08796179de1a3e25dad28f201d0b600c7a3fbd9cabb7f066",
+    "reports/research/stage05_v2_artifacts/robustness_output_audit_v2.json": "8c592f104be8213d4f4e3fc8c1edb14cd6a3e4254986973e734f342ad023edeb",
+    "reports/research/stage05_v2_artifacts/preservation_end_v2.json": "3f1bd6d34f8d49a144b2846137bf0306541a0096b773130a3c5b4ec2d72b6743",
+    "results/experiment_index.csv": "482675c557591ed1142b6ed62dc944846b6c976bdb65365f1b3a337ed418557c"
+  }
+}

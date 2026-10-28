@@ -1,0 +1,27 @@
+{
+  "G3": "PASS",
+  "V1": "REPRODUCED",
+  "V1_scope": "required zero and exponential deterministic cases; fractional pointwise terminal figure agreement QUALIFIED",
+  "V1_fractional": "QUALIFIED",
+  "V2": "PASS",
+  "economic_hypotheses": "NOT_EVALUATED",
+  "stage4_started": false,
+  "market_data_rows_loaded": 0,
+  "canonical_preservation": {
+    "status": "PASS",
+    "checked_at_utc": "2026-10-28T02:01:02.680962+00:00",
+    "protected_hash_files": 105,
+    "canonical_stat_only_partitions": 60,
+    "changed": [],
+    "canonical_outcome_bytes_read": 0,
+    "documentation_edits_excluded": [
+      "README.md",
+      "SPEC_CHANGELOG.md"
+    ]
+  },
+  "stage02_model_sha256": {
+    "A": "6225fb1d45db0da80951ea0dede6258a591af73e1e32eabcfb8de72343ad5757",
+    "B": "3ea9516b8d0c9702efceb5e26e0f02564c2422d2c450e9155b7c967c406e7877"
+  },
+  "unresolved": "Optional fractional terminal collocation-point figure fidelity; public-flow causal identification and Stage 2 upper-bound decay/penalty uncertainty remain scientific limits."
+}

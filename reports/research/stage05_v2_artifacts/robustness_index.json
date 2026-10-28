@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE",
+  "primary_index_sha256": "87d32c18a2879026b6a7cc06a08416888bfdf1e19b620fa3d7c46bb8ed741b6c",
+  "variants": [
+    "theta_zero",
+    "theta_two",
+    "size_005",
+    "size_01",
+    "size_05",
+    "cap_05",
+    "cap_20",
+    "horizon_30",
+    "horizon_120",
+    "fixed_100k",
+    "fixed_June_2025"
+  ],
+  "cost_scope": "modeled_execution_shortfall_excluding_funding"
+}

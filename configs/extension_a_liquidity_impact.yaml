@@ -1,0 +1,25 @@
+version: A1.0
+seed: 20261027
+eta_candidates: [0, 0.5, 1]
+taus_B: [60]
+taus_E1: [5, 30]
+ridge: 1
+memory: 60
+tail_sensitivity: 120
+state_clip: [0.5, 2]
+reference: positive_median_previous_28_complete_days_at_month_start
+initial_state_warmup: identity_until_first_month_with_28_complete_days
+training_end: '2025-07-01T00:00:00Z'
+development_end: '2026-01-01T00:00:00Z'
+minimum_response_gain: 0.005
+tie_relative_mse: 0.001
+lambda_liq: 25
+cvar_alpha: 0.9
+joint_paths: 12
+cadence: 5
+horizon: 60
+bootstrap_days: 7
+bootstrap_draws: 500
+optional_confirmation: conditional_not_required
+confirmation_start: '2026-10-01T00:00:00Z'
+confirmation_end: '2026-10-26T00:00:00Z'

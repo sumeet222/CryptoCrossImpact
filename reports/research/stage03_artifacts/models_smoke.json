@@ -1,0 +1,374 @@
+{
+  "status": "PASS",
+  "models": [
+    {
+      "model": "A",
+      "source_sha256": "6225fb1d45db0da80951ea0dede6258a591af73e1e32eabcfb8de72343ad5757",
+      "asset_order": [
+        "BTCUSDT",
+        "ETHUSDT"
+      ],
+      "identified_schema": "stage02-kernel-implicit-v1 (known complete key set, hash-bound)",
+      "status": "optimal",
+      "diagnostics": {
+        "terminal_residual_usdt": [
+          4.656612873077393e-10,
+          0.0
+        ],
+        "minimum_sale_usdt": 6037.890025239868,
+        "minimum_cap_slack_usdt": 22589.04142135335,
+        "normalized_primal_residual": 1.940255363782247e-16,
+        "relative_stationarity_residual": 8.448198898965467e-16,
+        "scaled_complementarity_residual": 0.0,
+        "relative_objective_decomposition_residual": 3.44298710167929e-16,
+        "risk_reference_raw": 241506320.0,
+        "risk_multiplier": 1.5403323606603752e-06,
+        "effective_theta": 1,
+        "zero_risk_fallback": false,
+        "impact_hessian": {
+          "min_eigenvalue": 8.196553361281499e-14,
+          "max_eigenvalue": 3.1290176255222563e-09,
+          "relative_min_eigenvalue": 2.619529303518523e-05,
+          "condition_number": 38174.7972300524,
+          "relative_tolerance": 1e-09
+        },
+        "total_hessian": {
+          "min_eigenvalue": 1.000852543180336e-09,
+          "max_eigenvalue": 1.383052678726537e-08,
+          "relative_min_eigenvalue": 0.07236546796625877,
+          "condition_number": 13.81874570984964,
+          "relative_tolerance": 1e-09
+        },
+        "objective_scale_usdt": 372.0,
+        "decision_scale_usdt": [
+          2400000.0,
+          1320000.0
+        ],
+        "iterations": 75,
+        "convention": "exact_exponential_cells",
+        "delta_minutes": 1,
+        "covariance_semantics": "per-minute rate multiplied by delta for each bin",
+        "input_semantics": "declared ex-ante or synthetic; no market-data I/O"
+      }
+    },
+    {
+      "model": "B",
+      "source_sha256": "3ea9516b8d0c9702efceb5e26e0f02564c2422d2c450e9155b7c967c406e7877",
+      "asset_order": [
+        "BTCUSDT",
+        "ETHUSDT"
+      ],
+      "identified_schema": "stage02-kernel-implicit-v1 (known complete key set, hash-bound)",
+      "status": "optimal",
+      "diagnostics": {
+        "terminal_residual_usdt": [
+          9.313225746154785e-10,
+          0.0
+        ],
+        "minimum_sale_usdt": 6682.006514418869,
+        "minimum_cap_slack_usdt": 22271.971795768783,
+        "normalized_primal_residual": 3.880510727564494e-16,
+        "relative_stationarity_residual": 1.4453804276147098e-15,
+        "scaled_complementarity_residual": 0.0,
+        "relative_objective_decomposition_residual": 3.385304070535405e-16,
+        "risk_reference_raw": 241506320.0,
+        "risk_multiplier": 1.5403323606603752e-06,
+        "effective_theta": 1,
+        "zero_risk_fallback": false,
+        "impact_hessian": {
+          "min_eigenvalue": 4.079199119397187e-14,
+          "max_eigenvalue": 3.229115655591721e-09,
+          "relative_min_eigenvalue": 1.2632558119537814e-05,
+          "condition_number": 79160.53031676746,
+          "relative_tolerance": 1e-09
+        },
+        "total_hessian": {
+          "min_eigenvalue": 1.0008445218472648e-09,
+          "max_eigenvalue": 1.3981390492113129e-08,
+          "relative_min_eigenvalue": 0.07158404755319858,
+          "condition_number": 13.969592865740616,
+          "relative_tolerance": 1e-09
+        },
+        "objective_scale_usdt": 372.0,
+        "decision_scale_usdt": [
+          2400000.0,
+          1320000.0
+        ],
+        "iterations": 75,
+        "convention": "exact_exponential_cells",
+        "delta_minutes": 1,
+        "covariance_semantics": "per-minute rate multiplied by delta for each bin",
+        "input_semantics": "declared ex-ante or synthetic; no market-data I/O"
+      }
+    }
+  ],
+  "U_rejected": true,
+  "market_data_rows_loaded": 0,
+  "synthetic_inputs": {
+    "initial": [
+      2400000.0,
+      1320000.0
+    ],
+    "forecast": [
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ],
+      [
+        2000000,
+        1100000
+      ]
+    ],
+    "covariance_per_minute": [
+      [
+        1e-06,
+        4e-07
+      ],
+      [
+        4e-07,
+        2e-06
+      ]
+    ],
+    "kwargs": {
+      "delta_minutes": 1,
+      "cap_fraction": 0.1,
+      "kappa": 0.001,
+      "theta": 1,
+      "fee_bps": 5,
+      "half_spread_bps": 1,
+      "convention": "exact_exponential_cells"
+    }
+  }
+}

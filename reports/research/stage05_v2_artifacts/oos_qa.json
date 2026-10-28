@@ -1,0 +1,20 @@
+{
+  "nominal": 724,
+  "scored_episodes": 724,
+  "coverage_statuses": {
+    "SCORED": 724
+  },
+  "score_rows": 47784,
+  "policy_count": 6,
+  "world_count": 11,
+  "negative_cash_rows": 15273,
+  "maximum_terminal_residual_usdt": 3.166496753692627e-08,
+  "maximum_normalized_primal_residual": 3.107293095562489e-15,
+  "maximum_stationarity": 2.353903937857993e-15,
+  "maximum_decomposition_residual": 1.0729670382871009e-15,
+  "maximum_realized_participation": 1.4668373196201816,
+  "zero_volume_cells_with_repetition_across_worlds": 0,
+  "participation_over10pct_cells_E1": 18282,
+  "funding_included": false,
+  "all_in_estimated": false
+}

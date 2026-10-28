@@ -1,0 +1,20 @@
+{
+  "recorded_at_utc": "2026-10-28T02:00:55.448181+00:00",
+  "command": ".venv/bin/python -m pytest tests/test_stage03_execution.py -q",
+  "passed": 45,
+  "failed": 0,
+  "skipped": 0,
+  "duration_seconds": 2.86,
+  "scope": "Stage 3 mathematical tests; no market-data rows",
+  "checked": "Table1/penalty/signed controls; independent analytic/Galerkin/cell quadrature; PSD/cash factors; hard liquidation and ACTIVE caps; covariance-rate convergence; independent backend; schema/U/market/outcome-path firewall",
+  "working_code_sha256": {
+    "src/cryptocrossimpact/execution/__init__.py": "11b384ae21064879509f85362fc8c39a7625d16ae57b3444e841e2150d7e710f",
+    "src/cryptocrossimpact/execution/ajnt_benchmark.py": "88308d703b3bb65847c44f068898b80f9464d5037dc22a2577d781c276a4c08a",
+    "src/cryptocrossimpact/execution/impact_cost.py": "a46feb89652b6f8c903be1b08909b8c74ce901b374cd31c3667f9426f7191813",
+    "src/cryptocrossimpact/execution/reporting.py": "fd8585e3f0f3a4d1d0a8addca724f400d74952be8068321f3ce6d83b684eb59e",
+    "src/cryptocrossimpact/execution/solver.py": "eedfca042ff25193561700d1879505632510c88a870a29c08fa33c95b2cb4e76",
+    "src/cryptocrossimpact/execution/verification.py": "1a969a5ec76c259c1b426a3f37307331c6095cb8e3756ed52d8c4e1e3b28a747",
+    "scripts/stage03.py": "00b7aefacd7ea630701bfcc81d95965444ddd47af477f995e2a779be60c29843",
+    "tests/test_stage03_execution.py": "498fdd10f8abb4dca7f4bf0e5c906146983e3c7aed5bf7a53da89f7317d2a1dc"
+  }
+}

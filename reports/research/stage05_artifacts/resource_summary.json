@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-28T03:36:18.398389+00:00",
+  "initial_project_bytes": 1024339239,
+  "retained_project_bytes": 1024468752,
+  "retained_additional_bytes": 129513,
+  "preflight_peak_rss_bytes": 171098112,
+  "preflight_body_seconds_excluding_startup": 0.026409125071950257,
+  "pytest_peak_rss": "not instrumented",
+  "new_dependencies_installed": 0,
+  "new_canonical_partitions": 0,
+  "raw_source_probe_bytes": 33577,
+  "peak_additional_disk_estimate_upper_bound_bytes": 1000000
+}

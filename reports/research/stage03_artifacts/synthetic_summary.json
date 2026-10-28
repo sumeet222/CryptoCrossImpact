@@ -1,0 +1,172 @@
+{
+  "label": "CONSTRAINED_SCENARIO_QP",
+  "status": "PASS",
+  "cases": [
+    {
+      "model": "A",
+      "components": {
+        "transient_usdt": 115.90400195488891,
+        "temporary_usdt": 127.30942459343393,
+        "risk_preference_usdt": 148.6455303469911,
+        "fee_usdt": 1859.9999999999995,
+        "spread_usdt": 371.99999999999994,
+        "drift_usdt": -0.0,
+        "raw_inventory_risk_usdt_squared": 96502244.67352189,
+        "objective_usdt": 2623.8589568953134,
+        "scenario_cash_cost_excluding_risk_usdt": 2475.2134265483223
+      },
+      "diagnostics": {
+        "terminal_residual_usdt": [
+          4.656612873077393e-10,
+          0.0
+        ],
+        "minimum_sale_usdt": 5274.627499186421,
+        "minimum_cap_slack_usdt": 36924.69434652495,
+        "normalized_primal_residual": 1.940255363782247e-16,
+        "relative_stationarity_residual": 1.0557862874983481e-15,
+        "scaled_complementarity_residual": 0.0,
+        "relative_objective_decomposition_residual": 1.733124220306967e-16,
+        "risk_reference_raw": 241506320.0,
+        "risk_multiplier": 1.5403323606603752e-06,
+        "effective_theta": 1,
+        "zero_risk_fallback": false,
+        "impact_hessian": {
+          "min_eigenvalue": 8.196553361281499e-14,
+          "max_eigenvalue": 3.1290176255222563e-09,
+          "relative_min_eigenvalue": 2.619529303518523e-05,
+          "condition_number": 38174.7972300524,
+          "relative_tolerance": 1e-09
+        },
+        "total_hessian": {
+          "min_eigenvalue": 8.015192241409293e-10,
+          "max_eigenvalue": 1.3828860740500802e-08,
+          "relative_min_eigenvalue": 0.05795988832207322,
+          "condition_number": 17.253311366701922,
+          "relative_tolerance": 1e-09
+        },
+        "objective_scale_usdt": 372.0,
+        "decision_scale_usdt": [
+          2400000.0,
+          1320000.0
+        ],
+        "iterations": 75,
+        "convention": "exact_exponential_cells",
+        "delta_minutes": 1,
+        "covariance_semantics": "per-minute rate multiplied by delta for each bin",
+        "input_semantics": "declared ex-ante or synthetic; no market-data I/O"
+      }
+    },
+    {
+      "model": "B",
+      "components": {
+        "transient_usdt": 160.03499762404826,
+        "temporary_usdt": 125.22184247727554,
+        "risk_preference_usdt": 152.063954218639,
+        "fee_usdt": 1860.0,
+        "spread_usdt": 372.0,
+        "drift_usdt": -0.0,
+        "raw_inventory_risk_usdt_squared": 98721521.47309673,
+        "objective_usdt": 2669.3207943199627,
+        "scenario_cash_cost_excluding_risk_usdt": 2517.2568401013236
+      },
+      "diagnostics": {
+        "terminal_residual_usdt": [
+          0.0,
+          0.0
+        ],
+        "minimum_sale_usdt": 5556.4185314962615,
+        "minimum_cap_slack_usdt": 36441.19819636387,
+        "normalized_primal_residual": 0.0,
+        "relative_stationarity_residual": 8.25884208992463e-16,
+        "scaled_complementarity_residual": 0.0,
+        "relative_objective_decomposition_residual": 0.0,
+        "risk_reference_raw": 241506320.0,
+        "risk_multiplier": 1.5403323606603752e-06,
+        "effective_theta": 1,
+        "zero_risk_fallback": false,
+        "impact_hessian": {
+          "min_eigenvalue": 4.079199119397187e-14,
+          "max_eigenvalue": 3.229115655591721e-09,
+          "relative_min_eigenvalue": 1.2632558119537814e-05,
+          "condition_number": 79160.53031676746,
+          "relative_tolerance": 1e-09
+        },
+        "total_hessian": {
+          "min_eigenvalue": 8.015056786907631e-10,
+          "max_eigenvalue": 1.3976483042893623e-08,
+          "relative_min_eigenvalue": 0.05734673567241157,
+          "condition_number": 17.437784178552313,
+          "relative_tolerance": 1e-09
+        },
+        "objective_scale_usdt": 372.0,
+        "decision_scale_usdt": [
+          2400000.0,
+          1320000.0
+        ],
+        "iterations": 75,
+        "convention": "exact_exponential_cells",
+        "delta_minutes": 1,
+        "covariance_semantics": "per-minute rate multiplied by delta for each bin",
+        "input_semantics": "declared ex-ante or synthetic; no market-data I/O"
+      }
+    },
+    {
+      "model": "B_same_self_zero_cross_synthetic",
+      "components": {
+        "transient_usdt": 102.99762549955209,
+        "temporary_usdt": 127.9875340568234,
+        "risk_preference_usdt": 147.6371143257336,
+        "fee_usdt": 1859.9999999999998,
+        "spread_usdt": 371.99999999999994,
+        "drift_usdt": -0.0,
+        "raw_inventory_risk_usdt_squared": 95847570.36620216,
+        "objective_usdt": 2610.622273882109,
+        "scenario_cash_cost_excluding_risk_usdt": 2462.985159556375
+      },
+      "diagnostics": {
+        "terminal_residual_usdt": [
+          -4.656612873077393e-10,
+          2.3283064365386963e-10
+        ],
+        "minimum_sale_usdt": 5122.25182196615,
+        "minimum_cap_slack_usdt": 36866.502768007515,
+        "normalized_primal_residual": 1.940255363782247e-16,
+        "relative_stationarity_residual": 8.502069472191483e-16,
+        "scaled_complementarity_residual": 0.0,
+        "relative_objective_decomposition_residual": 3.4838234196955284e-16,
+        "risk_reference_raw": 241506320.0,
+        "risk_multiplier": 1.5403323606603752e-06,
+        "effective_theta": 1,
+        "zero_risk_fallback": false,
+        "impact_hessian": {
+          "min_eigenvalue": 7.399871832529657e-14,
+          "max_eigenvalue": 2.7002682670837733e-09,
+          "relative_min_eigenvalue": 2.7404209880677322e-05,
+          "condition_number": 36490.743734417934,
+          "relative_tolerance": 1e-09
+        },
+        "total_hessian": {
+          "min_eigenvalue": 8.015058435607123e-10,
+          "max_eigenvalue": 1.3455205525618758e-08,
+          "relative_min_eigenvalue": 0.059568457875626084,
+          "condition_number": 16.78740789442486,
+          "relative_tolerance": 1e-09
+        },
+        "objective_scale_usdt": 372.0,
+        "decision_scale_usdt": [
+          2400000.0,
+          1320000.0
+        ],
+        "iterations": 75,
+        "convention": "exact_exponential_cells",
+        "delta_minutes": 1,
+        "covariance_semantics": "per-minute rate multiplied by delta for each bin",
+        "input_semantics": "declared ex-ante or synthetic; no market-data I/O"
+      }
+    }
+  ],
+  "input_kind": "entirely synthetic ex-ante rate/covariance arrays; development A/B model JSON only",
+  "same_inputs": true,
+  "interpretation": "Each row uses its own assumed objective; no cost-saving/policy claim or cross-scored replay",
+  "self_coefficient_note": "Calibrated A/B self diagonals differ. The extra B-diagonal synthetic limit holds B self terms fixed; not a Stage 4 strategy."
+}

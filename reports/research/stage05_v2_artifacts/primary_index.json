@@ -1,0 +1,116 @@
+{
+  "status": "PRIMARY_FROZEN",
+  "months": [
+    {
+      "month": "2026-01",
+      "nominal": 124,
+      "scored": 124,
+      "statuses": {
+        "SCORED": 124
+      },
+      "score_rows": 8184,
+      "cost_scope": "modeled_execution_shortfall_excluding_funding",
+      "output_sha256": {
+        "scores.parquet": "4ade067e9c99a600527ac1d65efef969f43475dfeadc7ca12aeca7a80bbcdb38",
+        "decisions.jsonl": "514eb031f647b797ff3ed3b6ac180f479d8ed2fdcd3d59cb138317bc2d08fc3f",
+        "decisions_closed.json": "63d4f85cbefc7b336a3eb02c1a58cf6a597c998ef0bda9395c908803b7ef4975",
+        "h1_daily.csv": "9cad733516e921bb28418cb2b8d3c2552b8018af859f8b0b9c1b08f593ba9591",
+        "coverage.csv": "39686f3dc2d40d89da4bf017f8615c55653955f100d1e0ec9b960477925eb02d",
+        "asof_registry.json": "90149da1fbfbdd32fc190d9741b740236be9a32606a7659a73e6c84bcc43e5e7"
+      }
+    },
+    {
+      "month": "2026-02",
+      "nominal": 112,
+      "scored": 112,
+      "statuses": {
+        "SCORED": 112
+      },
+      "score_rows": 7392,
+      "cost_scope": "modeled_execution_shortfall_excluding_funding",
+      "output_sha256": {
+        "scores.parquet": "15eb70ebc6260487b424e6ebcfe737120f9fdd584213f69da8df279f9d94743d",
+        "decisions.jsonl": "8d4a8167f863f5b30f0d26ce6ab80d0d48c72d0da3b7b2d2b74eb567fb7935ef",
+        "decisions_closed.json": "15bf940d2f62b2f2ca325cc1e2c15257d3da88a9c771f9c7f551c9471bbef194",
+        "h1_daily.csv": "e1ff68326e4a003ed64017da762fbf4e2d99f4c3953a6bbad10672f77e87a713",
+        "coverage.csv": "51e85d626c853d9569e43aa07200124b0509ca0878f491c7d6d743c249d5e7b8",
+        "asof_registry.json": "87089b10bc9b2b2937a8ce970c92a3853b59eb80088f5942ecd56af444c7198d"
+      }
+    },
+    {
+      "month": "2026-03",
+      "nominal": 124,
+      "scored": 124,
+      "statuses": {
+        "SCORED": 124
+      },
+      "score_rows": 8184,
+      "cost_scope": "modeled_execution_shortfall_excluding_funding",
+      "output_sha256": {
+        "scores.parquet": "2b3d4ad5d0135277072934f28b39b6d58beab5494c82825bd0f232adeeb4e7ca",
+        "decisions.jsonl": "3982960a04d19735a072bb8869b55cf16ea2ac6405a63d7917bf66cbd2acaed3",
+        "decisions_closed.json": "468ff3e98b7070be61dbb6d4db8b9e2e7dc4796402c5689aace7cb4fabfdcbfb",
+        "h1_daily.csv": "11cdeb1163de8b0be1d1d80247e66817b27519e993569b4852a60c8ea0e4da1f",
+        "coverage.csv": "0a1a8025478e48aa0c81e06e3874a58c8d42957894bd39e45fe4c6b9e0fecb5f",
+        "asof_registry.json": "7f234154826ecd70854b22a63817708e4f59b3eeb6156c4ba999066a71920e30"
+      }
+    },
+    {
+      "month": "2026-04",
+      "nominal": 120,
+      "scored": 120,
+      "statuses": {
+        "SCORED": 120
+      },
+      "score_rows": 7920,
+      "cost_scope": "modeled_execution_shortfall_excluding_funding",
+      "output_sha256": {
+        "scores.parquet": "254706fc90f51ebf81e1e88152bb71524e32d5dad73852b33aca6fb8942804fc",
+        "decisions.jsonl": "cc9f4f6cc4f381e71e2732a7e624e160981413f84c7c0cdb7b5529ad2ecbfecd",
+        "decisions_closed.json": "8a30070e4c8800eeafdb1431a6547c2e63aa091ae8f9067f53517fdd17f77098",
+        "h1_daily.csv": "25c6ff3bb1972d229f75ea9c8f6278212868d769abaf458e9804ce0c28d00988",
+        "coverage.csv": "19767825209a20f719f8a09972c9f872f23bdb70ccd8dcd94abf32233f9829e8",
+        "asof_registry.json": "b212ea33f8791ac9bacf5360afe2277d5dcab8cdf3e27a433777bc7c38914282"
+      }
+    },
+    {
+      "month": "2026-05",
+      "nominal": 124,
+      "scored": 124,
+      "statuses": {
+        "SCORED": 124
+      },
+      "score_rows": 8184,
+      "cost_scope": "modeled_execution_shortfall_excluding_funding",
+      "output_sha256": {
+        "scores.parquet": "cf75679ef860c3223bed61640838176c6f3e1589cbc69905a2a9fdfe6cd97c50",
+        "decisions.jsonl": "45db3af08901951201f8f82b4b22e11e87099c29b172c779095f6a86e385684c",
+        "decisions_closed.json": "41eed81ded39ce63aba4ac87cab4746eeef1ec533ebb3acf74988d20c9a24f37",
+        "h1_daily.csv": "d07412e4e57945747ebc272738b1b16de155339a670f4b340364a22da2073530",
+        "coverage.csv": "a71929943548663c34d1c5560a6198c5631a2340cd78eeb1620844e58a7c5dbe",
+        "asof_registry.json": "f5ae67a2be251bec63049975869e81691685eb082bb221e9380670dcb464f670"
+      }
+    },
+    {
+      "month": "2026-06",
+      "nominal": 120,
+      "scored": 120,
+      "statuses": {
+        "SCORED": 120
+      },
+      "score_rows": 7920,
+      "cost_scope": "modeled_execution_shortfall_excluding_funding",
+      "output_sha256": {
+        "scores.parquet": "c44290a399e1ea0ea9a805fdcadfa088a09623034302055f4229e5ac4f6baa79",
+        "decisions.jsonl": "82ff1c0353a2c1c782f42f2def5f13cada042f3f3f53743b8d32f483db49ed2c",
+        "decisions_closed.json": "1602da2e64ff2daba61b432ab00ad7515ca741371059e30836a84276958e70fc",
+        "h1_daily.csv": "3a0b937f7b620437e24f2e41dbce5a374351ca50f9b16211b7c688c19dfeace3",
+        "coverage.csv": "4097e1a6f16075c3794a0d8671d52f433d9eecc2707e57b89e19e2547fa23169",
+        "asof_registry.json": "30ffb75271fd22d71ced2c00e6b0529de9027cc14e167080287dae1973324586"
+      }
+    }
+  ],
+  "cost_scope": "modeled_execution_shortfall_excluding_funding",
+  "ready_sha256": "f92f88dce604d11109e0699abe4bf2cc0278f0204dba2ba1bc3a12d53853645d",
+  "indexed_utc": "2026-10-28T04:39:48.542866+00:00"
+}

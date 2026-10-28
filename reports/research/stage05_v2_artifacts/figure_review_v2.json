@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-28T05:12:12.579557+00:00",
+  "status": "PASS",
+  "method": "Actual PNG visual inspection; clipped kernel labels and cash-legend overlap corrected",
+  "images": {
+    "figures/stage05_v2/E1_paired_contrasts.png": "9c039be9fcb83abe78e4d7a8c1551bef5fca9815765ce8c69b98c7edd0f6769c",
+    "figures/stage05_v2/cash_decomposition.png": "8b0ca8a71416dfcd61884f73bd8f2a9083d61403da03d938d385a67df9cb4a93",
+    "figures/stage05_v2/coverage.png": "d333c59f3cc1f6d29a8b65cadec69abe49c09bb9aca1d1062cc2782fc2af208a",
+    "figures/stage05_v2/h1_conditional_fit.png": "6c9fa8789b5ff6269fa17d45da603c9320e469e6b79df37939be243923434369",
+    "figures/stage05_v2/kernel_drift.png": "45768ed3a5fa3eb8740997eaa103a73b8ca9ba71a530293b8f6e43e95e45a5dd",
+    "figures/stage05_v2/representative_schedules.png": "5996c6a22ad0091a80263ba190dc070c2a95d017a6766015e5775c1c80bf7b73",
+    "figures/stage05_v2/scenario_heatmap.png": "907f9cca522ad8c19ea15249413f00d0c87cf586b63c40defe8c099b0007ec06"
+  },
+  "render_source_sha256": "77a8a3935c6e3f496fdbf8adb84cd8b083edac9b5deb0a491725bdb1f8e6c477"
+}

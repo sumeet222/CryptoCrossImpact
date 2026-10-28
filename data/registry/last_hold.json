@@ -1,0 +1,9 @@
+{
+  "command": "preflight",
+  "utc": "2026-10-27T22:28:44.665883+00:00",
+  "status": "NETWORK_ERROR",
+  "message": "ConnectionError: https://raw.githubusercontent.com/binance/binance-public-data/master/README.md",
+  "active": false,
+  "resolved_at_utc": "2026-10-27T22:39:03.692181+00:00",
+  "resolution": "Initial network sandbox DNS failure; successful approved direct source preflight, pilot and full acquisition followed. No provider restrictions were bypassed."
+}

@@ -1,0 +1,4 @@
+policy,scenario,replans,dominance_reduction_share,mean_predicted_remaining_CVaR,active_share
+G,B_fixed_June2025,4416,1.0,0.0,1.0
+GL,B_fixed_June2025,4416,1.0,0.009883761818807844,1.0
+GL-D,B_fixed_June2025,4416,1.0,0.009645175193013477,1.0

@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-28T16:01:47.084104+00:00",
+  "terms_url": "https://github.com/binance/binance-public-data/blob/master/TERMS_AND_CONDITIONS.md",
+  "terms_version": "1.0, August26 2026",
+  "current_primary_source_review": "academic/personal non-production research permitted under CC BY-NC-SA4.0; attribution/share-alike; no raw redistribution",
+  "project_use": "noncommercial academic/CV research",
+  "project_bytes_now": 1694526073,
+  "six_archive_upper_bound_bytes": 6000000000,
+  "storage_ceiling_bytes": 30000000000,
+  "new_source_values_opened": false,
+  "hypothetical_execution_only": true
+}

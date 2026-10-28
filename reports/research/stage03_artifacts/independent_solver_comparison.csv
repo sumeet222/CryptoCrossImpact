@@ -1,0 +1,4 @@
+model,primary,independent,max_schedule_error_over_inventory,relative_objective_difference
+A,OSQP,CLARABEL,1.1891400693760563e-11,1.7331242203069667e-16
+B,OSQP,CLARABEL,1.1859856385854074e-11,1.7036069694362673e-16
+B_same_self_zero_cross_synthetic,OSQP,CLARABEL,1.3056468918820787e-11,3.4838234196955275e-16

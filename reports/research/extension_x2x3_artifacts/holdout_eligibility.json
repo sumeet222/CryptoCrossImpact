@@ -1,0 +1,99 @@
+{
+  "status": "ELIGIBLE",
+  "utc": "2026-10-28T15:09:08.997859+00:00",
+  "dates": [
+    "2026-07-01T00:00:00Z",
+    "2026-10-01T00:00:00Z"
+  ],
+  "basis": "Affirmative original acquisition scope through June2026, complete prior-run/session lineage, Stage5 locked Jan\u2013Jun outcomes and X1 strict development-only read evidence; not file absence alone.",
+  "source_months": [
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08",
+    "2024-09",
+    "2024-10",
+    "2024-11",
+    "2024-12",
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06"
+  ],
+  "X1_data_period": "2024-01 through 2025-12 only",
+  "X1_manifest_sha256": "c7beb61ece175ec35299073cc69577bbb482196e636e98866461839a428ecf6f",
+  "stage5_verdict_sha256": "93a226396c412d327ef8bf5e117a759bc7ffe4ec4e322feb9e1ecfd81012d456",
+  "prior_session_scopes": [
+    {
+      "path": "reports/sessions/20261027_2338_stage02_kernel_session.md",
+      "sha256": "6da693e9bcc84530106d67cb48ab75a5332f2450d3f2e7270ba34fe88add75db",
+      "scope_assertions": []
+    },
+    {
+      "path": "reports/sessions/20261028_1427_X1_adaptive_liquidity_session.md",
+      "sha256": "145ea691e20d3d816b1d23b88243f4b93ef9bf3d2204b929570ebf6dd1ff6671",
+      "scope_assertions": [
+        "No2026 canonical partition opened, including no fresh July\u2013September holdout.",
+        "kernels/full adapted path control) were not begun. No fresh OOS confirmation."
+      ]
+    },
+    {
+      "path": "reports/sessions/20261028_0204_stage03_solver_session.md",
+      "sha256": "12491492b76d74061c4e641976736da017fd5db26ea1921af51270bdb767440a",
+      "scope_assertions": [
+        "**The 2026 final-test outcomes were not inspected, and no historical execution"
+      ]
+    },
+    {
+      "path": "reports/sessions/20261028_0406_stage05_v2_recovery_session.md",
+      "sha256": "4c0864888802c76d084b737c00924d438d9614b3e8ee05c0e7f2123158259581",
+      "scope_assertions": [
+        "Jan\u2013Jun 2026: **724/724 episodes, 4344 primary schedules, 47784 scores** across"
+      ]
+    },
+    {
+      "path": "reports/sessions/20261028_0333_stage05_oos_session.md",
+      "sha256": "734fedae70165db425c6f214a63840d6cb1140200a29066916dba5289240c724",
+      "scope_assertions": [
+        "no scientific result is inferred from a source-access failure. **2026 canonical",
+        "**No January\u2013June 2026 canonical outcomes opened; no Stage 6 work.**"
+      ]
+    },
+    {
+      "path": "reports/sessions/20261028_0314_stage04_policies_session.md",
+      "sha256": "a1366e22e70e9b4123afd4e257fe62156740004a8607c8f5c0252000cadf8c6d",
+      "scope_assertions": [
+        "**Stage 5 was not begun; January\u2013June 2026 canonical observations never opened.**",
+        "two-day July smoke completed **8 episodes / 48 schedules**. Full July\u2013December"
+      ]
+    },
+    {
+      "path": "reports/sessions/20261027_2239_stage01_data_session.md",
+      "sha256": "4ce65992a63c3a9bf2a1fb665e4d05ff6b31e856bc9927607d332a46ba7c5dab",
+      "scope_assertions": [
+        "2024-01-01\u20132026-06-30 UTC. Checked current official README, archive and dataset"
+      ]
+    }
+  ],
+  "suspicious_candidate_paths": [],
+  "new_holdout_values_opened": false,
+  "limitation": "Covers recorded work in this project, not unrecorded activity elsewhere."
+}

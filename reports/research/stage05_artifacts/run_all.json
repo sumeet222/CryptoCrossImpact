@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-28T03:32:29.207133+00:00",
+  "status": "PRETEST HOLD",
+  "command": "all",
+  "elapsed_seconds": 0.026409125071950257,
+  "peak_rss_bytes_macos": 171098112,
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "pyarrow": "26.0.0",
+    "scipy": "1.18.1",
+    "cvxpy": "1.9.3",
+    "pytest": "9.2.0"
+  },
+  "git_branch": "main",
+  "git_revision": "6d5639af60649a80b9dccffeaf63d99a49d4b780",
+  "dirty_status": "?? .gitignore\n?? README.md\n?? SPEC_CHANGELOG.md\n?? configs/\n?? data/\n?? docs/\n?? figures/\n?? prompts/\n?? pytest.ini\n?? references/\n?? reports/\n?? requirements.txt\n?? scripts/\n?? src/\n?? tests/\n",
+  "source_bindings": {
+    "scripts/stage05.py": "9a323667f6a82d1154cebd69e129f4335461a9cf7b2d25d54ad919eba2a13714",
+    "tests/test_stage05_evaluation.py": "51338d9a387b264c11645b6b62236e41939c09c08553b143323fc421aad7e564",
+    "src/cryptocrossimpact/evaluation/__init__.py": "9f9878158efe12ac539c831a2fe1ef90487879732b70b816d1dea2dc5cc5c018",
+    "src/cryptocrossimpact/evaluation/preflight.py": "17e33be3c1618bcb3aa79764516209e75cb45d2071951126a72bf5b5d724db84"
+  },
+  "prompt_sha256": "e8fe2389a1fef5c814599ab1cb5916e4ec00f230e9be002eccc660556b010336",
+  "spec_sha256": "bc5d9686fb5be6477ed04c3d32b0aefeee6d4b0c9addfddb6c4ac2d8b8eeb9d1",
+  "predecessor_lock_sha256": "a691a3db76a776d4f8e31b43f6c68663145891e1974e2bf6dc0f061130192e31",
+  "canonical_rows_loaded": 0,
+  "final_test_outcomes_opened": false,
+  "scored_episodes": 0
+}

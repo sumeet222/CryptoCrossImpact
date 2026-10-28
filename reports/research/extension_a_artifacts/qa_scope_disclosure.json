@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-28T19:13:23.148122+00:00",
+  "qualification": "One inherited regression loader eagerly read eight already-inspected2026 sufficient-statistic caches (January\u2013August) AFTER eta selection; no Stage A estimator/policy used them and no2026 canonical values were read for Stage A.",
+  "selection_time": "2026-10-28T17:41:59.368833+00:00",
+  "legacy_preflight_time": "2026-10-28T17:49:09.785968+00:00",
+  "legacy_test": "test_real_asof_refit_adapter_matches_saved_development_models",
+  "corrective_action": "Final282-test suite excludes that case and substitutes Stage A own2025 B/E1 equivalence with2024\u20132025-only reader log.",
+  "new_October_values_opened": false,
+  "cache_patterns": [
+    "results/stage05_exfunding_v2/daily_stats/2026-0[1-6].npz",
+    "results/extension_x2x3/daily_stats/2026-0[7-8].npz"
+  ],
+  "cache_files": [
+    "results/stage05_exfunding_v2/daily_stats/2026-01.npz",
+    "results/stage05_exfunding_v2/daily_stats/2026-02.npz",
+    "results/stage05_exfunding_v2/daily_stats/2026-03.npz",
+    "results/stage05_exfunding_v2/daily_stats/2026-04.npz",
+    "results/stage05_exfunding_v2/daily_stats/2026-05.npz",
+    "results/stage05_exfunding_v2/daily_stats/2026-06.npz",
+    "results/extension_x2x3/daily_stats/2026-07.npz",
+    "results/extension_x2x3/daily_stats/2026-08.npz"
+  ]
+}

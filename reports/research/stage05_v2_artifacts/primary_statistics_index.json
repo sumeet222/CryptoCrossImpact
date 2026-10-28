@@ -1,0 +1,12 @@
+{
+  "status": "PRIMARY_STATISTICS_FROZEN",
+  "utc": "2026-10-28T04:40:07.994251+00:00",
+  "sha256": {
+    "primary_h2_contrasts.csv": "902b2ac44034c9852dbc4c615ef468a641fab42ad1bab4a18a27a5f24345eb7d",
+    "h1_metrics.csv": "2e92b1cdc50425f182ba7a5e9940e5f403619ed2a837284258990cf28f5b269c",
+    "h1_paired_effects.csv": "8f4608f020c790a90b66954a787f2c3ddd0549786e257b6adef4af0b1a938476",
+    "coverage_by_month.csv": "475b360f229fd45438261e05cf6c4cc96d4ea15ee21733eaa026635f1d45cbbf",
+    "E1_policy_decomposition.csv": "7e3374fcbc85e6a8afc071132f60f4d462f7cbee43ccd966380c54ce0cfce9b6",
+    "adverse_world_regret.csv": "e0fbfabfa65cb60af757993c887196d2d3dde6d8860c7321f83697d9262aeb6b"
+  }
+}

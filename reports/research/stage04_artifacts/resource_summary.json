@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-28T03:16:07.166285+00:00",
+  "retained_project_bytes": 1024289815,
+  "additional_bytes": 16560362,
+  "additional_peak_disk_estimate_upper_bound_bytes": 30000000,
+  "full_run_seconds": 119.40120341605507,
+  "full_run_peak_rss_bytes": 386088960,
+  "initial_refit_peak": "not instrumented",
+  "dependencies_installed": 0,
+  "new_market_download_bytes": 0,
+  "bulk_stage04_bytes": 13464348
+}

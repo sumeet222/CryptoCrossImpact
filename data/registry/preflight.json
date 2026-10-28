@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-27T22:31:51.583313+00:00",
+  "source_access": {
+    "documentation": {
+      "url": "https://raw.githubusercontent.com/binance/binance-public-data/master/README.md",
+      "accessed_at_utc": "2026-10-27T22:31:45.643046+00:00",
+      "http_status": 200,
+      "sha256": "2e133d9945a9263a02781369078e72805eff074680f305cd5460016471c6caad"
+    },
+    "terms": {
+      "url": "https://raw.githubusercontent.com/binance/binance-public-data/master/TERMS_AND_CONDITIONS.md",
+      "accessed_at_utc": "2026-10-27T22:31:45.744883+00:00",
+      "http_status": 200,
+      "sha256": "99c4921dbe023cd68c1a447775707d621453cc78aec6ac0bfe2e6c06a5114ee0"
+    },
+    "archive": {
+      "url": "https://data.binance.vision/",
+      "accessed_at_utc": "2026-10-27T22:31:46.002838+00:00",
+      "http_status": 200,
+      "sha256": "23f61ef363d5b3c13933dab23d776d5f176c873b0504440de5e424c23bcc6413"
+    }
+  },
+  "pilot_metadata": [
+    {
+      "symbol": "BTCUSDT",
+      "month": "2024-05",
+      "bytes": 1896566,
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2024-05.zip",
+      "status": 200,
+      "vendor_sha256": "42de617ed643def54b5a2c3fceb7cd2edec91aafaa01104a097b2ded5c5122d4"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2025-10",
+      "bytes": 1913274,
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2025-10.zip",
+      "status": 200,
+      "vendor_sha256": "bb7f53350fe27b6d8e38b5856ffc43f9ecda9d568d5bf31d0db0cd011da7100f"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "month": "2026-05",
+      "bytes": 1845894,
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-05.zip",
+      "status": 200,
+      "vendor_sha256": "d91548e94220d5211bb32447cc4b604ee266d145f2092edc5ec613328cbbc20a"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2024-05",
+      "bytes": 1935350,
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2024-05.zip",
+      "status": 200,
+      "vendor_sha256": "d512aa43b5b6a5168fa1b6242fe4cf01c88e51c78bb9f4d202f0ca2e42338f96"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2025-10",
+      "bytes": 1996726,
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2025-10.zip",
+      "status": 200,
+      "vendor_sha256": "c0b8d557384ce1cd77df8f08cb6775f350a531a1792fa9deceb05f51a3939438"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "month": "2026-05",
+      "bytes": 1893623,
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2026-05.zip",
+      "status": 200,
+      "vendor_sha256": "9710b3d1e350bef5bf31b8d1531c5801d35f963d223d0a42e73ae86ddd376e92"
+    }
+  ],
+  "source_estimated_60_zip_bytes": 119803560,
+  "current_project_bytes": 347371178,
+  "free_bytes": 44611506176,
+  "memory_target_bytes": 8000000000,
+  "retained_policy": "one compressed monthly ZIP and one canonical Parquet; no extracted CSV",
+  "preliminary_peak_reserve_bytes": 1000000000,
+  "terms_assessment": "Noncommercial academic research; attribution and share-alike for redistributed derivatives; no credentials/circumvention"
+}

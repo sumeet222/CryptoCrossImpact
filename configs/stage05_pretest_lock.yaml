@@ -1,0 +1,128 @@
+version: stage05-pretest-lock-v1
+status: PRETEST_LOCK_PENDING
+test_outcomes_unopened: true
+stage5_started: false
+sample:
+  venue: Binance
+  market: futures/um
+  symbols:
+  - BTCUSDT
+  - ETHUSDT
+  start: '2026-01-01'
+  end: '2026-06-30'
+  arrivals_UTC:
+  - 0
+  - 6
+  - 12
+  - 18
+primary_policy_config: configs/stage04_policies.yaml
+protocol_document: docs/stage05_pretest_policy_evaluator_lock_v1.md
+policies:
+- T0
+- T1
+- T2
+- T3
+- T4
+secondary_policy: T3B
+optimizer_refit:
+  days: 365
+  taus_minutes:
+  - 60
+  ridge: 1
+E1:
+  days: 180
+  gap_days: 30
+  end_exclusive: month_start minus 30 days
+  taus_minutes:
+  - 5
+  - 30
+  ridge: 1.0
+  selection: Existing fixed-(5,30) Stage 2 train/validation losses; within0.1% prefer
+    stronger ridge
+  fallback: Fixed June-end development B, QUALIFIED only if full E1 historical block
+    unavailable
+E2: diagonal each E1 component; otherwise identical
+E3:
+  combination: one_factor_at_a_time_around_E1_deduplicate_baseline
+  entire_matrix_amplitude:
+  - 0.5
+  - 1
+  - 2
+  decay_multiplier:
+  - 0.5
+  - 2
+  kappa:
+  - 0.0005
+  - 0.001
+  - 0.005
+  cross_rho:
+  - 0
+  - 0.5
+  - 1
+  opposite_sign: D C D, D=diag(1,-1), PSD certified
+inference:
+  block_calendar_days: 7
+  replicates: 500
+  seed: 20261027
+  interval: 95% percentile
+  paired_unit: UTC calendar day
+development_regime_tercile_thresholds:
+  liquidity_initial_portfolio_usdt:
+  - 12721379.44160401
+  - 18541289.738238003
+  volatility_equal_log_return_sum_std_per_minute:
+  - 0.0013038309347832028
+  - 0.0015523251553483295
+holds:
+- Verify actual funding settlement timestamps/rates or actual timestamp-only common
+  exclusions before test opening
+- Validate/freeze E1 implementation on development before test opening; then generate
+  strict-as-of E1 artifacts before each monthly scoring, no retuning
+bindings:
+  CryptoCrossImpact_Research_Specification_v1_2026-10-27.md: bc5d9686fb5be6477ed04c3d32b0aefeee6d4b0c9addfddb6c4ac2d8b8eeb9d1
+  SPEC_CHANGELOG.md: daebd18e5edb7151e20024f120d228385b217e0fdc7a12e81a1aa5fa7205f93f
+  configs/stage04_policies.yaml: 5d936afc2971144222f417df504029366e104e411eaf58c229e35c2504cea392
+  data/registry/source_manifest.json: 79ea6e13b8c56d26cb3bd672332380d791836c8cdd881c416f66741963fb914e
+  reports/research/stage02_artifacts/pretest_estimation_lock.json: ff0e2df0ddcf6ebe4ae227632df2756ac51809845cca73b83448acd52131adc9
+  docs/stage05_pretest_policy_evaluator_lock_v1.md: 1436c32667f24f3c510840087e42690194c94ab34ca7239ce1b7058fa175033d
+  reports/research/stage04_artifacts/monthly_coverage.csv: 8e81ca71767cf388c9ac7ea1919b1296b5c127680af51f89cf416a98bda9186c
+  reports/research/stage04_artifacts/policy_fairness.csv: a410831add514a52bfbf2969d3bc84dd9ae545c4068282810a8c468b0861579d
+  reports/research/stage04_artifacts/model_registry.csv: a91c051d11d7cc8ea666143d92b584426a8d9fb875d57342ac0aec797ed248d5
+  reports/research/stage04_artifacts/E1_development_regularization_selection.csv: f6dd90cf8225fd5200580b55a6b5a4a2303073f5b80ecb6a67be86f4aac2561b
+  reports/research/stage04_artifacts/test_results.json: a2dc569a87606334710c6d172461d5668bf8d1d6e08b5e28f8bae053f1b6fbf9
+  reports/research/stage04_artifacts/model_A_2025-09.json: 33079fb12408be77170482fa726561b7e18855098c93b5eaf1fe898016a5e11f
+  reports/research/stage04_artifacts/model_B_2025-07.json: 07a1ce41b387782bf5f6fcd62dce65499de3a049d074c6cb0e6700228ef662e9
+  reports/research/stage04_artifacts/model_B_2025-11.json: 5a97ced483a1ebdfb2373bf7bba539960cf57cde461660047dd3c048af29ba0f
+  reports/research/stage04_artifacts/model_A_2025-12.json: a3048f01bad0a71499a14f4e63a0e8fec7f1057f732f04f80457768e0a0bc0fa
+  reports/research/stage04_artifacts/model_B_2025-10.json: 605c2423600a60d90dcbee69e78951c904f9c3d93d8d8458d15cb6338a75887d
+  reports/research/stage04_artifacts/model_A_2025-08.json: 1b7c10e64d469ba8a8d47758c022d7ff8c4e2b25445f2e344c234c841181abf9
+  reports/research/stage04_artifacts/model_B_2025-09.json: e68d81a34493028583859ea11ecc451888b2ac39dc4cc2d839ec9142af62d59a
+  reports/research/stage04_artifacts/model_A_2025-11.json: 7aea2f5d954d5700333986c0f5bf0cca7df758b426fc6dae1c51e46d734ffb9c
+  reports/research/stage04_artifacts/model_A_2025-07.json: d823ab797468da9ca526e1ea08c8365d8939c3973e5c63f26b26332399558515
+  reports/research/stage04_artifacts/model_B_2025-12.json: 08837f869be038dc56b4a0961dfbfb2c9f47da980770e579d7a95e911961fe46
+  reports/research/stage04_artifacts/model_A_2025-10.json: 1334bccddd132fdcd3c7e0c78a7e0dee6b910e31b8d90f3ff6e39e531cbcae5b
+  reports/research/stage04_artifacts/model_B_2025-08.json: 27e0f406bc99ac8fa0d499f6948940ffb7700c0172977b9a6046100239ab8565
+  src/cryptocrossimpact/stage04.py: 4d9d31cbe12765aaf3d6daaed65069eeaa07d31b13ee0c3521661c66ff295ff6
+  src/cryptocrossimpact/stage04_reporting.py: 4d3f8cfd360ebffb6ee617a8e10b650ad39bfc23f3118086341d7baa5b151398
+  src/cryptocrossimpact/__init__.py: 78b2eefdd8129077c9456f66ba5bc43c9c09b77c8dc6aed159b80b044843254c
+  src/cryptocrossimpact/episodes.py: f8b9ba85098180609fae7f2123f7ea66b9e59f79f47e72ed29a50bffd9e6711b
+  src/cryptocrossimpact/execution/verification.py: 1a969a5ec76c259c1b426a3f37307331c6095cb8e3756ed52d8c4e1e3b28a747
+  src/cryptocrossimpact/execution/solver.py: d5aaa969e1729f3a91489f18c619b28cd2a523478299369ad682706f8031af75
+  src/cryptocrossimpact/execution/impact_cost.py: a46feb89652b6f8c903be1b08909b8c74ce901b374cd31c3667f9426f7191813
+  src/cryptocrossimpact/execution/ajnt_benchmark.py: 88308d703b3bb65847c44f068898b80f9464d5037dc22a2577d781c276a4c08a
+  src/cryptocrossimpact/execution/__init__.py: 11b384ae21064879509f85362fc8c39a7625d16ae57b3444e841e2150d7e710f
+  src/cryptocrossimpact/execution/policies.py: 12e4e7ea3217d25bac02877ed9f539dc1df8e1b1993f06ae6c1f1c78cbfd5405
+  src/cryptocrossimpact/execution/reporting.py: fd8585e3f0f3a4d1d0a8addca724f400d74952be8068321f3ce6d83b684eb59e
+  src/cryptocrossimpact/data/__init__.py: 2636671b0d20aa899f1f7505e8fe61d5e1eec3c7e8b065af0ce4c89b9c06da92
+  src/cryptocrossimpact/data/pipeline.py: ff1e8c50a04df78cf0be1a00e84b4a4fd80a162ce826da892c58e07a86409148
+  src/cryptocrossimpact/data/storage.py: ab4d5aecf918a2f570f2fb844265eb0b9c2729c5e906664a87e5cb0fa1a300b4
+  src/cryptocrossimpact/data/trades.py: f1372e54f37f3684bb9230d350c7ad30470a13fedeae106a3de0e07d5a0e277e
+  src/cryptocrossimpact/data/schema.py: 95a29447da24fa3a257bbe10ed3662f92f8f47a12c542dfa418a6b897c8e1d3a
+  src/cryptocrossimpact/kernel/fit.py: bbde88b4db4332791ea0bec94e41aabca1332aeab58cdc5bca18f8bb3a6565fc
+  src/cryptocrossimpact/kernel/diagnostics.py: 1d72de60cc6caf1faa13227ae8c657289580ed6c5381ff244f5fdc3421c28ccb
+  src/cryptocrossimpact/kernel/__init__.py: b148a2e0bc00fe0b85b00aa97c6752a0b91645d98c20b51450412f7fd67c59e8
+  src/cryptocrossimpact/kernel/features.py: fa2b776809779a3129813ff563c8a601c046e75eee9d043226f9056447a2e571
+  src/cryptocrossimpact/kernel/workflow.py: 52e883f18bdef1c8bb696f4f24d2bb9dcef0648c906f419b0a8b26996334c5a1
+  src/cryptocrossimpact/kernel/reporting.py: b79436f9a6c217400b4ea047193f784768f7eb3d28fd0172db326e25df0acfc2
+  scripts/stage04.py: 3a0412215e78dc43ab9cc4c963314a084c3e50216cba704f5c9336679a9e72b0
+  tests/test_stage04_policies.py: e7ea388d4f409d361a17afa67f7f5eda1a573e08d7d31f06e15e349bb8476837

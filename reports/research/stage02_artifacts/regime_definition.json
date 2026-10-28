@@ -1,0 +1,8 @@
+{
+  "liquidity_threshold": 15.647910129797243,
+  "statistic": "mean BTC/ETH log1p(mean preceding 60-minute USDT quote turnover)",
+  "threshold_estimated_on": "2024-01\u20132025-06 only",
+  "applied_to": "validation only",
+  "calendar_weekend": "UTC Saturday/Sunday",
+  "future_data_used": false
+}

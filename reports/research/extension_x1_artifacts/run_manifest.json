@@ -1,0 +1,75 @@
+{
+  "utc": "2026-10-28T14:48:22.218960+00:00",
+  "run_id": "X1.0_2025_development",
+  "spec_sha256": "bc5d9686fb5be6477ed04c3d32b0aefeee6d4b0c9addfddb6c4ac2d8b8eeb9d1",
+  "prompt_sha256": "f50591a460d442c9979139d63abbc0cbeaaf6f6889009c0023297af35ac63c3a",
+  "config_sha256": "3f67d4f32491ca802b754387ad47dd66e79e01078228ba1724ebb57cf6489338",
+  "protocol_sha256": "f4369ccddf5d77f99977752610c7cb659be32e5886892d9ed67100cb9a12d218",
+  "scenario_sha256": "41a8582ab03b49f4e1200f6c21d9d2769ae87a9404703e32a0e0b06111450278",
+  "code_sha256": {
+    "src/cryptocrossimpact/liquidity/__init__.py": "c46cfaf9a0d773322a1d5b9db9ec732470683a99c7f764ade46e579f845fe1ba",
+    "src/cryptocrossimpact/liquidity/forecasts.py": "3c6b621b63793d9878791d10934b4bbc6aab0db99e96c401c3ce1b8e7769ec39",
+    "src/cryptocrossimpact/liquidity/workflow.py": "cbbcf4cd757d4776131cc377e5997e626473b47b7e59be0ac5786f04baedfb11",
+    "src/cryptocrossimpact/liquidity/reporting.py": "8f2c9e9af4e3ba217a017d96bb4fff128d2b2739c931e9f661d67e9fcb529963",
+    "src/cryptocrossimpact/execution/adaptive.py": "70ba532fffbcd844df036ab4b49893d3096791d0a07486114b6f393b97511dcd",
+    "scripts/extension_x1.py": "d77fe08f89fcc74645085b05e1015112f79800ad53dd7482b0404c4ef2af426e",
+    "scripts/audit_extension_x1.py": "932c1689a0423d6e0f75b6be24cc8a48ded59efe066ab36527bd688196e2f038",
+    "tests/test_extension_x1.py": "801579377fd01311e25ca0eb97fe105e62606882eb6d911022b1c25d22fb1b8c"
+  },
+  "numerical_lock_lineage": {
+    "numerical_lock.json": "1968ba73dd632f85df54d946f5fe4de8bfdcb89c6b8b8cf36e81a3fec4d1309d",
+    "numerical_lock_v2.json": "959175509b2c26365416c06cf10100382e6ef981574f95f0b35e72f49a153cf3"
+  },
+  "source_manifest_sha256": "79ea6e13b8c56d26cb3bd672332380d791836c8cdd881c416f66741963fb914e",
+  "seed": 20261027,
+  "clock": "UTC bar_open; available_at=bar_open+1minute",
+  "data_period": "2024-01 through 2025-12 only",
+  "git_commit": "6d5639af60649a80b9dccffeaf63d99a49d4b780",
+  "branch": "main",
+  "dirty_status": "?? .gitignore\n?? README.md\n?? SPEC_CHANGELOG.md\n?? configs/\n?? data/\n?? docs/\n?? figures/\n?? prompts/\n?? pytest.ini\n?? references/\n?? reports/\n?? requirements.txt\n?? results/\n?? scripts/\n?? src/\n?? tests/\n",
+  "python": "3.14.6",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "cvxpy": "1.9.3",
+    "osqp": "1.1.3",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.11.2",
+    "pytest": "9.2.0"
+  },
+  "model_hashes": {
+    "reports/research/extension_x1_artifacts/models/2025-12_E1.json": "d4148ab07a4d86df9dc7d04bd01ea093845d51201e63c25ba6228b7eb9b5d5d5",
+    "reports/research/extension_x1_artifacts/models/2025-09_E1.json": "1d915a3b3066e4b75a03725dbd853992dda26f7219792052c5cb87154d1ddd89",
+    "reports/research/extension_x1_artifacts/models/2025-10_E1.json": "b65b74f29029eee51801f76e7aa6ead87b982f4e3156ed1f3fa517f7b1e6a584",
+    "reports/research/extension_x1_artifacts/models/2025-11_E1.json": "922c216888da95d9bcfb69d21174eef7e2139b66273685dc80a756e6419e1c8a",
+    "reports/research/extension_x1_artifacts/models/2025-08_E1.json": "be8a7878f87a57d7ed63ff690f764ced8c9e89af3b3d83a0cae5372a8e9f9b73",
+    "reports/research/extension_x1_artifacts/models/2025-07_E1.json": "be0e3532c6fefefaa4f1a42c7034ef9d202df54b69a2496610f4dcc713290c66",
+    "reports/research/stage04_artifacts/model_B_2025-07.json": "07a1ce41b387782bf5f6fcd62dce65499de3a049d074c6cb0e6700228ef662e9",
+    "reports/research/stage04_artifacts/model_B_2025-11.json": "5a97ced483a1ebdfb2373bf7bba539960cf57cde461660047dd3c048af29ba0f",
+    "reports/research/stage04_artifacts/model_B_2025-10.json": "605c2423600a60d90dcbee69e78951c904f9c3d93d8d8458d15cb6338a75887d",
+    "reports/research/stage04_artifacts/model_B_2025-09.json": "e68d81a34493028583859ea11ecc451888b2ac39dc4cc2d839ec9142af62d59a",
+    "reports/research/stage04_artifacts/model_B_2025-12.json": "08837f869be038dc56b4a0961dfbfb2c9f47da980770e579d7a95e911961fe46",
+    "reports/research/stage04_artifacts/model_B_2025-08.json": "27e0f406bc99ac8fa0d499f6948940ffb7700c0172977b9a6046100239ab8565"
+  },
+  "preservation": {
+    "prior_files": 456,
+    "canonical_partitions": 60,
+    "changed": []
+  },
+  "additional_disk_bytes": 237392890,
+  "estimated_peak_additional_disk_bytes": 474785780,
+  "max_reported_rss_mib": 301.90625,
+  "future_test_partitions_opened": 0,
+  "liquidity_regime_terciles_usdt": [
+    636068972.0802,
+    927064486.9119
+  ],
+  "results": "results/extension_x1",
+  "status": "EXPLORATORY_POST_ORIGINAL_SELECTION",
+  "replay_seconds_including_recovery": 528.2565969590796,
+  "resource_records": [
+    "provenance/run_development_before_serialization_recovery.json",
+    "provenance/run_development_serialization_recovery.json"
+  ]
+}

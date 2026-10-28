@@ -1,0 +1,34 @@
+{
+  "utc": "2026-10-28T14:42:15.947974+00:00",
+  "status": "PASS",
+  "episodes": 736,
+  "prefixes": 37536,
+  "independent_triangular_checks": 108,
+  "full_score_reproductions": 108,
+  "maximum_triangular_error_usdt": 3.183231456205249e-11,
+  "maximum_score_error": 0,
+  "maximum_terminal_usdt": 2.2351741790771484e-08,
+  "maximum_baseline_schedule_error_over_initial": 1.085402993727702e-15,
+  "matched_beta_caps_inventory_covariance_models_worlds_verified": true,
+  "prefix_clock_commitments_verified": true,
+  "preservation": {
+    "prior_files": 456,
+    "canonical_partitions": 60,
+    "changed": []
+  },
+  "audit_partitions": [
+    "BTCUSDT/2025-07",
+    "BTCUSDT/2025-08",
+    "BTCUSDT/2025-09",
+    "BTCUSDT/2025-10",
+    "BTCUSDT/2025-11",
+    "BTCUSDT/2025-12",
+    "ETHUSDT/2025-07",
+    "ETHUSDT/2025-08",
+    "ETHUSDT/2025-09",
+    "ETHUSDT/2025-10",
+    "ETHUSDT/2025-11",
+    "ETHUSDT/2025-12"
+  ],
+  "final_test_partitions_opened": 0
+}

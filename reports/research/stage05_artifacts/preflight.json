@@ -1,0 +1,50 @@
+{
+  "status": "PRETEST HOLD",
+  "implementation": "BLOCKED",
+  "predecessor": {
+    "status": "PASS",
+    "sha256": "a691a3db76a776d4f8e31b43f6c68663145891e1974e2bf6dc0f061130192e31",
+    "bindings_verified": 47
+  },
+  "funding": {
+    "status": "PRETEST_FUNDING_HOLD",
+    "rest_http_status": 451,
+    "rest_message": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error.",
+    "archive": {
+      "http_status": 200,
+      "path": "data/raw/funding_stage05/BTCUSDT-fundingRate-2025-01.zip",
+      "sha256": "df725010d55458866eb5a47e9ee708c6796c9d7e77b14c38342cea11f381815e",
+      "checksum": "PASS",
+      "zip_crc": "PASS",
+      "schema": [
+        "calc_time",
+        "funding_interval_hours",
+        "last_funding_rate"
+      ],
+      "rows": 93,
+      "candidate_first_calc_time_ms": 1735689600015,
+      "candidate_last_calc_time_ms": 1738339200000,
+      "candidate_first_utc": "2025-01-01T00:00:00.015000+00:00",
+      "candidate_last_utc": "2025-01-31T16:00:00+00:00"
+    },
+    "official_readme_defines_archive_calc_time": false,
+    "actual_settlement_mapping_verified": false,
+    "full_2025_2026_both_symbol_calendar_verified": false,
+    "funding_method_admitted": null,
+    "reason": "REST fundingTime history inaccessible (HTTP451); archive calc_time settlement mapping and complete two-symbol range unverified",
+    "remedy": "Obtain permitted documented fundingTime history, or authoritative archive timestamp semantics plus complete verified BTC/ETH event coverage, then complete E1 development validation before readiness"
+  },
+  "E1_development_validation": "NOT_RUN_AFTER_FUNDING_HOLD",
+  "E2_E3_evaluation": "NOT_RUN",
+  "H1": "NOT_RUN",
+  "H2": "NOT_RUN",
+  "statistical_inference": "NOT_RUN",
+  "robustness": "NOT_RUN",
+  "nominal_2026_episodes": 724,
+  "eligible_2026_episodes": null,
+  "scored_2026_episodes": 0,
+  "canonical_market_rows_loaded": 0,
+  "test_outcomes_unopened": true,
+  "stage6_started": false,
+  "pretest_ready_written": false
+}

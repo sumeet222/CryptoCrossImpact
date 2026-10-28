@@ -1,0 +1,42 @@
+{
+  "utc": "2026-10-27T22:41:57.939565+00:00",
+  "status": "PASS",
+  "expected_partitions": 60,
+  "downloaded_partitions": 60,
+  "validated_partitions": 60,
+  "qualified_partitions": 0,
+  "quarantined_partitions": 0,
+  "missing_partitions": [],
+  "total_rows": 2626560,
+  "total_invalid_bars": 0,
+  "total_missing_minutes": 0,
+  "paired_by_split": {
+    "test": {
+      "expected_minutes": 260640,
+      "paired_present_minutes": 260640,
+      "paired_valid_minutes": 260640,
+      "paired_valid_returns": 260640,
+      "btc_only_minutes": 0,
+      "eth_only_minutes": 0
+    },
+    "train": {
+      "expected_minutes": 787680,
+      "paired_present_minutes": 787680,
+      "paired_valid_minutes": 787680,
+      "paired_valid_returns": 787679,
+      "btc_only_minutes": 0,
+      "eth_only_minutes": 0
+    },
+    "validation": {
+      "expected_minutes": 264960,
+      "paired_present_minutes": 264960,
+      "paired_valid_minutes": 264960,
+      "paired_valid_returns": 264960,
+      "btc_only_minutes": 0,
+      "eth_only_minutes": 0
+    }
+  },
+  "all_raw_canonical_checks": "PASS",
+  "scientific_conclusion": "Not evaluated in Stage 1",
+  "test_firewall": "Source/QC only; no response correlations, estimation, policy or outcome scoring"
+}

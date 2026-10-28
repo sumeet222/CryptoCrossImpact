@@ -1,0 +1,16 @@
+{
+  "original_L25_E1_score_error_bps": 0.0,
+  "status": "PASS",
+  "episodes": 736,
+  "prefixes": 79488,
+  "maximum_triangle_error_usdt": 6.639311322942376e-11,
+  "selected_eta0_A0_A1_A3_exact": true,
+  "preservation": {
+    "status": "PASS",
+    "files": 30639,
+    "data_stat_snapshots": 207,
+    "changed": [],
+    "utc": "2026-10-28T19:42:01.732093+00:00"
+  },
+  "utc": "2026-10-28T19:42:01.738743+00:00"
+}

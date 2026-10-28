@@ -1,0 +1,27 @@
+{
+  "recorded_at_utc": "2026-10-27T22:41:49.050260+00:00",
+  "command": ".venv/bin/python -m pytest -q",
+  "passed": 27,
+  "failed": 0,
+  "skipped": 0,
+  "warnings": 10,
+  "warning_reason": "pandas 3.1 float_precision deprecation; round_trip explicitly retained for source precision",
+  "initial_failures": "Two month-boundary fixtures initially failed on pandas read-only NumPy view; fixed with explicit copy and retested",
+  "additional_regression": "Strictly trailing stale diagnostic verified invariant to future appended bars",
+  "environment_imports": "PASS: numpy pandas pyarrow requests yaml matplotlib pytest",
+  "pip_check": "PASS: no broken requirements",
+  "git_ignore": "PASS: venv, ZIP, Parquet, data/tmp and .env ignored; small registry files trackable",
+  "real_vendor_pilot": "PASS: six vendor ZIP versus canonical exact comparisons including official SHA-256",
+  "full_corpus": "PASS: all 60 ZIP CRC/source hash/canonical numeric comparisons and split coverage",
+  "working_code_sha256": {
+    "src/cryptocrossimpact/__init__.py": "78b2eefdd8129077c9456f66ba5bc43c9c09b77c8dc6aed159b80b044843254c",
+    "src/cryptocrossimpact/data/__init__.py": "2636671b0d20aa899f1f7505e8fe61d5e1eec3c7e8b065af0ce4c89b9c06da92",
+    "src/cryptocrossimpact/data/pipeline.py": "ff1e8c50a04df78cf0be1a00e84b4a4fd80a162ce826da892c58e07a86409148",
+    "src/cryptocrossimpact/data/schema.py": "95a29447da24fa3a257bbe10ed3662f92f8f47a12c542dfa418a6b897c8e1d3a",
+    "src/cryptocrossimpact/data/storage.py": "ab4d5aecf918a2f570f2fb844265eb0b9c2729c5e906664a87e5cb0fa1a300b4",
+    "src/cryptocrossimpact/data/trades.py": "f1372e54f37f3684bb9230d350c7ad30470a13fedeae106a3de0e07d5a0e277e",
+    "scripts/stage01.py": "3dea6f6bdc9753b6def4f14701e2de0fd7ac0c32e0739965142bb88bb5880c26",
+    "scripts/stage01_qc_figures.py": "75d6c1e2e91505357bb358b02a18741e6ec8ab71a75005c75c83b0b194d83aec",
+    "tests/test_stage01.py": "79089f031d0cedbcc9c2ced9d0418387872a907b05f9800ecdcd60ccc291c466"
+  }
+}

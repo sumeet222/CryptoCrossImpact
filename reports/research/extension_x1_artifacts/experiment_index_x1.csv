@@ -1,0 +1,2 @@
+run_id,UTC_run_time,data_cutoff,config_hash,Git_commit,model,evaluator,sample_period,status,key_metric_path
+X1.0_2025_development,2026-10-28T14:48:22.328690+00:00,2025-12-31,3f67d4f32491ca802b754387ad47dd66e79e01078228ba1724ebb57cf6489338,6d5639af60649a80b9dccffeaf63d99a49d4b780,B/T3B; V0/V1/S1; V2_gated_out,E1/E2,2025-07_to_2025-12,PASS,paired_contrasts.csv

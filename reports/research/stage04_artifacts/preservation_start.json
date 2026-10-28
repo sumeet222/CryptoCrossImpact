@@ -1,0 +1,397 @@
+{
+  "utc": "2026-10-28T02:51:20.806991+00:00",
+  "sha256": {
+    "src/cryptocrossimpact/__init__.py": "78b2eefdd8129077c9456f66ba5bc43c9c09b77c8dc6aed159b80b044843254c",
+    "src/cryptocrossimpact/execution/verification.py": "1a969a5ec76c259c1b426a3f37307331c6095cb8e3756ed52d8c4e1e3b28a747",
+    "src/cryptocrossimpact/execution/solver.py": "eedfca042ff25193561700d1879505632510c88a870a29c08fa33c95b2cb4e76",
+    "src/cryptocrossimpact/execution/impact_cost.py": "a46feb89652b6f8c903be1b08909b8c74ce901b374cd31c3667f9426f7191813",
+    "src/cryptocrossimpact/execution/ajnt_benchmark.py": "88308d703b3bb65847c44f068898b80f9464d5037dc22a2577d781c276a4c08a",
+    "src/cryptocrossimpact/execution/__init__.py": "11b384ae21064879509f85362fc8c39a7625d16ae57b3444e841e2150d7e710f",
+    "src/cryptocrossimpact/execution/reporting.py": "fd8585e3f0f3a4d1d0a8addca724f400d74952be8068321f3ce6d83b684eb59e",
+    "src/cryptocrossimpact/data/__init__.py": "2636671b0d20aa899f1f7505e8fe61d5e1eec3c7e8b065af0ce4c89b9c06da92",
+    "src/cryptocrossimpact/data/pipeline.py": "ff1e8c50a04df78cf0be1a00e84b4a4fd80a162ce826da892c58e07a86409148",
+    "src/cryptocrossimpact/data/storage.py": "ab4d5aecf918a2f570f2fb844265eb0b9c2729c5e906664a87e5cb0fa1a300b4",
+    "src/cryptocrossimpact/data/trades.py": "f1372e54f37f3684bb9230d350c7ad30470a13fedeae106a3de0e07d5a0e277e",
+    "src/cryptocrossimpact/data/schema.py": "95a29447da24fa3a257bbe10ed3662f92f8f47a12c542dfa418a6b897c8e1d3a",
+    "src/cryptocrossimpact/kernel/fit.py": "bbde88b4db4332791ea0bec94e41aabca1332aeab58cdc5bca18f8bb3a6565fc",
+    "src/cryptocrossimpact/kernel/diagnostics.py": "1d72de60cc6caf1faa13227ae8c657289580ed6c5381ff244f5fdc3421c28ccb",
+    "src/cryptocrossimpact/kernel/__init__.py": "b148a2e0bc00fe0b85b00aa97c6752a0b91645d98c20b51450412f7fd67c59e8",
+    "src/cryptocrossimpact/kernel/features.py": "fa2b776809779a3129813ff563c8a601c046e75eee9d043226f9056447a2e571",
+    "src/cryptocrossimpact/kernel/workflow.py": "52e883f18bdef1c8bb696f4f24d2bb9dcef0648c906f419b0a8b26996334c5a1",
+    "src/cryptocrossimpact/kernel/reporting.py": "b79436f9a6c217400b4ea047193f784768f7eb3d28fd0172db326e25df0acfc2",
+    "scripts/stage01.py": "3dea6f6bdc9753b6def4f14701e2de0fd7ac0c32e0739965142bb88bb5880c26",
+    "scripts/stage03.py": "00b7aefacd7ea630701bfcc81d95965444ddd47af477f995e2a779be60c29843",
+    "scripts/stage01_qc_figures.py": "75d6c1e2e91505357bb358b02a18741e6ec8ab71a75005c75c83b0b194d83aec",
+    "scripts/stage02.py": "844f4a5e269a08789f9794f2b7446a6a79629e95c12f22189d7e96219b03cca2",
+    "tests/test_stage03_execution.py": "498fdd10f8abb4dca7f4bf0e5c906146983e3c7aed5bf7a53da89f7317d2a1dc",
+    "tests/test_stage01.py": "79089f031d0cedbcc9c2ced9d0418387872a907b05f9800ecdcd60ccc291c466",
+    "tests/test_stage02_kernel.py": "7bbfe57170047d0b8a3c1848bfb366aef64c4d24550cb48ccd090c141d587a11",
+    "configs/stage03_execution.yaml": "2f9423c4b48705c55ac8e6dc76e2dac2eacf5b5da31cb804e8f68ab4ada129f5",
+    "configs/stage02_kernel.yaml": "9b0cafd04446e62e94994ce1f684fd031cc2230b49971f5765aca8e5a96c76e9",
+    "configs/core.yaml": "fc6d8fb7698fed5eaaa87b8d44172bf5e91a8d72c2b4ff0d66044c69a2e30513",
+    "reports/.DS_Store": "03288d4250d4162cde5c3385c9da21eb989fb2a905d064f6fd90e3ea1feb6ab1",
+    "reports/research/.DS_Store": "164ab521f8dd601d97a9dbb5fec904e782f1c099733bd4f67a28cfe7a97621a8",
+    "reports/research/stage03_mathematical_solver.md": "a979d3bfce9699fa8aee07f906407f94893a65934623d5ecb94621beba574cab",
+    "reports/research/stage02_kernel_estimation.md": "dce780a4513d9db8962c25df44c6ace646ba0d35c320192ed5d9470df0cd4e16",
+    "reports/sessions/20261027_2338_stage02_kernel_session.md": "6da693e9bcc84530106d67cb48ab75a5332f2450d3f2e7270ba34fe88add75db",
+    "reports/sessions/20261028_0204_stage03_solver_session.md": "12491492b76d74061c4e641976736da017fd5db26ea1921af51270bdb767440a",
+    "reports/sessions/20261027_2239_stage01_data_session.md": "4ce65992a63c3a9bf2a1fb665e4d05ff6b31e856bc9927607d332a46ba7c5dab",
+    "reports/data/stage01_qc_BTCUSDT_2024-10-28.png": "db4c7d379051e0a47c2f5485ea6fb56bb556bc5fd319d0a1db78c0d6e8d5e9a0",
+    "reports/data/stage01_data_quality.md": "77333c33b177d56259719aad81dec9dd436e00a91644ce16dfbc87bac8bf29b9",
+    "reports/data/stage01_qc_BTCUSDT_2025-10-10.png": "c94e83ce2627aeb5ae4939b46183cbeca5eb3e72b19b6ce0c9840e2ef081802c",
+    "reports/data/stage01_qc_ETHUSDT_2024-01-03.png": "bb31843dd6815cfe06ff729becb274b291a97b0c06cb1fd8fe2552e92a84b695",
+    "reports/data/stage01_qc_ETHUSDT_2025-02-03.png": "16259c39fa4d4a9fae8427a9c9b9bb6531270388cee481d5b0eafe98230da5f2",
+    "reports/data/stage01_qc_ETHUSDT_2024-08-05.png": "1218315579c3fd7184da0fc2e09d1a8fbde0cb1aa9f00d0076d8bf5f9bd83ce4",
+    "reports/data/stage01_qc_ETHUSDT_2025-10-10.png": "baaa4d6622928395a7428f01d150990e5acd87321e72f664d022b1a3589d6f3e",
+    "reports/data/stage01_qc_ETHUSDT_2024-02-28.png": "30e542f113f6e7de129ce1c1e6369dbe5fef8c835e46104b565adf901ea1911d",
+    "reports/data/stage01_qc_ETHUSDT_2024-10-28.png": "ee54efa24e1cd101058e1ccdfd02cd31a5bb8f2832b15946479024e1cc41811b",
+    "reports/research/stage03_artifacts/independent_solver_comparison.csv": "8267a58f9d563b99fa0fa28c1f1f10d02ea0ba61ce854f77e8d6fc8d0876a2a3",
+    "reports/research/stage03_artifacts/run_all.json": "717e482d62b13c020c2de621830e27168e7ce6cebf7f8ef0ad0a07824af601d5",
+    "reports/research/stage03_artifacts/scenario_convergence.json": "b5f3a800d2eb320135238a16ed22508adfb51b5060b0a97f0922a0546b8f8c47",
+    "reports/research/stage03_artifacts/synthetic_schedule_geometry.csv": "54078ddb70800c3a0278f9fe07b0f028e1ca5043da41db05531f44c4dc26c637",
+    "reports/research/stage03_artifacts/synthetic_summary.json": "8bad17242dc044bfd0021c4d8474e953869791728cc2c57744af46d81b78a0ab",
+    "reports/research/stage03_artifacts/objective_components.csv": "f159da67f4ae6df779b09a78a33df6fcce9b0565ce46e0b80a41cfca406dbb9d",
+    "reports/research/stage03_artifacts/run_synthetic.json": "d6f750ad0030822d28301bd5b71982c26d9269dbfc6625902383cfb4eadb272c",
+    "reports/research/stage03_artifacts/verdict.json": "87c967661d523448c55877903b13736eff3c344f69b3be2749025867216d077b",
+    "reports/research/stage03_artifacts/run_paper.json": "b3706fd3dc9a9e165f058d30326b56e9a9aaa1b4a0c9a1abf6c5fbd2977c15b8",
+    "reports/research/stage03_artifacts/run_models-smoke.json": "696820f2435fd100d5f49110eaf669b3f15dab971b8359fd4d52200c12b302dc",
+    "reports/research/stage03_artifacts/final_verification.json": "785f5352cc3dafb2f373129fa27d5cc04930bc8b952511b6748abb89adf79082",
+    "reports/research/stage03_artifacts/cell_quadrature.csv": "c06d1872f07d427f9b4a6ad388fad5a621edc9ae460036f9f467cede2daadd09",
+    "reports/research/stage03_artifacts/paper_curves.csv": "bef778c8aae7a73b859ac27271782a376b2e8cadb4297d7210d8165ef7b8b597",
+    "reports/research/stage03_artifacts/models_smoke.json": "bca7b3a8e3b902b7fbe8d2fcc039a7f43d0c16870fe2bc8116211e2905367e8e",
+    "reports/research/stage03_artifacts/scenario_grid_trajectories.csv": "5cf622b52dead1426b0ddf1a471dda3d74c62a6d257d749832f9ad9294939d87",
+    "reports/research/stage03_artifacts/paper_summary.json": "f32364c201941a082dd255d97306c5f955cf86f99073574d9f453df73d0f964c",
+    "reports/research/stage03_artifacts/visual_review.json": "638ddee411fc929ed07be496736f59d7a05f072133eabc9d207099dbfb55800d",
+    "reports/research/stage03_artifacts/preservation_start.json": "adabcbcae67ec45470e70a87b28eaca9dceee6107446b47fc2c7fcb8a8959c18",
+    "reports/research/stage03_artifacts/hessian_diagnostics.csv": "585a570b9934c499d1aa1a4dd3e24fe89132c1878ef480942de8bd35e7ed45da",
+    "reports/research/stage03_artifacts/scenario_solver_diagnostics.csv": "ce917dcfb62596a81e5a9ff059e52628d37ad4b638f8055426edcf8b6fc9e291",
+    "reports/research/stage03_artifacts/preservation_end.json": "154e7916ebd485e812034c5b336f80c1557291a5c188422ddef79ba9baf5b4bc",
+    "reports/research/stage03_artifacts/resource_summary.json": "c27f18de69ad29a9943201cf31bb2820e5ad560268452a5afbd1268ae978d643",
+    "reports/research/stage03_artifacts/scenario_grid_convergence.csv": "395024e799c55ce6a6eaaa8eec30d303ff81fb0d2a075b835fbecd558982d3f0",
+    "reports/research/stage03_artifacts/synthetic_schedules.csv": "896e0ab7154f3bafad928315962b6c471ec55b383b1bb829feed0b42d1a68628",
+    "reports/research/stage03_artifacts/test_results.json": "504bd9b0e10207e12102a6bb7a7a865b76c61321fb038b4e10b7d8d57507a520",
+    "reports/research/stage03_artifacts/paper_convergence.csv": "44e0a35fdd626580d7156cbd971613c8125cd6020f19a98c701a9a9bb0513106",
+    "reports/research/stage02_artifacts/model_development_refit_2025-10.json": "e45f5eb22a42ec74653aed7b2d572335d59630a49a59c3a5e6d9a2ab2fc284f1",
+    "reports/research/stage02_artifacts/run_all.json": "553a01e90af7353cd5aae93d86d9c096541c7e53beaa3be3a56234f625246a12",
+    "reports/research/stage02_artifacts/restricted_sensitivity.csv": "f82fb8db77212d13eb6039bcea5c0c01a8fc33381d47085f9f1a10268e33c945",
+    "reports/research/stage02_artifacts/model_A.json": "6225fb1d45db0da80951ea0dede6258a591af73e1e32eabcfb8de72343ad5757",
+    "reports/research/stage02_artifacts/placebo_summary.json": "e469600b6445d874501d472de66290d0557d3fb10cb9d796558d439edfcc002e",
+    "reports/research/stage02_artifacts/model_development_refit_2025-07.json": "ce95c8c8f20b976dc4e9f8ab3b8f343d1bbb654e62930393eed67803b85f9bc4",
+    "reports/research/stage02_artifacts/model_U.json": "8ff9af67337dd9b8c911760a76a4c9a781e3cbe380da3b46ed6b11976faf082a",
+    "reports/research/stage02_artifacts/model_development_refit_2025-11.json": "003606a5ad9293061b5b8589ae28d7cbb3d2cd18d4d20eb6f7f0436d9626e42c",
+    "reports/research/stage02_artifacts/sample_coverage_lag_only.csv": "77c4e194b51ee99d16ff91339b90b43c80b73b11c1349f42b2c66350349b7691",
+    "reports/research/stage02_artifacts/model_N0.json": "498a6b19e71737abaf03e5b073ca7889331e3b3c07a5e678a1e55976d4d5a5d2",
+    "reports/research/stage02_artifacts/features.json": "e5b473f1f0ae40578cd7c4c4e8d600a400c0ccae26d2e03054c7dfec39b1265d",
+    "reports/research/stage02_artifacts/features_lag_only.json": "ae1526a18e50d4819253170f9c64007a376029ba0f128f62e17fd98389e8fb67",
+    "reports/research/stage02_artifacts/run_synthetic.json": "ea2284ae57494e638d4f95cea3a18143e9f07c2e773cfb6c9bfd0c099c2f36c5",
+    "reports/research/stage02_artifacts/synthetic_recovery.json": "98499596ef99558fb096bfae79b57cd5693d3f385a52a8654f97be53b1aff6c7",
+    "reports/research/stage02_artifacts/fit_metrics.csv": "76011005b249c898acaa0624c06b442d80d995ed3432371fa8fb924312983d7c",
+    "reports/research/stage02_artifacts/mode_diagnostics.csv": "4141079e87904347ab794553c2d32f56ef85edeec73476c6919f5b2ff50f6357",
+    "reports/research/stage02_artifacts/verdict.json": "d103e30ad237ef9764a8dec0ea75b0a1f4934bf94ef18661d5de32a9967ab805",
+    "reports/research/stage02_artifacts/model_train_half1.json": "96d450c0f463711192030ef79db88592461f25afbc6b46e53cc57809fa5d9eb7",
+    "reports/research/stage02_artifacts/final_verification.json": "8717a0d6984d18911a91d19d80423f231a3bbb80f79a06f6892381e65770e213",
+    "reports/research/stage02_artifacts/model_train_half2.json": "02c1cde36993b968a9b8399cd22ae3f75148c4aae34656664cfdc6346db6fd56",
+    "reports/research/stage02_artifacts/features_h30.json": "78b8c2e4e565dce1aa659cfe51013c01b59d9498bd28af2f5d53e1e5cb89b4b1",
+    "reports/research/stage02_artifacts/features_lead_placebo.json": "fd740a7ac35203dc1ae9673ba1c4a52eedd63962b45c61586d553e2414902bfa",
+    "reports/research/stage02_artifacts/features_h120.json": "5a2e0dae3666c48d8402dd39c4d35cbf075b6d2c0c48ae2c8b736edc18edb75a",
+    "reports/research/stage02_artifacts/lag_curves.csv": "76715ee57f941e229506898c203d3b858aa1e728c340da712d5fc4e1c3fb46de",
+    "reports/research/stage02_artifacts/bootstrap.csv": "220045a0ae2c9c34fc496cc9e6f031f6d14a10b808ce190963bd9645916b910a",
+    "reports/research/stage02_artifacts/diagnostic_completion.json": "40e0d3f5aa83251b984ddcc08ef6db62f002b00e6d378e4bde748638c1b72db3",
+    "reports/research/stage02_artifacts/bootstrap_summary.json": "d115d6adfa737f331c3f8b932a99a4083f0c90641419303f0c64426caa753d53",
+    "reports/research/stage02_artifacts/selection.json": "061f57f86d318439b61ed38f1c9291e74b3f9c66514bd3acbd1c9259e4edbf33",
+    "reports/research/stage02_artifacts/visual_review.json": "7145a33a35c4c809f95c86fb5eb0f8bd9226116415c5a0a9be863ee2b9d31cb7",
+    "reports/research/stage02_artifacts/sample_coverage.csv": "77c4e194b51ee99d16ff91339b90b43c80b73b11c1349f42b2c66350349b7691",
+    "reports/research/stage02_artifacts/reference_notional_displacement.csv": "4e99b150fab6a1cf332ed6d7c4c18a4315f7ca6d4d43731636a2d804428119dc",
+    "reports/research/stage02_artifacts/matrix_diagnostics.csv": "91654b0b846840797e253d62c5c9c0f1e22f6fe76dedc4e3ebfb24a496bf5caa",
+    "reports/research/stage02_artifacts/time_stability.csv": "0c7421122742ee5d188f28aed21357fd539bfa0a49aa8af7a1e3c77141224348",
+    "reports/research/stage02_artifacts/model_development_refit_2025-08.json": "d3d9fcbbd9d4f6f98ddbb900f93372480139e15eefd9607c964121aef009dd18",
+    "reports/research/stage02_artifacts/sample_coverage_h120.csv": "77c4e194b51ee99d16ff91339b90b43c80b73b11c1349f42b2c66350349b7691",
+    "reports/research/stage02_artifacts/regime_definition.json": "dd91b66cdeef0c1e3eeba5844a90b347de8db336cfcfa471350e5b02c281b700",
+    "reports/research/stage02_artifacts/candidate_selection.csv": "7908da6b31e8953c340f8cc681d2aa8ccc5aa3590185e90bd86694c1a87e1297",
+    "reports/research/stage02_artifacts/resource_summary.json": "efd0f1e2ac6154175e83f41573fb6aeea5ecac92f6b0ee660b2eca09308ba201",
+    "reports/research/stage02_artifacts/model_development_refit_2025-12.json": "ab1721f05ccd23d772c31f262f99cd91fc570ef3ccb8ff07fdf4d64d16df7089",
+    "reports/research/stage02_artifacts/placebo.csv": "96469a4b1b158c2c444bc5119459ebfa90e0ca3d2654fb03602b73410ecee10b",
+    "reports/research/stage02_artifacts/pretest_estimation_lock.json": "ff0e2df0ddcf6ebe4ae227632df2756ac51809845cca73b83448acd52131adc9",
+    "reports/research/stage02_artifacts/sample_coverage_lead_placebo.csv": "52f80cd94a6c4394a2cabf01e08fcae2ab10d1cf55a4da18884da5d825c2c224",
+    "reports/research/stage02_artifacts/test_results.json": "11562d187c460294d31e45c875f4ba153a53c818d46fae1bb9037598702b121b",
+    "reports/research/stage02_artifacts/model_B.json": "3ea9516b8d0c9702efceb5e26e0f02564c2422d2c450e9155b7c967c406e7877",
+    "reports/research/stage02_artifacts/sample_coverage_h30.csv": "77c4e194b51ee99d16ff91339b90b43c80b73b11c1349f42b2c66350349b7691",
+    "reports/research/stage02_artifacts/model_development_refit_2025-09.json": "ec2c5587aba6e882aec202420599b688cf21647db64a1e1a645194404c8d9446",
+    "reports/research/stage02_artifacts/tail_diagnostic.json": "98d9833a7e5d1233cfb447eb2e53bd797077d21f3b2bf2a2b5a3555c2cdbacc0",
+    "figures/stage02/bootstrap_placebo.png": "e82aa1ff60903a4a529756dd7b022dcefd769897f47e0dcf32e90469a8479932",
+    "figures/stage02/development_stability.png": "e54004eac6bb6311b3961b1ac3df55647092a82437408c2224900fa4df38d13f",
+    "figures/stage02/timing_memory_sensitivity.png": "b291e384c9c012b8286202e1883f85422e0a3fb58d2a3f0f53b1b96f428bca7d",
+    "figures/stage02/level_kernels.png": "bffcedeb1607689105ca745512a1992c723ec30d1b088f139c224e40e81e71cc",
+    "figures/stage03/synthetic_schedules.png": "66cc200f62d8eb735fd7033daf59b8c12592bfb61c52104e721c95ed05cf252e",
+    "figures/stage03/ajnt_diagonal.png": "c377fe89046038bfdde3777096b19f5bfa89dfad8c3d277b87c15de7fbd5458b",
+    "figures/stage03/grid_convergence.png": "9c4b0ccfd5ee83842a88153643e15e4f3e46e739f1aa3f64afe2df414d9b401b",
+    "figures/stage03/ajnt_cross.png": "bd5f1291651852d8139f93e7dadeb7c8a9eec3a163a20b1682713949baa511dd",
+    "data/registry/run_audit.json": "8ac83ab803332002b54d92c8ec40a0fcd25342eb973ca5e4c2be7100980ce174",
+    "data/registry/qc_anomalies.csv": "c367c55758f6297d591a7d8c5934a7e340744484aa08798c52fb299c5b8cd9ed",
+    "data/registry/source_manifest.json": "79ea6e13b8c56d26cb3bd672332380d791836c8cdd881c416f66741963fb914e",
+    "data/registry/run_qc.json": "43e27e44d9f95c0180118c746f49926789beee66fd434ccab46d3ecac27607cb",
+    "data/registry/paired_coverage.csv": "f17d87110ea19e775939d4805d8fc76a36802ba857adf08bbb755e1683815b3d",
+    "data/registry/qc_partitions.csv": "2991ad6f76245fe02ee87c0b402aee33c1d3f0f83e7a5bcd741c1cb8a307dd98",
+    "data/registry/trade_audit.json": "3fe514b40ed009c869e5755882ed3978c57f3739c8322a081c9f3663b8c2f6f6",
+    "data/registry/run_preflight.json": "071d16c5593db161cd35287051f2d7dc2e86159e70f66dd08b5ff3046c2346cc",
+    "data/registry/last_hold.json": "416beb9e30e0968dc7be2e304b3dd1f10c02221a9d2d1537d4648e095259b7a7",
+    "data/registry/pilot.json": "97e3bbcb4add348c86d3f5670e52624a1779bfc05360dee1064cbd823f2798e9",
+    "data/registry/run_pilot.json": "4dddec50b4bca4be62b7358dd4288d4c55dd221e3d5d0d2b3c7c7453ccaed6eb",
+    "data/registry/run_acquire.json": "3ee5bb58c63a49db3fe4cc98235c0dddfebf341c397ba73acb6c222aba6de966",
+    "data/registry/qc_summary.json": "1f1d849cba89f54394046e7bd2f116851d6329f38f7c7af34475ededee1a424b",
+    "data/registry/preflight.json": "b7ebab856d778686ead8bbda014b26766913c5b36407d41daf4c9ca029d7f950",
+    "data/registry/resource_summary.json": "d41adf3f9b6e8132e5eb03cd471b9787969b8f1991a7ecf14dcf86dac797e150",
+    "data/registry/trade_audit.csv": "2b9fddc29b0be295f182e1e52b49c34f2932b929ce57bec27d69a6c9137e9cd3",
+    "data/registry/test_results.json": "0f7d7f4a44b39319bb77afa92c283001f6f017600fe252d3210f85163063868a",
+    "data/registry/run_manifest.json": "998e414c659d440587b8b37bddcb2ee8a311e3a17c640d530344fcd34c3b4786",
+    "data/registry/qc_visual_review.json": "503fc0eacb949ad441fba607a0db0a665dc66352f5a2bda7f7184e877867dac0",
+    "references/2403.10273v2.pdf": "ca211f2c69cea9433a134a5ed06539df062a04c81d880f45ec859fb0edb162b1",
+    "AGENTS.md": "2aee5b9508584c6c9bf87e0f021745427cf4e5f2302f553cce7ff5e7747783c7",
+    "CryptoCrossImpact_Research_Specification_v1_2026-10-27.md": "bc5d9686fb5be6477ed04c3d32b0aefeee6d4b0c9addfddb6c4ac2d8b8eeb9d1",
+    "requirements.txt": "f5709a8cf1cf7f6debcaa4a6d957c3a0b7b5ada64f6d4aef100de10903e22e1c",
+    ".gitignore": "ab43a0f769e0f16a56441104c72cabd8551b85b4d68c9d4bb4f6e1f0248870d3"
+  },
+  "canonical_stat": {
+    "data/canonical/BTCUSDT/2024-09.parquet": {
+      "bytes": 5923985,
+      "mtime_ns": 1793140388067268238
+    },
+    "data/canonical/BTCUSDT/2026-03.parquet": {
+      "bytes": 6171896,
+      "mtime_ns": 1793140427399236758
+    },
+    "data/canonical/BTCUSDT/2024-10.parquet": {
+      "bytes": 6046292,
+      "mtime_ns": 1793140567243877828
+    },
+    "data/canonical/BTCUSDT/2025-06.parquet": {
+      "bytes": 5797276,
+      "mtime_ns": 1793140408669091792
+    },
+    "data/canonical/BTCUSDT/2024-01.parquet": {
+      "bytes": 6152257,
+      "mtime_ns": 1793140371837358914
+    },
+    "data/canonical/BTCUSDT/2024-11.parquet": {
+      "bytes": 6130956,
+      "mtime_ns": 1793140392624277614
+    },
+    "data/canonical/BTCUSDT/2025-07.parquet": {
+      "bytes": 6030904,
+      "mtime_ns": 1793140410945358044
+    },
+    "data/canonical/BTCUSDT/2024-08.parquet": {
+      "bytes": 6112935,
+      "mtime_ns": 1793140385820674404
+    },
+    "data/canonical/BTCUSDT/2026-02.parquet": {
+      "bytes": 5610214,
+      "mtime_ns": 1793140425079179684
+    },
+    "data/canonical/BTCUSDT/2024-03.parquet": {
+      "bytes": 6261943,
+      "mtime_ns": 1793140376370014113
+    },
+    "data/canonical/BTCUSDT/2025-05.parquet": {
+      "bytes": 6120356,
+      "mtime_ns": 1793140406360213193
+    },
+    "data/canonical/BTCUSDT/2026-01.parquet": {
+      "bytes": 6016752,
+      "mtime_ns": 1793140422748767629
+    },
+    "data/canonical/BTCUSDT/2024-02.parquet": {
+      "bytes": 5655758,
+      "mtime_ns": 1793140374062087713
+    },
+    "data/canonical/BTCUSDT/2024-12.parquet": {
+      "bytes": 6213528,
+      "mtime_ns": 1793140394943096950
+    },
+    "data/canonical/BTCUSDT/2025-04.parquet": {
+      "bytes": 5986697,
+      "mtime_ns": 1793140404090287212
+    },
+    "data/canonical/BTCUSDT/2025-11.parquet": {
+      "bytes": 5961270,
+      "mtime_ns": 1793140417992107916
+    },
+    "data/canonical/BTCUSDT/2025-01.parquet": {
+      "bytes": 6115880,
+      "mtime_ns": 1793140397248759581
+    },
+    "data/canonical/BTCUSDT/2024-07.parquet": {
+      "bytes": 6152483,
+      "mtime_ns": 1793140383545760430
+    },
+    "data/canonical/BTCUSDT/2025-08.parquet": {
+      "bytes": 6075122,
+      "mtime_ns": 1793140413201605075
+    },
+    "data/canonical/BTCUSDT/2026-04.parquet": {
+      "bytes": 5849767,
+      "mtime_ns": 1793140429385848221
+    },
+    "data/canonical/BTCUSDT/2025-09.parquet": {
+      "bytes": 5741960,
+      "mtime_ns": 1793140415472462839
+    },
+    "data/canonical/BTCUSDT/2026-05.parquet": {
+      "bytes": 5990053,
+      "mtime_ns": 1793140511339882960
+    },
+    "data/canonical/BTCUSDT/2025-10.parquet": {
+      "bytes": 6201898,
+      "mtime_ns": 1793140508742649142
+    },
+    "data/canonical/BTCUSDT/2024-06.parquet": {
+      "bytes": 5923572,
+      "mtime_ns": 1793140381529230301
+    },
+    "data/canonical/BTCUSDT/2025-12.parquet": {
+      "bytes": 6080441,
+      "mtime_ns": 1793140420277921783
+    },
+    "data/canonical/BTCUSDT/2025-02.parquet": {
+      "bytes": 5505012,
+      "mtime_ns": 1793140399536222098
+    },
+    "data/canonical/BTCUSDT/2024-04.parquet": {
+      "bytes": 6014470,
+      "mtime_ns": 1793140378736253692
+    },
+    "data/canonical/BTCUSDT/2025-03.parquet": {
+      "bytes": 6132274,
+      "mtime_ns": 1793140401785969193
+    },
+    "data/canonical/BTCUSDT/2024-05.parquet": {
+      "bytes": 6107066,
+      "mtime_ns": 1793140501053864183
+    },
+    "data/canonical/BTCUSDT/2026-06.parquet": {
+      "bytes": 5921483,
+      "mtime_ns": 1793140432209700777
+    },
+    "data/canonical/ETHUSDT/2024-09.parquet": {
+      "bytes": 6012036,
+      "mtime_ns": 1793140450837492287
+    },
+    "data/canonical/ETHUSDT/2026-03.parquet": {
+      "bytes": 6224770,
+      "mtime_ns": 1793140488751665815
+    },
+    "data/canonical/ETHUSDT/2024-10.parquet": {
+      "bytes": 6098332,
+      "mtime_ns": 1793140568308119906
+    },
+    "data/canonical/ETHUSDT/2025-06.parquet": {
+      "bytes": 5982408,
+      "mtime_ns": 1793140471319305558
+    },
+    "data/canonical/ETHUSDT/2024-01.parquet": {
+      "bytes": 6239876,
+      "mtime_ns": 1793140434499485439
+    },
+    "data/canonical/ETHUSDT/2024-11.parquet": {
+      "bytes": 6225807,
+      "mtime_ns": 1793140455133956882
+    },
+    "data/canonical/ETHUSDT/2025-07.parquet": {
+      "bytes": 6391117,
+      "mtime_ns": 1793140473667365440
+    },
+    "data/canonical/ETHUSDT/2024-08.parquet": {
+      "bytes": 6220185,
+      "mtime_ns": 1793140448532572524
+    },
+    "data/canonical/ETHUSDT/2026-02.parquet": {
+      "bytes": 5639404,
+      "mtime_ns": 1793140486483371568
+    },
+    "data/canonical/ETHUSDT/2024-03.parquet": {
+      "bytes": 6346062,
+      "mtime_ns": 1793140439096605006
+    },
+    "data/canonical/ETHUSDT/2025-05.parquet": {
+      "bytes": 6237556,
+      "mtime_ns": 1793140469019359496
+    },
+    "data/canonical/ETHUSDT/2026-01.parquet": {
+      "bytes": 6257720,
+      "mtime_ns": 1793140484194249234
+    },
+    "data/canonical/ETHUSDT/2024-02.parquet": {
+      "bytes": 5842232,
+      "mtime_ns": 1793140436799069837
+    },
+    "data/canonical/ETHUSDT/2024-12.parquet": {
+      "bytes": 6332010,
+      "mtime_ns": 1793140457449343542
+    },
+    "data/canonical/ETHUSDT/2025-04.parquet": {
+      "bytes": 5959670,
+      "mtime_ns": 1793140466686485923
+    },
+    "data/canonical/ETHUSDT/2025-11.parquet": {
+      "bytes": 6118427,
+      "mtime_ns": 1793140479914456642
+    },
+    "data/canonical/ETHUSDT/2025-01.parquet": {
+      "bytes": 6190598,
+      "mtime_ns": 1793140459778057072
+    },
+    "data/canonical/ETHUSDT/2024-07.parquet": {
+      "bytes": 6225263,
+      "mtime_ns": 1793140446538330593
+    },
+    "data/canonical/ETHUSDT/2025-08.parquet": {
+      "bytes": 6403459,
+      "mtime_ns": 1793140476012166563
+    },
+    "data/canonical/ETHUSDT/2026-04.parquet": {
+      "bytes": 5938952,
+      "mtime_ns": 1793140491064338544
+    },
+    "data/canonical/ETHUSDT/2025-09.parquet": {
+      "bytes": 6069611,
+      "mtime_ns": 1793140477385900486
+    },
+    "data/canonical/ETHUSDT/2026-05.parquet": {
+      "bytes": 6161132,
+      "mtime_ns": 1793140511595522415
+    },
+    "data/canonical/ETHUSDT/2025-10.parquet": {
+      "bytes": 6378214,
+      "mtime_ns": 1793140509075713881
+    },
+    "data/canonical/ETHUSDT/2024-06.parquet": {
+      "bytes": 6025017,
+      "mtime_ns": 1793140444224990746
+    },
+    "data/canonical/ETHUSDT/2025-12.parquet": {
+      "bytes": 6252439,
+      "mtime_ns": 1793140482189850570
+    },
+    "data/canonical/ETHUSDT/2025-02.parquet": {
+      "bytes": 5664098,
+      "mtime_ns": 1793140462060474056
+    },
+    "data/canonical/ETHUSDT/2024-04.parquet": {
+      "bytes": 6102877,
+      "mtime_ns": 1793140441385986213
+    },
+    "data/canonical/ETHUSDT/2025-03.parquet": {
+      "bytes": 6208748,
+      "mtime_ns": 1793140464398660660
+    },
+    "data/canonical/ETHUSDT/2024-05.parquet": {
+      "bytes": 6199564,
+      "mtime_ns": 1793140501522873507
+    },
+    "data/canonical/ETHUSDT/2026-06.parquet": {
+      "bytes": 5925534,
+      "mtime_ns": 1793140493538249777
+    }
+  },
+  "project_bytes": 1007729453
+}

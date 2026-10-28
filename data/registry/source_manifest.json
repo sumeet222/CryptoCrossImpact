@@ -1,0 +1,3287 @@
+{
+  "provider": "Binance Vision",
+  "venue": "Binance",
+  "market": "futures/um",
+  "contract": "USDT-margined perpetual",
+  "price_type": "last traded price",
+  "interval": "1m",
+  "timestamp_unit": "milliseconds UTC",
+  "quote_unit": "USDT",
+  "base_units": {
+    "BTCUSDT": "BTC",
+    "ETHUSDT": "ETH"
+  },
+  "terms_url": "https://github.com/binance/binance-public-data/blob/master/TERMS_AND_CONDITIONS.md",
+  "license": "CC BY-NC-SA 4.0; noncommercial research; no raw redistribution in Git",
+  "availability": "open_time + 60000ms; vendor close_time = open_time + 59999ms",
+  "quality_bit_definitions": {
+    "1": "nonfinite",
+    "2": "invalid OHLC",
+    "4": "negative volume/count",
+    "8": "taker exceeds total",
+    "16": "inconsistent notional/volume/count"
+  },
+  "zero_volume_rule": "Preserve recorded prices and zero flow; ratio undefined; no invented bars",
+  "partitions": {
+    "BTCUSDT/2024-05": {
+      "symbol": "BTCUSDT",
+      "month": "2024-05",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2024-05.zip",
+          "retrieved_at_utc": "2026-10-27T22:32:27.587401+00:00",
+          "sha256": "42de617ed643def54b5a2c3fceb7cd2edec91aafaa01104a097b2ded5c5122d4",
+          "vendor_sha256": "42de617ed643def54b5a2c3fceb7cd2edec91aafaa01104a097b2ded5c5122d4",
+          "checksum_status": "PASS",
+          "bytes": 1896566,
+          "uncompressed_bytes": 5062444,
+          "http_metadata": {
+            "ETag": "\"01ec2ef75fb83241358b71dd920b801c\"",
+            "Last-Modified": "Mon, 17 Jun 2024 13:42:53 GMT",
+            "Content-Length": "1896566"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2024-05.zip",
+          "created_this_call": false,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2024-05.parquet",
+      "canonical_sha256": "4b397b23799f245ff24ae0f0c22845d86f9300862e684f8d79b9d21c053f2e61",
+      "canonical_bytes": 6107066,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-05-01 00:00:00+00:00",
+        "last_open_utc": "2024-05-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2024-05",
+      "verified_at_utc": "2026-10-27T22:32:28.190736+00:00",
+      "last_source_recheck_utc": "2026-10-27T22:39:22.162103+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2025-10": {
+      "symbol": "BTCUSDT",
+      "month": "2025-10",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2025-10.zip",
+          "retrieved_at_utc": "2026-10-27T22:32:29.729697+00:00",
+          "sha256": "bb7f53350fe27b6d8e38b5856ffc43f9ecda9d568d5bf31d0db0cd011da7100f",
+          "vendor_sha256": "bb7f53350fe27b6d8e38b5856ffc43f9ecda9d568d5bf31d0db0cd011da7100f",
+          "checksum_status": "PASS",
+          "bytes": 1913274,
+          "uncompressed_bytes": 5240808,
+          "http_metadata": {
+            "ETag": "\"4ca859fa363d29ff4b987df21fcbc9c2\"",
+            "Last-Modified": "Sun, 02 Nov 2025 09:50:43 GMT",
+            "Content-Length": "1913274"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2025-10.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2025-10.parquet",
+      "canonical_sha256": "72258ef512d3f1a976ccec92c23561c4117ba57018d6d57e764dd283cfd1cb20",
+      "canonical_bytes": 6201898,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 1,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-10-01 00:00:00+00:00",
+        "last_open_utc": "2025-10-31 23:59:00+00:00",
+        "split": "validation"
+      },
+      "source_manifest_id": "BTCUSDT/2025-10",
+      "verified_at_utc": "2026-10-27T22:32:30.207777+00:00",
+      "last_source_recheck_utc": "2026-10-27T22:39:22.701463+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2026-05": {
+      "symbol": "BTCUSDT",
+      "month": "2026-05",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-05.zip",
+          "retrieved_at_utc": "2026-10-27T22:32:32.035655+00:00",
+          "sha256": "d91548e94220d5211bb32447cc4b604ee266d145f2092edc5ec613328cbbc20a",
+          "vendor_sha256": "d91548e94220d5211bb32447cc4b604ee266d145f2092edc5ec613328cbbc20a",
+          "checksum_status": "PASS",
+          "bytes": 1845894,
+          "uncompressed_bytes": 5012954,
+          "http_metadata": {
+            "ETag": "\"a26dc2356da8fe2629b9855f26ae565c\"",
+            "Last-Modified": "Tue, 02 Jun 2026 10:57:54 GMT",
+            "Content-Length": "1845894"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2026-05.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2026-05.parquet",
+      "canonical_sha256": "82ce9e2d937a73e61f30291cc73e33589c6f29a2a1af51f29468d2455176b3f2",
+      "canonical_bytes": 5990053,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2026-05-01 00:00:00+00:00",
+        "last_open_utc": "2026-05-31 23:59:00+00:00",
+        "split": "test"
+      },
+      "source_manifest_id": "BTCUSDT/2026-05",
+      "verified_at_utc": "2026-10-27T22:32:32.477206+00:00",
+      "last_source_recheck_utc": "2026-10-27T22:39:23.466420+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2024-05": {
+      "symbol": "ETHUSDT",
+      "month": "2024-05",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2024-05.zip",
+          "retrieved_at_utc": "2026-10-27T22:32:34.324178+00:00",
+          "sha256": "d512aa43b5b6a5168fa1b6242fe4cf01c88e51c78bb9f4d202f0ca2e42338f96",
+          "vendor_sha256": "d512aa43b5b6a5168fa1b6242fe4cf01c88e51c78bb9f4d202f0ca2e42338f96",
+          "checksum_status": "PASS",
+          "bytes": 1935350,
+          "uncompressed_bytes": 4959650,
+          "http_metadata": {
+            "ETag": "\"4ae5c3082ebcf348c7e66a5534ef4597\"",
+            "Last-Modified": "Mon, 17 Jun 2024 13:43:01 GMT",
+            "Content-Length": "1935350"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2024-05.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2024-05.parquet",
+      "canonical_sha256": "4045527f59f650f0b92acf3c35a3e6f02d9cc39b69749d0d03797d5262b33b4d",
+      "canonical_bytes": 6199564,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-05-01 00:00:00+00:00",
+        "last_open_utc": "2024-05-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2024-05",
+      "verified_at_utc": "2026-10-27T22:32:34.774935+00:00",
+      "last_source_recheck_utc": "2026-10-27T22:39:24.188349+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2025-10": {
+      "symbol": "ETHUSDT",
+      "month": "2025-10",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2025-10.zip",
+          "retrieved_at_utc": "2026-10-27T22:32:36.656049+00:00",
+          "sha256": "c0b8d557384ce1cd77df8f08cb6775f350a531a1792fa9deceb05f51a3939438",
+          "vendor_sha256": "c0b8d557384ce1cd77df8f08cb6775f350a531a1792fa9deceb05f51a3939438",
+          "checksum_status": "PASS",
+          "bytes": 1996726,
+          "uncompressed_bytes": 5031229,
+          "http_metadata": {
+            "ETag": "\"aaafadf0a001d4d4b9a694de22f4dba8\"",
+            "Last-Modified": "Sun, 02 Nov 2025 09:50:56 GMT",
+            "Content-Length": "1996726"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2025-10.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2025-10.parquet",
+      "canonical_sha256": "c4796de6f9f367e1fdee9f72728ae698f2b82df5674c194534f6cb9cae3913d5",
+      "canonical_bytes": 6378214,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 1,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-10-01 00:00:00+00:00",
+        "last_open_utc": "2025-10-31 23:59:00+00:00",
+        "split": "validation"
+      },
+      "source_manifest_id": "ETHUSDT/2025-10",
+      "verified_at_utc": "2026-10-27T22:32:37.121274+00:00",
+      "last_source_recheck_utc": "2026-10-27T22:39:24.904881+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2026-05": {
+      "symbol": "ETHUSDT",
+      "month": "2026-05",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2026-05.zip",
+          "retrieved_at_utc": "2026-10-27T22:32:38.961526+00:00",
+          "sha256": "9710b3d1e350bef5bf31b8d1531c5801d35f963d223d0a42e73ae86ddd376e92",
+          "vendor_sha256": "9710b3d1e350bef5bf31b8d1531c5801d35f963d223d0a42e73ae86ddd376e92",
+          "checksum_status": "PASS",
+          "bytes": 1893623,
+          "uncompressed_bytes": 4957353,
+          "http_metadata": {
+            "ETag": "\"5640495b971a1b966a9118d4b4ecdab2\"",
+            "Last-Modified": "Tue, 02 Jun 2026 10:58:12 GMT",
+            "Content-Length": "1893623"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2026-05.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2026-05.parquet",
+      "canonical_sha256": "49a8ef26cf9647660bc7cfce6909244484fc5d15a5920075f7c397e10d105523",
+      "canonical_bytes": 6161132,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2026-05-01 00:00:00+00:00",
+        "last_open_utc": "2026-05-31 23:59:00+00:00",
+        "split": "test"
+      },
+      "source_manifest_id": "ETHUSDT/2026-05",
+      "verified_at_utc": "2026-10-27T22:32:39.396823+00:00",
+      "last_source_recheck_utc": "2026-10-27T22:39:25.333088+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2024-01": {
+      "symbol": "BTCUSDT",
+      "month": "2024-01",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2024-01.zip",
+          "retrieved_at_utc": "2026-10-27T22:32:51.395800+00:00",
+          "sha256": "21eeac04a76a7a35b10467e5e752fb2f8cff77cdeb57df6b50a23ce8d69bb190",
+          "vendor_sha256": "21eeac04a76a7a35b10467e5e752fb2f8cff77cdeb57df6b50a23ce8d69bb190",
+          "checksum_status": "PASS",
+          "bytes": 1898532,
+          "uncompressed_bytes": 5073074,
+          "http_metadata": {
+            "ETag": "\"7a27fd5c7cd4d1c181bdbc1d6a36466b\"",
+            "Last-Modified": "Sun, 18 Feb 2024 13:55:42 GMT",
+            "Content-Length": "1898532"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2024-01.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2024-01.parquet",
+      "canonical_sha256": "393005a8b058e0c49426995cc53d3eb434c32a724efe3411b37fb0a76bd1337f",
+      "canonical_bytes": 6152257,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44639,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-01-01 00:00:00+00:00",
+        "last_open_utc": "2024-01-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2024-01",
+      "verified_at_utc": "2026-10-27T22:32:51.927525+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2024-02": {
+      "symbol": "BTCUSDT",
+      "month": "2024-02",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2024-02.zip",
+          "retrieved_at_utc": "2026-10-27T22:32:53.523976+00:00",
+          "sha256": "1407acbf8ad99911bdf582805699b7e85fdbc346dbe12618ce8b6369f0d8058d",
+          "vendor_sha256": "1407acbf8ad99911bdf582805699b7e85fdbc346dbe12618ce8b6369f0d8058d",
+          "checksum_status": "PASS",
+          "bytes": 1770127,
+          "uncompressed_bytes": 4744420,
+          "http_metadata": {
+            "ETag": "\"678e762a0bdde71a415bc9723bb1dbea\"",
+            "Last-Modified": "Sun, 17 Mar 2024 15:30:57 GMT",
+            "Content-Length": "1770127"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2024-02.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2024-02.parquet",
+      "canonical_sha256": "5241176b98cd39a6373939d5946d324e1006caf556ae44c1c3f13ddabc2583e7",
+      "canonical_bytes": 5655758,
+      "qc": {
+        "rows": 41760,
+        "expected_rows": 41760,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 41760,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-02-01 00:00:00+00:00",
+        "last_open_utc": "2024-02-29 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2024-02",
+      "verified_at_utc": "2026-10-27T22:32:54.112150+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2024-03": {
+      "symbol": "BTCUSDT",
+      "month": "2024-03",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2024-03.zip",
+          "retrieved_at_utc": "2026-10-27T22:32:55.942430+00:00",
+          "sha256": "040b8e448e4243072b88b0d9908dfebed91bba943b75f4e831fa5337a2e1dab9",
+          "vendor_sha256": "040b8e448e4243072b88b0d9908dfebed91bba943b75f4e831fa5337a2e1dab9",
+          "checksum_status": "PASS",
+          "bytes": 1950611,
+          "uncompressed_bytes": 5112186,
+          "http_metadata": {
+            "ETag": "\"68d8a3f82636cca3cfd2f2ab21fc072d\"",
+            "Last-Modified": "Wed, 17 Apr 2024 19:24:58 GMT",
+            "Content-Length": "1950611"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2024-03.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2024-03.parquet",
+      "canonical_sha256": "e12aecd24e8854441cefe07d88d3cb1dfcce204f0c89ed229b821199d3432ecf",
+      "canonical_bytes": 6261943,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-03-01 00:00:00+00:00",
+        "last_open_utc": "2024-03-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2024-03",
+      "verified_at_utc": "2026-10-27T22:32:56.417155+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2024-04": {
+      "symbol": "BTCUSDT",
+      "month": "2024-04",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2024-04.zip",
+          "retrieved_at_utc": "2026-10-27T22:32:58.302495+00:00",
+          "sha256": "6a41f002da0c8e3f60bd46c841ea4ed766fb195764ad3b6b10e4f508d29c2eb7",
+          "vendor_sha256": "6a41f002da0c8e3f60bd46c841ea4ed766fb195764ad3b6b10e4f508d29c2eb7",
+          "checksum_status": "PASS",
+          "bytes": 1870249,
+          "uncompressed_bytes": 4930467,
+          "http_metadata": {
+            "ETag": "\"b56c3782a1f69564187946ae98c39489\"",
+            "Last-Modified": "Fri, 17 May 2024 14:15:15 GMT",
+            "Content-Length": "1870249"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2024-04.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2024-04.parquet",
+      "canonical_sha256": "cac181628df82169fa02bb34a389742e7700d7d8946b5014ad80432d7e6350bd",
+      "canonical_bytes": 6014470,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-04-01 00:00:00+00:00",
+        "last_open_utc": "2024-04-30 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2024-04",
+      "verified_at_utc": "2026-10-27T22:32:58.781743+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2024-06": {
+      "symbol": "BTCUSDT",
+      "month": "2024-06",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2024-06.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:01.123541+00:00",
+          "sha256": "93499da4990fec5471bb0d73c91116e7d20a8b2697d7a4491665d6d1b8e85c85",
+          "vendor_sha256": "93499da4990fec5471bb0d73c91116e7d20a8b2697d7a4491665d6d1b8e85c85",
+          "checksum_status": "PASS",
+          "bytes": 1789499,
+          "uncompressed_bytes": 4864153,
+          "http_metadata": {
+            "ETag": "\"3aca34081131d45ac82c92eac8fc5caa\"",
+            "Last-Modified": "Wed, 17 Jul 2024 14:15:02 GMT",
+            "Content-Length": "1789499"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2024-06.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2024-06.parquet",
+      "canonical_sha256": "828953da17e3824e6c63794559b741dac3186bbd9140fab64c25dd14a3daacdf",
+      "canonical_bytes": 5923572,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-06-01 00:00:00+00:00",
+        "last_open_utc": "2024-06-30 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2024-06",
+      "verified_at_utc": "2026-10-27T22:33:01.574280+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2024-07": {
+      "symbol": "BTCUSDT",
+      "month": "2024-07",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2024-07.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:03.134058+00:00",
+          "sha256": "97f9cd5104a33828c5c2d8d03a2796d600102ab88737d1c6da515b9609540c3c",
+          "vendor_sha256": "97f9cd5104a33828c5c2d8d03a2796d600102ab88737d1c6da515b9609540c3c",
+          "checksum_status": "PASS",
+          "bytes": 1912408,
+          "uncompressed_bytes": 5074952,
+          "http_metadata": {
+            "ETag": "\"a37374dc8ae3f050545cef60fda52799\"",
+            "Last-Modified": "Sat, 17 Aug 2024 13:29:19 GMT",
+            "Content-Length": "1912408"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2024-07.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2024-07.parquet",
+      "canonical_sha256": "2875164ca6cc2cc309186f83a2dde7180f65b006d14eea68e6e3de4ef767ceb1",
+      "canonical_bytes": 6152483,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-07-01 00:00:00+00:00",
+        "last_open_utc": "2024-07-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2024-07",
+      "verified_at_utc": "2026-10-27T22:33:03.593592+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2024-08": {
+      "symbol": "BTCUSDT",
+      "month": "2024-08",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2024-08.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:05.419361+00:00",
+          "sha256": "f69dbcebfd7108dc97825bd6c35d8d9a51745082f66617cb69de888e867e8e89",
+          "vendor_sha256": "f69dbcebfd7108dc97825bd6c35d8d9a51745082f66617cb69de888e867e8e89",
+          "checksum_status": "PASS",
+          "bytes": 1919190,
+          "uncompressed_bytes": 5077659,
+          "http_metadata": {
+            "ETag": "\"fb40d2c616358b814e9ec24343967d98\"",
+            "Last-Modified": "Tue, 17 Sep 2024 13:56:10 GMT",
+            "Content-Length": "1919190"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2024-08.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2024-08.parquet",
+      "canonical_sha256": "a258b91f4e92ee60f9780f2acba3b738373b20fc7101bb99074d5a77a0fe8095",
+      "canonical_bytes": 6112935,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-08-01 00:00:00+00:00",
+        "last_open_utc": "2024-08-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2024-08",
+      "verified_at_utc": "2026-10-27T22:33:05.867099+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2024-09": {
+      "symbol": "BTCUSDT",
+      "month": "2024-09",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2024-09.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:07.661498+00:00",
+          "sha256": "16fe2e13728236bfbd3efee99671612daadeea3b62dfd55d8874feae9faa4946",
+          "vendor_sha256": "16fe2e13728236bfbd3efee99671612daadeea3b62dfd55d8874feae9faa4946",
+          "checksum_status": "PASS",
+          "bytes": 1829434,
+          "uncompressed_bytes": 4895639,
+          "http_metadata": {
+            "ETag": "\"3ed09430f92f424969dd7681bfade9da\"",
+            "Last-Modified": "Thu, 17 Oct 2024 15:47:40 GMT",
+            "Content-Length": "1829434"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2024-09.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2024-09.parquet",
+      "canonical_sha256": "37d0f2d3959d150f969c4d859affc8678a3958e4c1e90f55cd7f1344c38caa1a",
+      "canonical_bytes": 5923985,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-09-01 00:00:00+00:00",
+        "last_open_utc": "2024-09-30 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2024-09",
+      "verified_at_utc": "2026-10-27T22:33:08.116494+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2024-10": {
+      "symbol": "BTCUSDT",
+      "month": "2024-10",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2024-10.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:09.925771+00:00",
+          "sha256": "aa8c79ad120a8d870e23276d1ad5966f99f59bc0a1886ef5927a3808a5efee36",
+          "vendor_sha256": "aa8c79ad120a8d870e23276d1ad5966f99f59bc0a1886ef5927a3808a5efee36",
+          "checksum_status": "PASS",
+          "bytes": 1878910,
+          "uncompressed_bytes": 5054245,
+          "http_metadata": {
+            "ETag": "\"aeea312f58a2d0f6f1d255281b6df137\"",
+            "Last-Modified": "Thu, 21 Nov 2024 21:56:40 GMT",
+            "Content-Length": "1878910"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2024-10.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2024-10.parquet",
+      "canonical_sha256": "a31650d80ce04d453388587b5f19c0567172276ed14457584affa240c0bb44c1",
+      "canonical_bytes": 6046292,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 89,
+        "jump_flags": 0,
+        "stale_close_flags": 46,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-10-01 00:00:00+00:00",
+        "last_open_utc": "2024-10-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2024-10",
+      "verified_at_utc": "2026-10-27T22:33:10.380375+00:00",
+      "raw_canonical_exact_check": "PASS",
+      "diagnostic_repair": {
+        "utc": "2026-10-27T22:36:07.278127+00:00",
+        "reason": "Use strictly trailing stale-close run length, preventing future-data relabeling",
+        "old_flags": 75,
+        "new_flags": 46
+      }
+    },
+    "BTCUSDT/2024-11": {
+      "symbol": "BTCUSDT",
+      "month": "2024-11",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2024-11.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:12.221821+00:00",
+          "sha256": "9c3dad038f4b043ec51d4200f57d15a0a07b3fc32b3ea3dca6a96543b9624941",
+          "vendor_sha256": "9c3dad038f4b043ec51d4200f57d15a0a07b3fc32b3ea3dca6a96543b9624941",
+          "checksum_status": "PASS",
+          "bytes": 1876449,
+          "uncompressed_bytes": 4939333,
+          "http_metadata": {
+            "ETag": "\"cfd62ce291317661fbc9d73f54d746f0\"",
+            "Last-Modified": "Tue, 17 Dec 2024 13:51:49 GMT",
+            "Content-Length": "1876449"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2024-11.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2024-11.parquet",
+      "canonical_sha256": "4b280115040ee853eb2cb2a6cf7775e9ab6b60d0947b06dd2d06b49f9101285b",
+      "canonical_bytes": 6130956,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-11-01 00:00:00+00:00",
+        "last_open_utc": "2024-11-30 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2024-11",
+      "verified_at_utc": "2026-10-27T22:33:12.668925+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2024-12": {
+      "symbol": "BTCUSDT",
+      "month": "2024-12",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2024-12.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:14.539084+00:00",
+          "sha256": "bfce141d2a152c2b94d85b797fe18ebfa195fa0e6091a7ccc06663ae1309466f",
+          "vendor_sha256": "bfce141d2a152c2b94d85b797fe18ebfa195fa0e6091a7ccc06663ae1309466f",
+          "checksum_status": "PASS",
+          "bytes": 1929835,
+          "uncompressed_bytes": 5137156,
+          "http_metadata": {
+            "ETag": "\"18ff53b52a509913e043a9a7754f7e57\"",
+            "Last-Modified": "Fri, 17 Jan 2025 13:29:11 GMT",
+            "Content-Length": "1929835"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2024-12.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2024-12.parquet",
+      "canonical_sha256": "c30e529a34f2255ad4a08f916eb8aa91155b9e8285930af2ba6a7a4719b6a935",
+      "canonical_bytes": 6213528,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-12-01 00:00:00+00:00",
+        "last_open_utc": "2024-12-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2024-12",
+      "verified_at_utc": "2026-10-27T22:33:14.989297+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2025-01": {
+      "symbol": "BTCUSDT",
+      "month": "2025-01",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2025-01.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:16.840882+00:00",
+          "sha256": "b69ca5b2c2d1ae00d68d2790d09138cb2a44085ff19e0da5dc98b569ea7e489e",
+          "vendor_sha256": "b69ca5b2c2d1ae00d68d2790d09138cb2a44085ff19e0da5dc98b569ea7e489e",
+          "checksum_status": "PASS",
+          "bytes": 1917878,
+          "uncompressed_bytes": 5160410,
+          "http_metadata": {
+            "ETag": "\"67ccaad847bd9756d8c6990a092f241e\"",
+            "Last-Modified": "Mon, 17 Feb 2025 13:27:55 GMT",
+            "Content-Length": "1917878"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2025-01.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2025-01.parquet",
+      "canonical_sha256": "e76c2e50752f8f7ca5b3cdb82c1a1915ef2c2169fe28047123e67ae0113a1b79",
+      "canonical_bytes": 6115880,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 19,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-01-01 00:00:00+00:00",
+        "last_open_utc": "2025-01-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2025-01",
+      "verified_at_utc": "2026-10-27T22:33:17.295216+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2025-02": {
+      "symbol": "BTCUSDT",
+      "month": "2025-02",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2025-02.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:19.146942+00:00",
+          "sha256": "d84ca981d06ee6491e16597f8d43955f62cab399a9f4b6efc2ee1b4d3a37f0fc",
+          "vendor_sha256": "d84ca981d06ee6491e16597f8d43955f62cab399a9f4b6efc2ee1b4d3a37f0fc",
+          "checksum_status": "PASS",
+          "bytes": 1718529,
+          "uncompressed_bytes": 4579410,
+          "http_metadata": {
+            "ETag": "\"79e18d5c14a5ef6ef03239e4fb1d0b2f\"",
+            "Last-Modified": "Mon, 17 Mar 2025 13:35:18 GMT",
+            "Content-Length": "1718529"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2025-02.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2025-02.parquet",
+      "canonical_sha256": "f60b0af93e86e2695180e5984894d92f2fd0d70ebb60a68698fe9c8b7ac66e09",
+      "canonical_bytes": 5505012,
+      "qc": {
+        "rows": 40320,
+        "expected_rows": 40320,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 40320,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-02-01 00:00:00+00:00",
+        "last_open_utc": "2025-02-28 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2025-02",
+      "verified_at_utc": "2026-10-27T22:33:19.578594+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2025-03": {
+      "symbol": "BTCUSDT",
+      "month": "2025-03",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2025-03.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:21.384611+00:00",
+          "sha256": "4837163333c9c9978255b8870a5a6de1bc48bd22a6c72fef54665a8d4e70b4df",
+          "vendor_sha256": "4837163333c9c9978255b8870a5a6de1bc48bd22a6c72fef54665a8d4e70b4df",
+          "checksum_status": "PASS",
+          "bytes": 1919175,
+          "uncompressed_bytes": 5076024,
+          "http_metadata": {
+            "ETag": "\"1d9cd860844cd850097af40575497d84\"",
+            "Last-Modified": "Thu, 17 Apr 2025 13:41:56 GMT",
+            "Content-Length": "1919175"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2025-03.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2025-03.parquet",
+      "canonical_sha256": "8b2f6edeeeedec6b93f32333173376611c3f8b007ee9ffc5bf6450cd18e3e07d",
+      "canonical_bytes": 6132274,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-03-01 00:00:00+00:00",
+        "last_open_utc": "2025-03-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2025-03",
+      "verified_at_utc": "2026-10-27T22:33:21.832392+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2025-04": {
+      "symbol": "BTCUSDT",
+      "month": "2025-04",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2025-04.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:23.691189+00:00",
+          "sha256": "87bca047ca7e8b1d27913091255018e121210276726c5aa445e85da6f56e2dcc",
+          "vendor_sha256": "87bca047ca7e8b1d27913091255018e121210276726c5aa445e85da6f56e2dcc",
+          "checksum_status": "PASS",
+          "bytes": 1846549,
+          "uncompressed_bytes": 4907517,
+          "http_metadata": {
+            "ETag": "\"3683922c62c9f9bf3855818b3cb41a8a\"",
+            "Last-Modified": "Sat, 17 May 2025 13:45:38 GMT",
+            "Content-Length": "1846549"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2025-04.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2025-04.parquet",
+      "canonical_sha256": "4b91dd322a912e6bc2b073cc1d1f68bb2ec0b6c0f1f19c0bddfaf70da351662a",
+      "canonical_bytes": 5986697,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-04-01 00:00:00+00:00",
+        "last_open_utc": "2025-04-30 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2025-04",
+      "verified_at_utc": "2026-10-27T22:33:24.137034+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2025-05": {
+      "symbol": "BTCUSDT",
+      "month": "2025-05",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2025-05.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:25.952184+00:00",
+          "sha256": "7acab7e40a74db53a2d6c35373ebe327eefa85b98f8c92fbe58755881e3841ee",
+          "vendor_sha256": "7acab7e40a74db53a2d6c35373ebe327eefa85b98f8c92fbe58755881e3841ee",
+          "checksum_status": "PASS",
+          "bytes": 1904964,
+          "uncompressed_bytes": 5199644,
+          "http_metadata": {
+            "ETag": "\"5a91f27b702cc955b4a2bca8fdd5db71\"",
+            "Last-Modified": "Mon, 02 Jun 2025 09:16:12 GMT",
+            "Content-Length": "1904964"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2025-05.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2025-05.parquet",
+      "canonical_sha256": "26144b102e7257a842193eec5fc677983544e880b351759a6dd47dde03b7c4c1",
+      "canonical_bytes": 6120356,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-05-01 00:00:00+00:00",
+        "last_open_utc": "2025-05-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2025-05",
+      "verified_at_utc": "2026-10-27T22:33:26.406931+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2025-06": {
+      "symbol": "BTCUSDT",
+      "month": "2025-06",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2025-06.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:28.271331+00:00",
+          "sha256": "78872b32c4d0bbc2d89a0459539b90cff47de08a9a56fdf8d233943a32e78efc",
+          "vendor_sha256": "78872b32c4d0bbc2d89a0459539b90cff47de08a9a56fdf8d233943a32e78efc",
+          "checksum_status": "PASS",
+          "bytes": 1817901,
+          "uncompressed_bytes": 5050655,
+          "http_metadata": {
+            "ETag": "\"a01759df3ce009f285ff849fbc58580d\"",
+            "Last-Modified": "Thu, 17 Jul 2025 14:13:00 GMT",
+            "Content-Length": "1817901"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2025-06.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2025-06.parquet",
+      "canonical_sha256": "0939c43017b6fb5eecc6fa50c15620ec9490a787ebc0054324af961d4fd7b8a1",
+      "canonical_bytes": 5797276,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-06-01 00:00:00+00:00",
+        "last_open_utc": "2025-06-30 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "BTCUSDT/2025-06",
+      "verified_at_utc": "2026-10-27T22:33:28.714487+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2025-07": {
+      "symbol": "BTCUSDT",
+      "month": "2025-07",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2025-07.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:30.542668+00:00",
+          "sha256": "cf5fe0891c80e68d2d613eb5457100b7d886eee8cc913ccdd96ef45e757a5aaf",
+          "vendor_sha256": "cf5fe0891c80e68d2d613eb5457100b7d886eee8cc913ccdd96ef45e757a5aaf",
+          "checksum_status": "PASS",
+          "bytes": 1868400,
+          "uncompressed_bytes": 5214528,
+          "http_metadata": {
+            "ETag": "\"3d0ccef773c8a41a2b3b21370a45c2fe\"",
+            "Last-Modified": "Sat, 02 Aug 2025 08:58:24 GMT",
+            "Content-Length": "1868400"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2025-07.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2025-07.parquet",
+      "canonical_sha256": "d40b16bcf98b5951a24a1123c9ed3fb16d1aea92ef7b9687ed4e5d0490374619",
+      "canonical_bytes": 6030904,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-07-01 00:00:00+00:00",
+        "last_open_utc": "2025-07-31 23:59:00+00:00",
+        "split": "validation"
+      },
+      "source_manifest_id": "BTCUSDT/2025-07",
+      "verified_at_utc": "2026-10-27T22:33:30.992627+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2025-08": {
+      "symbol": "BTCUSDT",
+      "month": "2025-08",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2025-08.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:32.795286+00:00",
+          "sha256": "eaf41354fc1aa96eac94ee50b3fda603cd595f95030ebf30b2ab5bea7a4462c3",
+          "vendor_sha256": "eaf41354fc1aa96eac94ee50b3fda603cd595f95030ebf30b2ab5bea7a4462c3",
+          "checksum_status": "PASS",
+          "bytes": 1871971,
+          "uncompressed_bytes": 5213611,
+          "http_metadata": {
+            "ETag": "\"827de2e8ce3935f3ddf329a734937d9a\"",
+            "Last-Modified": "Tue, 02 Sep 2025 11:16:31 GMT",
+            "Content-Length": "1871971"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2025-08.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2025-08.parquet",
+      "canonical_sha256": "0d0f0755f34a8f024819b769dea0a87dd8ba630f1ce6b9f80e381d250f9d71cf",
+      "canonical_bytes": 6075122,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 18,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 1,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-08-01 00:00:00+00:00",
+        "last_open_utc": "2025-08-31 23:59:00+00:00",
+        "split": "validation"
+      },
+      "source_manifest_id": "BTCUSDT/2025-08",
+      "verified_at_utc": "2026-10-27T22:33:33.248715+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2025-09": {
+      "symbol": "BTCUSDT",
+      "month": "2025-09",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2025-09.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:35.072437+00:00",
+          "sha256": "c296ba45c215934e9750ca82846c7b5d14be661649d8e4423eac834cf57330dc",
+          "vendor_sha256": "c296ba45c215934e9750ca82846c7b5d14be661649d8e4423eac834cf57330dc",
+          "checksum_status": "PASS",
+          "bytes": 1782066,
+          "uncompressed_bytes": 5025906,
+          "http_metadata": {
+            "ETag": "\"790773c2f7d45f797cf3b05332021ad8\"",
+            "Last-Modified": "Thu, 02 Oct 2025 09:11:51 GMT",
+            "Content-Length": "1782066"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2025-09.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2025-09.parquet",
+      "canonical_sha256": "751474b225b07e0d013955100ee025a0513e71fc646c819b1f6e021fe7dc5cb4",
+      "canonical_bytes": 5741960,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-09-01 00:00:00+00:00",
+        "last_open_utc": "2025-09-30 23:59:00+00:00",
+        "split": "validation"
+      },
+      "source_manifest_id": "BTCUSDT/2025-09",
+      "verified_at_utc": "2026-10-27T22:33:35.517259+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2025-11": {
+      "symbol": "BTCUSDT",
+      "month": "2025-11",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2025-11.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:37.584448+00:00",
+          "sha256": "981da0b054f99b959fe6245fb363336b46908d358f37251d59bad308f375bc54",
+          "vendor_sha256": "981da0b054f99b959fe6245fb363336b46908d358f37251d59bad308f375bc54",
+          "checksum_status": "PASS",
+          "bytes": 1856815,
+          "uncompressed_bytes": 4971378,
+          "http_metadata": {
+            "ETag": "\"d104bab739ef8c516b8791c1db90f5bc\"",
+            "Last-Modified": "Tue, 02 Dec 2025 09:35:27 GMT",
+            "Content-Length": "1856815"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2025-11.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2025-11.parquet",
+      "canonical_sha256": "5c5b5be9ca99500ce59557c86cf80f4bf432ac2c803f0e6cbe39b1e9fa030580",
+      "canonical_bytes": 5961270,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-11-01 00:00:00+00:00",
+        "last_open_utc": "2025-11-30 23:59:00+00:00",
+        "split": "validation"
+      },
+      "source_manifest_id": "BTCUSDT/2025-11",
+      "verified_at_utc": "2026-10-27T22:33:38.037453+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2025-12": {
+      "symbol": "BTCUSDT",
+      "month": "2025-12",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2025-12.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:39.876875+00:00",
+          "sha256": "2d5b2e1887dac1dfe450010877de7203a72e19df7a771067b980bbb07ad3069c",
+          "vendor_sha256": "2d5b2e1887dac1dfe450010877de7203a72e19df7a771067b980bbb07ad3069c",
+          "checksum_status": "PASS",
+          "bytes": 1868657,
+          "uncompressed_bytes": 5024449,
+          "http_metadata": {
+            "ETag": "\"9a6e75e372fd675f666fea11d25fa23a\"",
+            "Last-Modified": "Fri, 02 Jan 2026 10:44:36 GMT",
+            "Content-Length": "1868657"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2025-12.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2025-12.parquet",
+      "canonical_sha256": "498b287c3ff7b65fe5ac0030ad0ac5d17b6d87f23364e2a31c99e8def7fe8aaf",
+      "canonical_bytes": 6080441,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-12-01 00:00:00+00:00",
+        "last_open_utc": "2025-12-31 23:59:00+00:00",
+        "split": "validation"
+      },
+      "source_manifest_id": "BTCUSDT/2025-12",
+      "verified_at_utc": "2026-10-27T22:33:40.324424+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2026-01": {
+      "symbol": "BTCUSDT",
+      "month": "2026-01",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-01.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:41.883999+00:00",
+          "sha256": "58e9c620a6acda209d25766b3cf4262f3104649f5c26f247d933e0da8bb7946f",
+          "vendor_sha256": "58e9c620a6acda209d25766b3cf4262f3104649f5c26f247d933e0da8bb7946f",
+          "checksum_status": "PASS",
+          "bytes": 1852279,
+          "uncompressed_bytes": 5018109,
+          "http_metadata": {
+            "ETag": "\"576d121d9b1629cd43fd6f62cbc72883\"",
+            "Last-Modified": "Mon, 02 Feb 2026 10:20:24 GMT",
+            "Content-Length": "1852279"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2026-01.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2026-01.parquet",
+      "canonical_sha256": "6045d1e7956e765fe3d5559e03d9913c5e41febd6fb5f24e648e41bdeb8a31b9",
+      "canonical_bytes": 6016752,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2026-01-01 00:00:00+00:00",
+        "last_open_utc": "2026-01-31 23:59:00+00:00",
+        "split": "test"
+      },
+      "source_manifest_id": "BTCUSDT/2026-01",
+      "verified_at_utc": "2026-10-27T22:33:42.802822+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2026-02": {
+      "symbol": "BTCUSDT",
+      "month": "2026-02",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-02.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:44.685829+00:00",
+          "sha256": "805626ad2dc5b704d52c211996d12e9e4b1be234998f3dba4b3d34ff79be0337",
+          "vendor_sha256": "805626ad2dc5b704d52c211996d12e9e4b1be234998f3dba4b3d34ff79be0337",
+          "checksum_status": "PASS",
+          "bytes": 1743792,
+          "uncompressed_bytes": 4586666,
+          "http_metadata": {
+            "ETag": "\"72aa5c2569a4c5a1dd5b70962e4e17f4\"",
+            "Last-Modified": "Mon, 02 Mar 2026 09:14:25 GMT",
+            "Content-Length": "1743792"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2026-02.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2026-02.parquet",
+      "canonical_sha256": "eff5c86a441ac4b4b7b316cb9e6ecffa77bb60c1be9e9a4e5f705c680436419c",
+      "canonical_bytes": 5610214,
+      "qc": {
+        "rows": 40320,
+        "expected_rows": 40320,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 40320,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2026-02-01 00:00:00+00:00",
+        "last_open_utc": "2026-02-28 23:59:00+00:00",
+        "split": "test"
+      },
+      "source_manifest_id": "BTCUSDT/2026-02",
+      "verified_at_utc": "2026-10-27T22:33:45.121323+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2026-03": {
+      "symbol": "BTCUSDT",
+      "month": "2026-03",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-03.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:46.992424+00:00",
+          "sha256": "c472a865f230bf1b5b17e124770a83c083144e3e11a115733288fb8f3e3b8baa",
+          "vendor_sha256": "c472a865f230bf1b5b17e124770a83c083144e3e11a115733288fb8f3e3b8baa",
+          "checksum_status": "PASS",
+          "bytes": 1911731,
+          "uncompressed_bytes": 5065837,
+          "http_metadata": {
+            "ETag": "\"8d6ef6729f4b7e4804f3b4ea5c2699e3\"",
+            "Last-Modified": "Thu, 02 Apr 2026 09:16:15 GMT",
+            "Content-Length": "1911731"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2026-03.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2026-03.parquet",
+      "canonical_sha256": "a7d3c011bbb4e8ffbd00d2cab70c930bc4afbcfa2d7f8d62ae44ec3d09310a05",
+      "canonical_bytes": 6171896,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2026-03-01 00:00:00+00:00",
+        "last_open_utc": "2026-03-31 23:59:00+00:00",
+        "split": "test"
+      },
+      "source_manifest_id": "BTCUSDT/2026-03",
+      "verified_at_utc": "2026-10-27T22:33:47.446309+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2026-04": {
+      "symbol": "BTCUSDT",
+      "month": "2026-04",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-04.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:48.984809+00:00",
+          "sha256": "515b86570f0c6924f6dc2cf90589d3db90f3de9c6bfd9a22dde0429995dc5405",
+          "vendor_sha256": "515b86570f0c6924f6dc2cf90589d3db90f3de9c6bfd9a22dde0429995dc5405",
+          "checksum_status": "PASS",
+          "bytes": 1810071,
+          "uncompressed_bytes": 4868673,
+          "http_metadata": {
+            "ETag": "\"5a2de6b3671673b0f5b82c05d868d89c\"",
+            "Last-Modified": "Sat, 02 May 2026 09:07:10 GMT",
+            "Content-Length": "1810071"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2026-04.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2026-04.parquet",
+      "canonical_sha256": "f3f72264f14cd9a6240e4920d1c2dc8754c07d22a51383d6bbcad9d685a4cf41",
+      "canonical_bytes": 5849767,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2026-04-01 00:00:00+00:00",
+        "last_open_utc": "2026-04-30 23:59:00+00:00",
+        "split": "test"
+      },
+      "source_manifest_id": "BTCUSDT/2026-04",
+      "verified_at_utc": "2026-10-27T22:33:49.430255+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "BTCUSDT/2026-06": {
+      "symbol": "BTCUSDT",
+      "month": "2026-06",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-06.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:51.806246+00:00",
+          "sha256": "9b214199eb5063585c7ed0f59ba19323326d68ac024b85106713989399204490",
+          "vendor_sha256": "9b214199eb5063585c7ed0f59ba19323326d68ac024b85106713989399204490",
+          "checksum_status": "PASS",
+          "bytes": 1838455,
+          "uncompressed_bytes": 4894009,
+          "http_metadata": {
+            "ETag": "\"7e2012c2ab67aaa8e4f45186090a6eaf\"",
+            "Last-Modified": "Thu, 02 Jul 2026 12:04:38 GMT",
+            "Content-Length": "1838455"
+          },
+          "local_archive": "data/raw/BTCUSDT-1m-2026-06.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/BTCUSDT/2026-06.parquet",
+      "canonical_sha256": "7c67fa988160984a657df467128eed814cc77b019694c23164fee4de4535c7f2",
+      "canonical_bytes": 5921483,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2026-06-01 00:00:00+00:00",
+        "last_open_utc": "2026-06-30 23:59:00+00:00",
+        "split": "test"
+      },
+      "source_manifest_id": "BTCUSDT/2026-06",
+      "verified_at_utc": "2026-10-27T22:33:52.254434+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2024-01": {
+      "symbol": "ETHUSDT",
+      "month": "2024-01",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2024-01.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:54.085613+00:00",
+          "sha256": "7fa68ec5fedc6eef175ed0af6e9f252062f6ceaca016106c265e6e4b724b5ef2",
+          "vendor_sha256": "7fa68ec5fedc6eef175ed0af6e9f252062f6ceaca016106c265e6e4b724b5ef2",
+          "checksum_status": "PASS",
+          "bytes": 1918758,
+          "uncompressed_bytes": 4953333,
+          "http_metadata": {
+            "ETag": "\"c429dcc1207cef0037d33d3157205ceb\"",
+            "Last-Modified": "Sun, 18 Feb 2024 13:55:51 GMT",
+            "Content-Length": "1918758"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2024-01.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2024-01.parquet",
+      "canonical_sha256": "64a6259bc786d69d5616c44a29dd8e63d15de50ac368d1e084868467bb28def2",
+      "canonical_bytes": 6239876,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44639,
+        "zero_volume": 0,
+        "jump_flags": 1,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-01-01 00:00:00+00:00",
+        "last_open_utc": "2024-01-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2024-01",
+      "verified_at_utc": "2026-10-27T22:33:54.548088+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2024-02": {
+      "symbol": "ETHUSDT",
+      "month": "2024-02",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2024-02.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:56.403336+00:00",
+          "sha256": "de3f91fcd929d207b4382afd7a728c0f44527d6bdbcb0a585b01b0fe001e24ab",
+          "vendor_sha256": "de3f91fcd929d207b4382afd7a728c0f44527d6bdbcb0a585b01b0fe001e24ab",
+          "checksum_status": "PASS",
+          "bytes": 1796355,
+          "uncompressed_bytes": 4636418,
+          "http_metadata": {
+            "ETag": "\"465cfd7074f1b71a5d371ce65e39a26c\"",
+            "Last-Modified": "Sun, 17 Mar 2024 15:31:07 GMT",
+            "Content-Length": "1796355"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2024-02.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2024-02.parquet",
+      "canonical_sha256": "d1f35b39de0adcae14bdf45e3fe6a58f2068849e10e56c944ab6448467ab696e",
+      "canonical_bytes": 5842232,
+      "qc": {
+        "rows": 41760,
+        "expected_rows": 41760,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 41760,
+        "zero_volume": 0,
+        "jump_flags": 1,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-02-01 00:00:00+00:00",
+        "last_open_utc": "2024-02-29 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2024-02",
+      "verified_at_utc": "2026-10-27T22:33:56.843269+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2024-03": {
+      "symbol": "ETHUSDT",
+      "month": "2024-03",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2024-03.zip",
+          "retrieved_at_utc": "2026-10-27T22:33:58.694365+00:00",
+          "sha256": "dd10515a9b010920bac628f2ec600405ff8e41de7d0f81694fbf391ca54b86b2",
+          "vendor_sha256": "dd10515a9b010920bac628f2ec600405ff8e41de7d0f81694fbf391ca54b86b2",
+          "checksum_status": "PASS",
+          "bytes": 1977193,
+          "uncompressed_bytes": 4991716,
+          "http_metadata": {
+            "ETag": "\"6d120658297c2d62e3d33a2fb61cbeed\"",
+            "Last-Modified": "Wed, 17 Apr 2024 19:25:09 GMT",
+            "Content-Length": "1977193"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2024-03.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2024-03.parquet",
+      "canonical_sha256": "d4c238492b46b2910cdbc4326b44454682033b9ca90fbc262d06bfc2fa3e6807",
+      "canonical_bytes": 6346062,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-03-01 00:00:00+00:00",
+        "last_open_utc": "2024-03-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2024-03",
+      "verified_at_utc": "2026-10-27T22:33:59.143780+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2024-04": {
+      "symbol": "ETHUSDT",
+      "month": "2024-04",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2024-04.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:00.989223+00:00",
+          "sha256": "1856da8b501dbb831b9a5490e99be8564433c4a4d46de89200f0258c74dd4790",
+          "vendor_sha256": "1856da8b501dbb831b9a5490e99be8564433c4a4d46de89200f0258c74dd4790",
+          "checksum_status": "PASS",
+          "bytes": 1896608,
+          "uncompressed_bytes": 4816102,
+          "http_metadata": {
+            "ETag": "\"b7c3b9de19c7bc44db579c957a7a0bcc\"",
+            "Last-Modified": "Fri, 17 May 2024 14:15:24 GMT",
+            "Content-Length": "1896608"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2024-04.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2024-04.parquet",
+      "canonical_sha256": "07061792b7fd3b00be1d3ff46f842f6ebb8b9ebec69549d459e6cf78d679e2ee",
+      "canonical_bytes": 6102877,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-04-01 00:00:00+00:00",
+        "last_open_utc": "2024-04-30 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2024-04",
+      "verified_at_utc": "2026-10-27T22:34:01.431908+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2024-06": {
+      "symbol": "ETHUSDT",
+      "month": "2024-06",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2024-06.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:03.819195+00:00",
+          "sha256": "57e4b010904bbd754ee951ada7d9edd34bc4242379ae49fb66352e2c5f5cb525",
+          "vendor_sha256": "57e4b010904bbd754ee951ada7d9edd34bc4242379ae49fb66352e2c5f5cb525",
+          "checksum_status": "PASS",
+          "bytes": 1842414,
+          "uncompressed_bytes": 4773257,
+          "http_metadata": {
+            "ETag": "\"8e1b18f5138a21699239353924cde017\"",
+            "Last-Modified": "Wed, 17 Jul 2024 14:15:11 GMT",
+            "Content-Length": "1842414"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2024-06.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2024-06.parquet",
+      "canonical_sha256": "4fd2abc712a3d9a4226a79ad369518123c8c1825f3d9dec63d162a56f257b5d5",
+      "canonical_bytes": 6025017,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-06-01 00:00:00+00:00",
+        "last_open_utc": "2024-06-30 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2024-06",
+      "verified_at_utc": "2026-10-27T22:34:04.271017+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2024-07": {
+      "symbol": "ETHUSDT",
+      "month": "2024-07",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2024-07.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:06.130900+00:00",
+          "sha256": "34a3729eb2f6dd1563715e085eb936a4034357d95cba2605b96cf1cb5c533b65",
+          "vendor_sha256": "34a3729eb2f6dd1563715e085eb936a4034357d95cba2605b96cf1cb5c533b65",
+          "checksum_status": "PASS",
+          "bytes": 1934815,
+          "uncompressed_bytes": 4955069,
+          "http_metadata": {
+            "ETag": "\"689c67d7cfc28c2aaf64ab68ce91b738\"",
+            "Last-Modified": "Sat, 17 Aug 2024 13:29:28 GMT",
+            "Content-Length": "1934815"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2024-07.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2024-07.parquet",
+      "canonical_sha256": "c7413b88d1659aebe3c4be2ada2ec6b38f7aeda72178cd354bbade57aa867af4",
+      "canonical_bytes": 6225263,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-07-01 00:00:00+00:00",
+        "last_open_utc": "2024-07-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2024-07",
+      "verified_at_utc": "2026-10-27T22:34:06.584831+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2024-08": {
+      "symbol": "ETHUSDT",
+      "month": "2024-08",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2024-08.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:08.110780+00:00",
+          "sha256": "2ccc1d0c491c63a6bfbabda39e8bd41e555a87052d77120199133e9e81bbf36c",
+          "vendor_sha256": "2ccc1d0c491c63a6bfbabda39e8bd41e555a87052d77120199133e9e81bbf36c",
+          "checksum_status": "PASS",
+          "bytes": 1941203,
+          "uncompressed_bytes": 4962300,
+          "http_metadata": {
+            "ETag": "\"f8109104532e9e89b746343dd7427ee0\"",
+            "Last-Modified": "Tue, 17 Sep 2024 13:56:18 GMT",
+            "Content-Length": "1941203"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2024-08.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2024-08.parquet",
+      "canonical_sha256": "78ad5cc2413a4f4b5833b0f51a52be10199f2f8f742a6de2eb6c318232ed501b",
+      "canonical_bytes": 6220185,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 1,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-08-01 00:00:00+00:00",
+        "last_open_utc": "2024-08-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2024-08",
+      "verified_at_utc": "2026-10-27T22:34:08.580607+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2024-09": {
+      "symbol": "ETHUSDT",
+      "month": "2024-09",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2024-09.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:10.431154+00:00",
+          "sha256": "317e18ce04f6312b4a3de3b5504bef2001a92bf72cb8e4988e160ee327c9c737",
+          "vendor_sha256": "317e18ce04f6312b4a3de3b5504bef2001a92bf72cb8e4988e160ee327c9c737",
+          "checksum_status": "PASS",
+          "bytes": 1852202,
+          "uncompressed_bytes": 4784052,
+          "http_metadata": {
+            "ETag": "\"18470e068b7564032beaba017d1a674f\"",
+            "Last-Modified": "Thu, 17 Oct 2024 15:47:50 GMT",
+            "Content-Length": "1852202"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2024-09.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2024-09.parquet",
+      "canonical_sha256": "8b29a84e23031fc369137bb6bd8be33bd596259bda00d761953f52a8902113ea",
+      "canonical_bytes": 6012036,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-09-01 00:00:00+00:00",
+        "last_open_utc": "2024-09-30 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2024-09",
+      "verified_at_utc": "2026-10-27T22:34:10.882831+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2024-10": {
+      "symbol": "ETHUSDT",
+      "month": "2024-10",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2024-10.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:12.432209+00:00",
+          "sha256": "d1f340994285a075a97d7d0ed5e9aca3d82dadbba8f817b2f886188420a009f1",
+          "vendor_sha256": "d1f340994285a075a97d7d0ed5e9aca3d82dadbba8f817b2f886188420a009f1",
+          "checksum_status": "PASS",
+          "bytes": 1907533,
+          "uncompressed_bytes": 4940004,
+          "http_metadata": {
+            "ETag": "\"918012f19a0cba78a49bbd2c8b8b34aa\"",
+            "Last-Modified": "Thu, 21 Nov 2024 21:56:49 GMT",
+            "Content-Length": "1907533"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2024-10.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2024-10.parquet",
+      "canonical_sha256": "86a50f7a9df620bd817f3bbb07674b6c4fb0939f2c78f4bf5ab37cb3544e21d5",
+      "canonical_bytes": 6098332,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 89,
+        "jump_flags": 0,
+        "stale_close_flags": 46,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-10-01 00:00:00+00:00",
+        "last_open_utc": "2024-10-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2024-10",
+      "verified_at_utc": "2026-10-27T22:34:12.883501+00:00",
+      "raw_canonical_exact_check": "PASS",
+      "diagnostic_repair": {
+        "utc": "2026-10-27T22:36:08.343746+00:00",
+        "reason": "Use strictly trailing stale-close run length, preventing future-data relabeling",
+        "old_flags": 75,
+        "new_flags": 46
+      }
+    },
+    "ETHUSDT/2024-11": {
+      "symbol": "ETHUSDT",
+      "month": "2024-11",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2024-11.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:14.712099+00:00",
+          "sha256": "4170f68dd576e8af35ecc9b19808dcb673c0423838bd560c7c4c1fabefdad5ad",
+          "vendor_sha256": "4170f68dd576e8af35ecc9b19808dcb673c0423838bd560c7c4c1fabefdad5ad",
+          "checksum_status": "PASS",
+          "bytes": 1921220,
+          "uncompressed_bytes": 4848326,
+          "http_metadata": {
+            "ETag": "\"f3e8fca6515100b8507c90587e02fe9b\"",
+            "Last-Modified": "Tue, 17 Dec 2024 13:51:58 GMT",
+            "Content-Length": "1921220"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2024-11.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2024-11.parquet",
+      "canonical_sha256": "b9acdf23a53dfbeb5d71d960844f4bca3e8a89e4c5c14620af3995769b56ba05",
+      "canonical_bytes": 6225807,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-11-01 00:00:00+00:00",
+        "last_open_utc": "2024-11-30 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2024-11",
+      "verified_at_utc": "2026-10-27T22:34:15.179339+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2024-12": {
+      "symbol": "ETHUSDT",
+      "month": "2024-12",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2024-12.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:17.041545+00:00",
+          "sha256": "82018947075e35e5ac0a771bb97a22118008db2c6fb6a94f8c1a2c4ebb34d12b",
+          "vendor_sha256": "82018947075e35e5ac0a771bb97a22118008db2c6fb6a94f8c1a2c4ebb34d12b",
+          "checksum_status": "PASS",
+          "bytes": 1981846,
+          "uncompressed_bytes": 5002843,
+          "http_metadata": {
+            "ETag": "\"33ae03f39c0141952081e01d78eee268\"",
+            "Last-Modified": "Fri, 17 Jan 2025 13:29:21 GMT",
+            "Content-Length": "1981846"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2024-12.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2024-12.parquet",
+      "canonical_sha256": "f29e04562d3541bee62338d6b1aac2f208668aedf2d6449c8b4f8d95a791a2c8",
+      "canonical_bytes": 6332010,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2024-12-01 00:00:00+00:00",
+        "last_open_utc": "2024-12-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2024-12",
+      "verified_at_utc": "2026-10-27T22:34:17.495642+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2025-01": {
+      "symbol": "ETHUSDT",
+      "month": "2025-01",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2025-01.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:19.362059+00:00",
+          "sha256": "05e33ba3568c5381a36764097ea93917a7f1a93fadd1a0018e64bedb042526f6",
+          "vendor_sha256": "05e33ba3568c5381a36764097ea93917a7f1a93fadd1a0018e64bedb042526f6",
+          "checksum_status": "PASS",
+          "bytes": 1962399,
+          "uncompressed_bytes": 4984089,
+          "http_metadata": {
+            "ETag": "\"b0bf3cd50903a991bfa27d245150feb4\"",
+            "Last-Modified": "Mon, 17 Feb 2025 13:28:04 GMT",
+            "Content-Length": "1962399"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2025-01.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2025-01.parquet",
+      "canonical_sha256": "02b18d8e4866a29f562b4e738a324743c1715946beefcd8df731ff0a369b37bc",
+      "canonical_bytes": 6190598,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 20,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-01-01 00:00:00+00:00",
+        "last_open_utc": "2025-01-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2025-01",
+      "verified_at_utc": "2026-10-27T22:34:19.824494+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2025-02": {
+      "symbol": "ETHUSDT",
+      "month": "2025-02",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2025-02.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:21.669082+00:00",
+          "sha256": "79c07ecaaa04a04d815f428d0617b84cc536afe95f5cb2fc62bd93c10c3adfa1",
+          "vendor_sha256": "79c07ecaaa04a04d815f428d0617b84cc536afe95f5cb2fc62bd93c10c3adfa1",
+          "checksum_status": "PASS",
+          "bytes": 1786957,
+          "uncompressed_bytes": 4520726,
+          "http_metadata": {
+            "ETag": "\"1f8f8138a11ebcbc3cbce4fcb60d8486\"",
+            "Last-Modified": "Mon, 17 Mar 2025 13:35:28 GMT",
+            "Content-Length": "1786957"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2025-02.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2025-02.parquet",
+      "canonical_sha256": "8fcec62cab61646a117326cef3845eb61832e1f8e92429ed8f205d34fd056214",
+      "canonical_bytes": 5664098,
+      "qc": {
+        "rows": 40320,
+        "expected_rows": 40320,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 40320,
+        "zero_volume": 0,
+        "jump_flags": 3,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-02-01 00:00:00+00:00",
+        "last_open_utc": "2025-02-28 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2025-02",
+      "verified_at_utc": "2026-10-27T22:34:22.104130+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2025-03": {
+      "symbol": "ETHUSDT",
+      "month": "2025-03",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2025-03.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:23.988039+00:00",
+          "sha256": "82351bb41febb62d3680c761cf7cf9e29182435d9b4843e674ded63de3b29a32",
+          "vendor_sha256": "82351bb41febb62d3680c761cf7cf9e29182435d9b4843e674ded63de3b29a32",
+          "checksum_status": "PASS",
+          "bytes": 1957769,
+          "uncompressed_bytes": 5001821,
+          "http_metadata": {
+            "ETag": "\"1ada5072f76455f3ed6272e77c433fba\"",
+            "Last-Modified": "Thu, 17 Apr 2025 13:42:06 GMT",
+            "Content-Length": "1957769"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2025-03.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2025-03.parquet",
+      "canonical_sha256": "d77eb41879259a7adeeace174c1c279a4a05d501d63a6f8667fc43c46fd9234c",
+      "canonical_bytes": 6208748,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-03-01 00:00:00+00:00",
+        "last_open_utc": "2025-03-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2025-03",
+      "verified_at_utc": "2026-10-27T22:34:24.446231+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2025-04": {
+      "symbol": "ETHUSDT",
+      "month": "2025-04",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2025-04.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:26.285806+00:00",
+          "sha256": "75ea6a45c8bed04294449ff7d56f047c235a36fac176736816c01d6892bd8687",
+          "vendor_sha256": "75ea6a45c8bed04294449ff7d56f047c235a36fac176736816c01d6892bd8687",
+          "checksum_status": "PASS",
+          "bytes": 1895060,
+          "uncompressed_bytes": 4854107,
+          "http_metadata": {
+            "ETag": "\"ae6a57b7bc199d0c4c8fa53ab8722cd3\"",
+            "Last-Modified": "Sat, 17 May 2025 13:45:47 GMT",
+            "Content-Length": "1895060"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2025-04.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2025-04.parquet",
+      "canonical_sha256": "450ee51ca41e91d02b65b1accee486021e4fd019e4d97509e94c45e16f5d1d58",
+      "canonical_bytes": 5959670,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-04-01 00:00:00+00:00",
+        "last_open_utc": "2025-04-30 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2025-04",
+      "verified_at_utc": "2026-10-27T22:34:26.732618+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2025-05": {
+      "symbol": "ETHUSDT",
+      "month": "2025-05",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2025-05.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:28.617417+00:00",
+          "sha256": "a2560653e2f602444d2201e44e77cdba6e48233649d22fb7e8c703ce9fc6277a",
+          "vendor_sha256": "a2560653e2f602444d2201e44e77cdba6e48233649d22fb7e8c703ce9fc6277a",
+          "checksum_status": "PASS",
+          "bytes": 1986381,
+          "uncompressed_bytes": 5036955,
+          "http_metadata": {
+            "ETag": "\"0640e5981ebd4c3ccda6e09c857b0200\"",
+            "Last-Modified": "Mon, 02 Jun 2025 09:16:25 GMT",
+            "Content-Length": "1986381"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2025-05.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2025-05.parquet",
+      "canonical_sha256": "97e235d4d643c5d5ea13415fe520b3e07f59aeffc49f998fdd00159527a2a56a",
+      "canonical_bytes": 6237556,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-05-01 00:00:00+00:00",
+        "last_open_utc": "2025-05-31 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2025-05",
+      "verified_at_utc": "2026-10-27T22:34:29.065583+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2025-06": {
+      "symbol": "ETHUSDT",
+      "month": "2025-06",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2025-06.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:30.922999+00:00",
+          "sha256": "189aa2e5daf3621f6f7f9fd58df763e0667592f3baf407270e0ad42399155c69",
+          "vendor_sha256": "189aa2e5daf3621f6f7f9fd58df763e0667592f3baf407270e0ad42399155c69",
+          "checksum_status": "PASS",
+          "bytes": 1904828,
+          "uncompressed_bytes": 4861253,
+          "http_metadata": {
+            "ETag": "\"0e174396577c0eea7f1220180a9014bc\"",
+            "Last-Modified": "Thu, 17 Jul 2025 14:13:13 GMT",
+            "Content-Length": "1904828"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2025-06.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2025-06.parquet",
+      "canonical_sha256": "f954fccbdc0b4f5d89ed2a98a10af4b6ca1ac3e45ba294bf8bfa1713aad8c72d",
+      "canonical_bytes": 5982408,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-06-01 00:00:00+00:00",
+        "last_open_utc": "2025-06-30 23:59:00+00:00",
+        "split": "train"
+      },
+      "source_manifest_id": "ETHUSDT/2025-06",
+      "verified_at_utc": "2026-10-27T22:34:31.364358+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2025-07": {
+      "symbol": "ETHUSDT",
+      "month": "2025-07",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2025-07.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:33.258604+00:00",
+          "sha256": "e3af3ee3ac3251d313ad8987169d5c02bfd8c094bf047bbce9373eaf19ee479c",
+          "vendor_sha256": "e3af3ee3ac3251d313ad8987169d5c02bfd8c094bf047bbce9373eaf19ee479c",
+          "checksum_status": "PASS",
+          "bytes": 1988465,
+          "uncompressed_bytes": 5039569,
+          "http_metadata": {
+            "ETag": "\"ef88d32f54b723bd4160d5625a478d94\"",
+            "Last-Modified": "Sat, 02 Aug 2025 08:58:36 GMT",
+            "Content-Length": "1988465"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2025-07.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2025-07.parquet",
+      "canonical_sha256": "3e863f6fd596605a6707e117b17c7e09930b10ac7f11689543b96d96d822ef44",
+      "canonical_bytes": 6391117,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-07-01 00:00:00+00:00",
+        "last_open_utc": "2025-07-31 23:59:00+00:00",
+        "split": "validation"
+      },
+      "source_manifest_id": "ETHUSDT/2025-07",
+      "verified_at_utc": "2026-10-27T22:34:33.713909+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2025-08": {
+      "symbol": "ETHUSDT",
+      "month": "2025-08",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2025-08.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:35.604003+00:00",
+          "sha256": "8cd85f1c417c4c65cd32348f3e4e23c8b35dd4e5e59a20a187e2a74777bd6664",
+          "vendor_sha256": "8cd85f1c417c4c65cd32348f3e4e23c8b35dd4e5e59a20a187e2a74777bd6664",
+          "checksum_status": "PASS",
+          "bytes": 2017496,
+          "uncompressed_bytes": 5058035,
+          "http_metadata": {
+            "ETag": "\"46bd87cd3ed74fe0c8adbfcdf984e58d\"",
+            "Last-Modified": "Tue, 02 Sep 2025 11:16:43 GMT",
+            "Content-Length": "2017496"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2025-08.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2025-08.parquet",
+      "canonical_sha256": "2b067333cbad4a9fcbc7131763e14d3c93850bfcca6f76a74cefbcca1eaa1981",
+      "canonical_bytes": 6403459,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 18,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-08-01 00:00:00+00:00",
+        "last_open_utc": "2025-08-31 23:59:00+00:00",
+        "split": "validation"
+      },
+      "source_manifest_id": "ETHUSDT/2025-08",
+      "verified_at_utc": "2026-10-27T22:34:36.059126+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2025-09": {
+      "symbol": "ETHUSDT",
+      "month": "2025-09",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2025-09.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:36.986251+00:00",
+          "sha256": "dc1f5e05a0b873accd0ed2a854ee14086da03b08a581198b20b5658042c6dc5f",
+          "vendor_sha256": "dc1f5e05a0b873accd0ed2a854ee14086da03b08a581198b20b5658042c6dc5f",
+          "checksum_status": "PASS",
+          "bytes": 1900520,
+          "uncompressed_bytes": 4845852,
+          "http_metadata": {
+            "ETag": "\"fedf46a3dc1ddbc0000269876eda4862\"",
+            "Last-Modified": "Thu, 02 Oct 2025 09:12:04 GMT",
+            "Content-Length": "1900520"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2025-09.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2025-09.parquet",
+      "canonical_sha256": "d5fe7fcbfa438b0800d485e39aabd6478fbb6e043cf8d6022a73460f6ccf9afc",
+      "canonical_bytes": 6069611,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-09-01 00:00:00+00:00",
+        "last_open_utc": "2025-09-30 23:59:00+00:00",
+        "split": "validation"
+      },
+      "source_manifest_id": "ETHUSDT/2025-09",
+      "verified_at_utc": "2026-10-27T22:34:37.431322+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2025-11": {
+      "symbol": "ETHUSDT",
+      "month": "2025-11",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2025-11.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:39.497305+00:00",
+          "sha256": "2dd6ded997100a92d11394eddccc54f1070b0fcf029c5e126859b5af80f6329e",
+          "vendor_sha256": "2dd6ded997100a92d11394eddccc54f1070b0fcf029c5e126859b5af80f6329e",
+          "checksum_status": "PASS",
+          "bytes": 1931576,
+          "uncompressed_bytes": 4866348,
+          "http_metadata": {
+            "ETag": "\"a53ffc6fcb4a6652f7ad16c5cc4617c3\"",
+            "Last-Modified": "Tue, 02 Dec 2025 09:35:40 GMT",
+            "Content-Length": "1931576"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2025-11.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2025-11.parquet",
+      "canonical_sha256": "65702dc6dd5a01cf500465d5ee57820018060bfca64a35fa70f1f21598008e80",
+      "canonical_bytes": 6118427,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-11-01 00:00:00+00:00",
+        "last_open_utc": "2025-11-30 23:59:00+00:00",
+        "split": "validation"
+      },
+      "source_manifest_id": "ETHUSDT/2025-11",
+      "verified_at_utc": "2026-10-27T22:34:39.971781+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2025-12": {
+      "symbol": "ETHUSDT",
+      "month": "2025-12",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2025-12.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:41.783144+00:00",
+          "sha256": "8fc3e01faeb240ed9f77e4ba8bbcdf42bb7b0c7004d35fe8010bd0fd9090e4a9",
+          "vendor_sha256": "8fc3e01faeb240ed9f77e4ba8bbcdf42bb7b0c7004d35fe8010bd0fd9090e4a9",
+          "checksum_status": "PASS",
+          "bytes": 1941385,
+          "uncompressed_bytes": 4985257,
+          "http_metadata": {
+            "ETag": "\"2a747d19246a5e1f1179e6fe0fdd1d71\"",
+            "Last-Modified": "Fri, 02 Jan 2026 10:44:50 GMT",
+            "Content-Length": "1941385"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2025-12.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2025-12.parquet",
+      "canonical_sha256": "5d54286c24ef6039570cc3289ff689f75c5076bf4183063d9fe09a55220c8cac",
+      "canonical_bytes": 6252439,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2025-12-01 00:00:00+00:00",
+        "last_open_utc": "2025-12-31 23:59:00+00:00",
+        "split": "validation"
+      },
+      "source_manifest_id": "ETHUSDT/2025-12",
+      "verified_at_utc": "2026-10-27T22:34:42.240003+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2026-01": {
+      "symbol": "ETHUSDT",
+      "month": "2026-01",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2026-01.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:43.783575+00:00",
+          "sha256": "0dc9c455c6d0735fe7e177d98a5088ab473c7fc1fa723710e783ff5dd49df4bb",
+          "vendor_sha256": "0dc9c455c6d0735fe7e177d98a5088ab473c7fc1fa723710e783ff5dd49df4bb",
+          "checksum_status": "PASS",
+          "bytes": 1928094,
+          "uncompressed_bytes": 4975566,
+          "http_metadata": {
+            "ETag": "\"9c7eeab080e6a0e20c549606626ea5bc\"",
+            "Last-Modified": "Mon, 02 Feb 2026 10:20:38 GMT",
+            "Content-Length": "1928094"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2026-01.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2026-01.parquet",
+      "canonical_sha256": "afddf01f5d7a594c8735012d28dd304eab8b198c06538cc6cb5cea92d330dc68",
+      "canonical_bytes": 6257720,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2026-01-01 00:00:00+00:00",
+        "last_open_utc": "2026-01-31 23:59:00+00:00",
+        "split": "test"
+      },
+      "source_manifest_id": "ETHUSDT/2026-01",
+      "verified_at_utc": "2026-10-27T22:34:44.241129+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2026-02": {
+      "symbol": "ETHUSDT",
+      "month": "2026-02",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2026-02.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:46.093262+00:00",
+          "sha256": "2109cab7fa27eee904a7d6d6dd982633579fc4091765dc8fa16c001f2da8a1c2",
+          "vendor_sha256": "2109cab7fa27eee904a7d6d6dd982633579fc4091765dc8fa16c001f2da8a1c2",
+          "checksum_status": "PASS",
+          "bytes": 1790010,
+          "uncompressed_bytes": 4542846,
+          "http_metadata": {
+            "ETag": "\"9d24fc97a1d0c5f6e4e78b086d5013d0\"",
+            "Last-Modified": "Mon, 02 Mar 2026 09:14:40 GMT",
+            "Content-Length": "1790010"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2026-02.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2026-02.parquet",
+      "canonical_sha256": "2dc804e302656e6df5fe607549dafc91f90970ab508259292a979723f652f144",
+      "canonical_bytes": 5639404,
+      "qc": {
+        "rows": 40320,
+        "expected_rows": 40320,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 40320,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2026-02-01 00:00:00+00:00",
+        "last_open_utc": "2026-02-28 23:59:00+00:00",
+        "split": "test"
+      },
+      "source_manifest_id": "ETHUSDT/2026-02",
+      "verified_at_utc": "2026-10-27T22:34:46.525302+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2026-03": {
+      "symbol": "ETHUSDT",
+      "month": "2026-03",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2026-03.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:48.344280+00:00",
+          "sha256": "d61eeba7aed3067525c6503bfbfd4f8d55585b846b67115eb85eeb1d2f857bf1",
+          "vendor_sha256": "d61eeba7aed3067525c6503bfbfd4f8d55585b846b67115eb85eeb1d2f857bf1",
+          "checksum_status": "PASS",
+          "bytes": 1958005,
+          "uncompressed_bytes": 5009775,
+          "http_metadata": {
+            "ETag": "\"daaf8c7119e2cded92a84d80f8c53c86\"",
+            "Last-Modified": "Thu, 02 Apr 2026 09:16:30 GMT",
+            "Content-Length": "1958005"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2026-03.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2026-03.parquet",
+      "canonical_sha256": "a722a595085de75c7151677d4f07faf1edf692119b4d15fd9a6a9b3a99f86ef5",
+      "canonical_bytes": 6224770,
+      "qc": {
+        "rows": 44640,
+        "expected_rows": 44640,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 44640,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2026-03-01 00:00:00+00:00",
+        "last_open_utc": "2026-03-31 23:59:00+00:00",
+        "split": "test"
+      },
+      "source_manifest_id": "ETHUSDT/2026-03",
+      "verified_at_utc": "2026-10-27T22:34:48.799955+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2026-04": {
+      "symbol": "ETHUSDT",
+      "month": "2026-04",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2026-04.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:50.659265+00:00",
+          "sha256": "fd01f08f331a0dcb5d89c718afb199f7cda63f43228b72ddda0bdd08bfd527c7",
+          "vendor_sha256": "fd01f08f331a0dcb5d89c718afb199f7cda63f43228b72ddda0bdd08bfd527c7",
+          "checksum_status": "PASS",
+          "bytes": 1860146,
+          "uncompressed_bytes": 4819130,
+          "http_metadata": {
+            "ETag": "\"0b6cde18b110c8efc7032dd77393f3f4\"",
+            "Last-Modified": "Sat, 02 May 2026 09:07:25 GMT",
+            "Content-Length": "1860146"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2026-04.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2026-04.parquet",
+      "canonical_sha256": "c69c05aa5520e4cf99ce9cdc70fe7150ec58d89e342c542308d3e23000bd8f22",
+      "canonical_bytes": 5938952,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2026-04-01 00:00:00+00:00",
+        "last_open_utc": "2026-04-30 23:59:00+00:00",
+        "split": "test"
+      },
+      "source_manifest_id": "ETHUSDT/2026-04",
+      "verified_at_utc": "2026-10-27T22:34:51.111280+00:00",
+      "raw_canonical_exact_check": "PASS"
+    },
+    "ETHUSDT/2026-06": {
+      "symbol": "ETHUSDT",
+      "month": "2026-06",
+      "status": "PASS",
+      "sources": [
+        {
+          "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2026-06.zip",
+          "retrieved_at_utc": "2026-10-27T22:34:53.138302+00:00",
+          "sha256": "3b771e114b494805ac4cc677b34befb7e5f332bf5bd3a8a368cd21d65cd99cba",
+          "vendor_sha256": "3b771e114b494805ac4cc677b34befb7e5f332bf5bd3a8a368cd21d65cd99cba",
+          "checksum_status": "PASS",
+          "bytes": 1875936,
+          "uncompressed_bytes": 4835930,
+          "http_metadata": {
+            "ETag": "\"1a296a726281fea2790524d44f416068\"",
+            "Last-Modified": "Thu, 02 Jul 2026 12:04:58 GMT",
+            "Content-Length": "1875936"
+          },
+          "local_archive": "data/raw/ETHUSDT-1m-2026-06.zip",
+          "created_this_call": true,
+          "has_header": true
+        }
+      ],
+      "source_kind": "monthly",
+      "fallback_reason": null,
+      "canonical_path": "data/canonical/ETHUSDT/2026-06.parquet",
+      "canonical_sha256": "85b198d08e67f88caec9a4f3ca83d183bdbcaaa54d70bbdf502c73eebeeb213a",
+      "canonical_bytes": 5925534,
+      "qc": {
+        "rows": 43200,
+        "expected_rows": 43200,
+        "missing_minutes": 0,
+        "missing_ranges": [],
+        "invalid_bars": 0,
+        "valid_returns": 43200,
+        "zero_volume": 0,
+        "jump_flags": 0,
+        "stale_close_flags": 0,
+        "extreme_flow_ratio": 0,
+        "exclusion_reasons": {
+          "nonfinite": 0,
+          "invalid_ohlc": 0,
+          "negative_volume_count": 0,
+          "taker_exceeds_total": 0,
+          "notional_volume_inconsistent": 0
+        },
+        "first_open_utc": "2026-06-01 00:00:00+00:00",
+        "last_open_utc": "2026-06-30 23:59:00+00:00",
+        "split": "test"
+      },
+      "source_manifest_id": "ETHUSDT/2026-06",
+      "verified_at_utc": "2026-10-27T22:34:53.584913+00:00",
+      "raw_canonical_exact_check": "PASS"
+    }
+  },
+  "failures": [],
+  "updated_at_utc": "2026-10-27T22:41:57.930743+00:00"
+}

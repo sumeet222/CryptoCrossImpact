@@ -1,0 +1,7 @@
+{
+  "episodes": 3,
+  "nominal_max_error_over_initial": 0.0,
+  "conic_checked": true,
+  "source_asof_checks": true,
+  "all_primary_policies": true
+}

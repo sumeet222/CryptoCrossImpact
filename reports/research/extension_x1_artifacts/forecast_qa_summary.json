@@ -1,0 +1,22 @@
+[
+  {
+    "phase": "training",
+    "origins": 2076,
+    "minimum_profile_hours": 671,
+    "flat_profile_fallback_asset_origins": 0,
+    "excluded_historical_hours_counted_at_origins": 224,
+    "V0_floor_bins": 0,
+    "V1_floor_bins": 0,
+    "V2_floor_bins": 0
+  },
+  {
+    "phase": "development",
+    "origins": 736,
+    "minimum_profile_hours": 672,
+    "flat_profile_fallback_asset_origins": 0,
+    "excluded_historical_hours_counted_at_origins": 0,
+    "V0_floor_bins": 0,
+    "V1_floor_bins": 0,
+    "V2_floor_bins": 0
+  }
+]

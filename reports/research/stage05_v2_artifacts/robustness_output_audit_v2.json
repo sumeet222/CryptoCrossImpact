@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-28T05:12:10.768697+00:00",
+  "status": "PASS",
+  "origin": "post_outcome_independent_QA_not_pretest_evidence",
+  "variants": 17,
+  "monthly_checkpoints": 6,
+  "score_rows": 147696,
+  "immutable_reoptimized_decisions": 7964,
+  "failures": 0,
+  "maximum_linear_fee_shift_error_bps": 5.684341886080802e-14,
+  "maximum_linear_spread_shift_error_bps": 5.684341886080802e-14,
+  "source_sha256": "a6e1f17b2ab6c5f781ae3a13bdf6ec983b46e76ba39eeda1be8cbbc7983237bb",
+  "funding_and_all_in_unestimated": true,
+  "stage6_started": false
+}

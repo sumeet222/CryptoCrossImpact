@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-28T16:32:35.935300+00:00",
+  "purpose": "SOURCE_QC_ONLY_AFTER_FREEZE",
+  "ready_lock": "07a360ab2f80f967ab33e25f1d2fc7b5e2444c7a77301a18b5391a2bbc64bd6c",
+  "source": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-07.zip",
+  "note": "Acquisition/schema/QC sees source values only after freeze; economic policy reads remain bounded and prefix-authorized."
+}

@@ -1,0 +1,24 @@
+{
+  "implementation": "PASS",
+  "stage_verdict": "QUALIFIED",
+  "pretest_status": "PRETEST_LOCK_PENDING",
+  "G4_OOS": "NOT_RUN",
+  "scientific_hypotheses": "NOT_EVALUATED",
+  "nominal_episodes": 736,
+  "eligible": 736,
+  "complete": 736,
+  "policy_schedules": 4416,
+  "solver_failures": 0,
+  "test_outcomes_unopened": true,
+  "stage5_started": false,
+  "pending": "Before test opening: funding preflight and E1 implementation validation on development data. Then strict-as-of E1 artifacts before each month scoring; no retuning",
+  "deterministic_replay": true,
+  "preservation": {
+    "status": "PASS",
+    "protected_prior_files": 148,
+    "canonical_stat_only_partitions": 60,
+    "changed": [],
+    "authorized_api_extension": "src/cryptocrossimpact/execution/solver.py",
+    "original_solver_copy": "results/stage04_development/provenance/stage03_solver_original.py"
+  }
+}

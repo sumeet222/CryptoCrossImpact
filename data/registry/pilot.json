@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-27T22:39:25.548195+00:00",
+  "keys": [
+    "BTCUSDT/2024-05",
+    "BTCUSDT/2025-10",
+    "BTCUSDT/2026-05",
+    "ETHUSDT/2024-05",
+    "ETHUSDT/2025-10",
+    "ETHUSDT/2026-05"
+  ],
+  "estimated_60_canonical_bytes": 384207540,
+  "estimated_60_csv_bytes": 314448480,
+  "metadata_only_test_inspection": true,
+  "compressed_zip_retained": true
+}

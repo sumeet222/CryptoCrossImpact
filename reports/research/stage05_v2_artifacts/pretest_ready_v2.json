@@ -1,0 +1,12 @@
+{
+  "status": "PRETEST_READY_v2",
+  "utc": "2026-10-28T04:34:16.844872+00:00",
+  "previous_lock_sha256": "a691a3db76a776d4f8e31b43f6c68663145891e1974e2bf6dc0f061130192e31",
+  "amended_lock_sha256": "5ac1646ab235f841c8e4c5454099ad09f5a6e6d434009853853e18b1987b3507",
+  "config_sha256": "cbf15533daf81e9518d1a7b48111a17e770ce66425889458c3be2d4061ad9930",
+  "funding_status": "NOT_APPLICABLE_BY_APPROVED_SCOPE_AMENDMENT",
+  "cost_scope": "modeled_execution_shortfall_excluding_funding",
+  "gate_evidence_digest": "7785bae1c1b9ba46bec4073408ddd1097b3e6864983601490c60292611af4033",
+  "outcomes_unopened_at_approval": true,
+  "receipt_digest": "7cb49c7a9dddb781456c26b92420203bfa6bc789760b4049254111d71e1cf625"
+}

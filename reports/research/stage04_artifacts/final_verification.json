@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-28T03:16:07.167043+00:00",
+  "implementation": "PASS",
+  "stage": "QUALIFIED",
+  "pretest_lock": "PRETEST_LOCK_PENDING",
+  "nominal_eligible_complete": [
+    736,
+    736,
+    736
+  ],
+  "policy_schedules": 4416,
+  "tests_passed": 116,
+  "tests_failed": 0,
+  "final_test_partitions_opened": 0,
+  "historical_shortfall_backtest": false,
+  "stage5_started": false,
+  "source_rows_in_opened_policy_partitions": 616320,
+  "preservation": {
+    "status": "PASS",
+    "protected_prior_files": 148,
+    "canonical_stat_only_partitions": 60,
+    "changed": [],
+    "authorized_api_extension": "src/cryptocrossimpact/execution/solver.py",
+    "original_solver_copy": "results/stage04_development/provenance/stage03_solver_original.py"
+  },
+  "deterministic_numeric_schedule_sha256": "c22faff167c787d01d5ad99e385a155e0376e870f94f19d7166ad61210ddcb95",
+  "pretest_lock_sha256": "a691a3db76a776d4f8e31b43f6c68663145891e1974e2bf6dc0f061130192e31",
+  "lock_bindings_checked": 47,
+  "whitespace": "PASS",
+  "final_report_provenance": "run_report.json and run_lock.json (report-only clarifications after full numerical all run)",
+  "refit_input_cache_sha256": {
+    "results/kernel_development/daily.npz": "601a22a0fd27ee33d20fd81a60f429a72dd79de0ff26ece2868763443f1cb145",
+    "results/kernel_development/monthly.npz": "32a5ef53a91c5bc53078b6caaae8a7a64b5b106f72eaa2ada583797d6c506705"
+  },
+  "research_report": "reports/research/stage04_episode_policies.md",
+  "session_report": "reports/sessions/20261028_0314_stage04_policies_session.md"
+}

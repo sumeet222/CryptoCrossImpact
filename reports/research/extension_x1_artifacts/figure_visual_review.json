@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-28T14:49:06.217192+00:00",
+  "status": "PASS",
+  "all_four_PNGs_visually_inspected": true,
+  "checks": [
+    "legible axes/units and UTC periods",
+    "posthoc volume overlays labeled",
+    "terminal inventory endpoint shown",
+    "negative effects and 95% intervals visible",
+    "adverse finite participation outliers shown on log panel; zero-volume infeasibility labeled"
+  ],
+  "sha256": {
+    "figures/extension_x1/forecast_curves.png": "60e5b7c5536e1f27325b18c65defd757ae2cd471a1fcf081bcafbbb362cc1ad1",
+    "figures/extension_x1/paired_effects.png": "434e39724d69aec7caf8783f2f5bb671c06f5bba2a35e875066117b132c65bbd",
+    "figures/extension_x1/participation_risk.png": "b0239f033ffa821d233a8b047051f642082cc1b11d000d1ca6303233921c25e7",
+    "figures/extension_x1/adaptive_trace.png": "5c904f05d75021a04e3be03f93005de3e9834efc32787d993d8b66e5d0b17caf"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "unchanged_live_prior_files": 232,
+  "authorized_edits_with_exact_originals_preserved": [
+    {
+      "active_path": "src/cryptocrossimpact/evaluation/preflight.py",
+      "original_preserved_as": "docs/stage05_v1_preserved/preflight.py"
+    },
+    {
+      "active_path": "SPEC_CHANGELOG.md",
+      "original_preserved_as": "docs/stage05_v1_preserved/SPEC_CHANGELOG.md"
+    },
+    {
+      "active_path": "README.md",
+      "original_preserved_as": "docs/stage05_v1_preserved/README.md"
+    }
+  ],
+  "canonical_stat_only_partitions": 60
+}

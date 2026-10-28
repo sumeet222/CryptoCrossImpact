@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-28T19:41:52.358421+00:00",
+  "episodes": 736,
+  "policies": 14,
+  "distinct_worlds": 8,
+  "score_rows": 82432,
+  "signature_mismatches": [],
+  "numerical_source_binding_matches_development_worker_and_final_tests": true
+}

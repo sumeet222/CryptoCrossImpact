@@ -1,0 +1,10 @@
+{
+  "status": "PRETEST_LOCK_PENDING",
+  "sha256": "a691a3db76a776d4f8e31b43f6c68663145891e1974e2bf6dc0f061130192e31",
+  "path": "configs/stage05_pretest_lock.yaml",
+  "holds": [
+    "Verify actual funding settlement timestamps/rates or actual timestamp-only common exclusions before test opening",
+    "Validate/freeze E1 implementation on development before test opening; then generate strict-as-of E1 artifacts before each monthly scoring, no retuning"
+  ],
+  "test_outcomes_unopened": true
+}

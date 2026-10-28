@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-27T23:40:44.710985+00:00",
+  "status": "PASS",
+  "figures": [
+    {
+      "path": "figures/stage02/bootstrap_placebo.png",
+      "sha256": "e82aa1ff60903a4a529756dd7b022dcefd769897f47e0dcf32e90469a8479932"
+    },
+    {
+      "path": "figures/stage02/development_stability.png",
+      "sha256": "e54004eac6bb6311b3961b1ac3df55647092a82437408c2224900fa4df38d13f"
+    },
+    {
+      "path": "figures/stage02/level_kernels.png",
+      "sha256": "bffcedeb1607689105ca745512a1992c723ec30d1b088f139c224e40e81e71cc"
+    },
+    {
+      "path": "figures/stage02/timing_memory_sensitivity.png",
+      "sha256": "b291e384c9c012b8286202e1883f85422e0a3fb58d2a3f0f53b1b96f428bca7d"
+    }
+  ],
+  "method": "Visually inspected rendered four-figure contact sheet; readable units/periods/legends and explicit future-placebo warning",
+  "scope": "Development-only kernels, response losses, rolling stability, coefficient uncertainty/placebo, timing/memory diagnostics"
+}
